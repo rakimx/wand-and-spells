@@ -1,0 +1,317 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_chain_lightning",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_decay",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_fangs",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_fireskin",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_fire_resistance",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_forcefield",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_frost_step",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_greater_heal",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_healing_aura",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_ice_shroud",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_ice_spikes",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_invisibility",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_lightning_bolt",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_lightning_pulse",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_phase_step",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_ring_of_fire",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_satiety",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_summon_lightning_wraith",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_transportation",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_water_breathing",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_wither_skull",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:scroll_wind_step",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

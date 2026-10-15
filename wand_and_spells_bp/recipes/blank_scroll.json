@@ -1,0 +1,26 @@
+{
+    "minecraft:recipe_shapeless":  {
+                                       "description":  {
+                                                           "identifier":  "ws:blank_scroll"
+                                                       },
+                                       "tags":  [
+                                                    "crafting_table"
+                                                ],
+                                       "unlock":  {
+                                                      "context":  "AlwaysUnlocked"
+                                                  },
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "minecraft:paper"
+                                                           },
+                                                           {
+                                                               "item":  "minecraft:string"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "ws:blank_scroll",
+                                                      "count":  1
+                                                  }
+                                   },
+    "format_version":  "1.21.0"
+}

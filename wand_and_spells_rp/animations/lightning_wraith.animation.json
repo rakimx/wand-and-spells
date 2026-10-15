@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ws.lightning_wraith.drift": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, "math.sin(query.life_time * 110) * 1.2", 0]
+				},
+				"wispA": {
+					"rotation": ["math.sin(query.life_time * 160) * 9", "query.life_time * 55", 0]
+				},
+				"wispB": {
+					"rotation": ["math.sin(query.life_time * 130 + 40) * 11", "query.life_time * -40", 0]
+				},
+				"wispC": {
+					"rotation": ["math.sin(query.life_time * 145 + 80) * 10", "query.life_time * 70", 0]
+				}
+			}
+		}
+	}
+}

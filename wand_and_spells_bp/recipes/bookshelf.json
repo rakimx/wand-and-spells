@@ -1,0 +1,31 @@
+{
+    "minecraft:recipe_shaped":  {
+                                    "description":  {
+                                                        "identifier":  "ws:bookshelf"
+                                                    },
+                                    "tags":  [
+                                                 "crafting_table"
+                                             ],
+                                    "unlock":  {
+                                                   "context":  "AlwaysUnlocked"
+                                               },
+                                    "pattern":  [
+                                                    "PPP",
+                                                    " C ",
+                                                    "PPP"
+                                                ],
+                                    "key":  {
+                                                "P":  {
+                                                          "item":  "minecraft:oak_planks"
+                                                      },
+                                                "C":  {
+                                                          "item":  "ws:grand_crystal"
+                                                      }
+                                            },
+                                    "result":  {
+                                                   "item":  "ws:bookshelf",
+                                                   "count":  1
+                                               }
+                                },
+    "format_version":  "1.21.0"
+}

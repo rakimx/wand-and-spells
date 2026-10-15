@@ -1,0 +1,90 @@
+{
+	"default": {
+		"texture": "ws:gui/spell_hud/default",
+		"metadata": "ws:gui/spell_hud/default"
+	},
+	"classic": {
+		"texture": "ws:gui/spell_hud/classic",
+		"metadata": "ws:gui/spell_hud/classic"
+	},
+	"vanilla_style": {
+		"texture": "ws:gui/spell_hud/vanilla_style",
+		"metadata": "ws:gui/spell_hud/vanilla_style"
+	},
+	"redwood": {
+		"texture": "ws:gui/spell_hud/redwood",
+		"metadata": "ws:gui/spell_hud/redwood"
+	},
+	"silverwood": {
+		"texture": "ws:gui/spell_hud/silverwood",
+		"metadata": "ws:gui/spell_hud/silverwood"
+	},
+	"stone": {
+		"texture": "ws:gui/spell_hud/stone",
+		"metadata": "ws:gui/spell_hud/stone"
+	},
+	"sandstone": {
+		"texture": "ws:gui/spell_hud/sandstone",
+		"metadata": "ws:gui/spell_hud/sandstone"
+	},
+	"jungle": {
+		"texture": "ws:gui/spell_hud/jungle",
+		"metadata": "ws:gui/spell_hud/jungle"
+	},
+	"spell_book": {
+		"texture": "ws:gui/spell_hud/spell_book",
+		"metadata": "ws:gui/spell_hud/spell_book"
+	},
+	"minimal": {
+		"texture": "ws:gui/spell_hud/minimal",
+		"metadata": "ws:gui/spell_hud/minimal"
+	},
+	"compact": {
+		"texture": "ws:gui/spell_hud/compact",
+		"metadata": "ws:gui/spell_hud/compact"
+	},
+	"skyrim_style": {
+		"texture": "ws:gui/spell_hud/skyrim_style",
+		"metadata": "ws:gui/spell_hud/skyrim_style"
+	},
+	"futuristic": {
+		"texture": "ws:gui/spell_hud/futuristic",
+		"metadata": "ws:gui/spell_hud/futuristic"
+	},
+	"steampunk": {
+		"texture": "ws:gui/spell_hud/steampunk",
+		"metadata": "ws:gui/spell_hud/steampunk"
+	},
+	"dragon": {
+		"texture": "ws:gui/spell_hud/dragon",
+		"metadata": "ws:gui/spell_hud/dragon"
+	},
+	"compass": {
+		"texture": "ws:gui/spell_hud/compass",
+		"metadata": "ws:gui/spell_hud/compass"
+	},
+	"mahogany": {
+		"texture": "ws:gui/spell_hud/mahogany",
+		"metadata": "ws:gui/spell_hud/mahogany"
+	},
+	"oceanic": {
+		"texture": "ws:gui/spell_hud/oceanic",
+		"metadata": "ws:gui/spell_hud/oceanic"
+	},
+	"planks": {
+		"texture": "ws:gui/spell_hud/planks",
+		"metadata": "ws:gui/spell_hud/planks"
+	},
+	"festive": {
+		"texture": "ws:gui/spell_hud/festive",
+		"metadata": "ws:gui/spell_hud/festive"
+	},
+	"library": {
+		"texture": "ws:gui/spell_hud/library",
+		"metadata": "ws:gui/spell_hud/library"
+	},
+	"altar": {
+		"texture": "ws:gui/spell_hud/altar",
+		"metadata": "ws:gui/spell_hud/altar"
+	}
+}

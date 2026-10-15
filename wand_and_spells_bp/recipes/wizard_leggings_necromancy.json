@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ws:wizard_leggings_necromancy"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "ingredients": [
+            {
+                "item": "ws:wizard_leggings"
+            },
+            {
+                "item": "ws:crystal_necromancy"
+            }
+        ],
+        "result": {
+            "item": "ws:wizard_leggings_necromancy",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ws:wind_arcane",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false,
+            "properties": {
+                "ws:casting": {
+                    "type": "bool",
+                    "default": false,
+                    "client_sync": true
+                }
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "mob",
+                    "monster",
+                    "wizard",
+                    "ws_boss",
+                    "ws_wind_arcane"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 1.6,
+                "height": 4.0
+            },
+            "minecraft:health": {
+                "value": 250,
+                "max": 250
+            },
+            "minecraft:movement": {
+                "value": 0.28
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:navigation.walk": {
+                "can_path_over_water": false,
+                "avoid_water": true,
+                "avoid_damage_blocks": true
+            },
+            "minecraft:jump.static": {},
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1.0
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:persistent": {},
+            "minecraft:nameable": {},
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:boss": {
+                "should_darken_sky": false,
+                "hud_range": 60,
+                "name": "entity.ws:wind_arcane.name"
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/entities/evil_wizard.json"
+            },
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:behavior.avoid_mob_type": {
+                "priority": 2,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                        },
+                        "max_dist": 7,
+                        "walk_speed_multiplier": 1.3,
+                        "sprint_speed_multiplier": 1.4
+                    }
+                ]
+            },
+            "minecraft:behavior.move_towards_target": {
+                "priority": 3,
+                "speed_multiplier": 1.0,
+                "within_radius": 14
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 7,
+                "look_distance": 24
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 8
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 1,
+                "must_see": true,
+                "must_see_forget_duration": 8,
+                "reselect_targets": true,
+                "within_radius": 40,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                        },
+                        "max_dist": 40
+                    }
+                ]
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            }
+        }
+    }
+}

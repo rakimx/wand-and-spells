@@ -1,0 +1,44 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_black_hole",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_earthquake",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_age",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_hammer",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_meteor",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_plague_of_darkness",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_resurrection",
+                                          "weight":  1
+                                      }
+                                  ]
+                  }
+              ]
+}

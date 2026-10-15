@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ws:wizard_robe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "pattern": [
+            "S S",
+            "SSS",
+            "SSS"
+        ],
+        "key": {
+            "S": {
+                "item": "ws:magic_silk"
+            }
+        },
+        "result": {
+            "item": "ws:wizard_robe",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:lightning_ray",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/lightning_ray"
+			},
+			"geometry": {
+				"ray_0": "geometry.ws_lightning_ray_0",
+				"ray_1": "geometry.ws_lightning_ray_1",
+				"ray_2": "geometry.ws_lightning_ray_2",
+				"ray_3": "geometry.ws_lightning_ray_3"
+			},
+			"animations": {
+				"setup": "animation.ws.lightning_ray.setup"
+			},
+			"scripts": {
+				"animate": [
+					"setup"
+				]
+			},
+			"render_controllers": [
+				"controller.render.lightning_ray"
+			]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ws.magic_missile.move": {
+			"loop": true,
+			"animation_length": 0.05,
+			"bones": {
+				"body": {
+					"rotation": [
+						"-query.target_x_rotation",
+						"-query.target_y_rotation",
+						0.0
+					]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "sparkle"
+				}
+			}
+		}
+	}
+}

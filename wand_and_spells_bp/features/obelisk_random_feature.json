@@ -1,0 +1,30 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "ws:obelisk_random_feature"
+        },
+        "features": [
+            [
+                "ws:obelisk_0_feature",
+                1000
+            ],
+            [
+                "ws:obelisk_1_feature",
+                1000
+            ],
+            [
+                "ws:obelisk_2_feature",
+                1000
+            ],
+            [
+                "ws:obelisk_3_feature",
+                1000
+            ],
+            [
+                "ws:obelisk_4_feature",
+                1000
+            ]
+        ]
+    }
+}

@@ -1,0 +1,323 @@
+{
+    "format_version":  "1.21.60",
+    "minecraft:crafting_items_catalog":  {
+                                             "categories":  [
+                                                                {
+                                                                    "category_name":  "items",
+                                                                    "groups":  [
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:spell_book_magic_missile",
+                                                                                                                "name":  "ws:itemGroup.name.ws_spell_book"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:spell_book_agility",
+                                                                                                     "ws:spell_book_arc",
+                                                                                                     "ws:spell_book_black_hole",
+                                                                                                     "ws:spell_book_blink",
+                                                                                                     "ws:spell_book_chain_lightning",
+                                                                                                     "ws:spell_book_charge",
+                                                                                                     "ws:spell_book_conjure_sword",
+                                                                                                     "ws:spell_book_cure_effects",
+                                                                                                     "ws:spell_book_darkvision",
+                                                                                                     "ws:spell_book_decay",
+                                                                                                     "ws:spell_book_earthquake",
+                                                                                                     "ws:spell_book_fangs",
+                                                                                                     "ws:spell_book_fire_resistance",
+                                                                                                     "ws:spell_book_fire_sigil",
+                                                                                                     "ws:spell_book_fireball",
+                                                                                                     "ws:spell_book_firebolt",
+                                                                                                     "ws:spell_book_fireskin",
+                                                                                                     "ws:spell_book_flame_ray",
+                                                                                                     "ws:spell_book_forcefield",
+                                                                                                     "ws:spell_book_freeze",
+                                                                                                     "ws:spell_book_frost_ray",
+                                                                                                     "ws:spell_book_frost_sigil",
+                                                                                                     "ws:spell_book_frost_step",
+                                                                                                     "ws:spell_book_grapple",
+                                                                                                     "ws:spell_book_greater_heal",
+                                                                                                     "ws:spell_book_heal",
+                                                                                                     "ws:spell_book_heal_ally",
+                                                                                                     "ws:spell_book_healing_aura",
+                                                                                                     "ws:spell_book_ice_age",
+                                                                                                     "ws:spell_book_ice_shard",
+                                                                                                     "ws:spell_book_ice_shroud",
+                                                                                                     "ws:spell_book_ice_spikes",
+                                                                                                     "ws:spell_book_ignite",
+                                                                                                     "ws:spell_book_invisibility",
+                                                                                                     "ws:spell_book_gust",
+                "ws:spell_book_wind_step",
+                "ws:spell_book_leap",
+                                                                                                     "ws:spell_book_life_drain",
+                                                                                                     "ws:spell_book_light",
+                                                                                                     "ws:spell_book_lightning_bolt",
+                                                                                                     "ws:spell_book_lightning_hammer",
+                                                                                                     "ws:spell_book_lightning_pulse",
+                                                                                                     "ws:spell_book_lightning_ray",
+                                                                                                     "ws:spell_book_lightning_sigil",
+                                                                                                     "ws:spell_book_magic_missile",
+                                                                                                     "ws:spell_book_meteor",
+                                                                                                     "ws:spell_book_mind_trick",
+                                                                                                     "ws:spell_book_mine",
+                                                                                                     "ws:spell_book_phase_step",
+                                                                                                     "ws:spell_book_plague_of_darkness",
+                                                                                                     "ws:spell_book_poison",
+                                                                                                     "ws:spell_book_replenish_hunger",
+                                                                                                     "ws:spell_book_resurrection",
+                                                                                                     "ws:spell_book_ring_of_fire",
+                                                                                                     "ws:spell_book_satiety",
+                                                                                                     "ws:spell_book_snare",
+                                                                                                     "ws:spell_book_snowball",
+                                                                                                     "ws:spell_book_summon_lightning_wraith",
+                                                                                                     "ws:spell_book_summon_skeleton",
+                                                                                                     "ws:spell_book_summon_zombie",
+                                                                                                     "ws:spell_book_thunderbolt",
+                                                                                                     "ws:spell_book_transportation",
+                                                                                                     "ws:spell_book_ward",
+                                                                                                     "ws:spell_book_water_breathing",
+                                                                                                     "ws:spell_book_wither",
+                                                                                                     "ws:spell_book_wither_skull"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:scroll_magic_missile",
+                                                                                                                "name":  "ws:itemGroup.name.ws_scroll"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:scroll_agility",
+                                                                                                     "ws:scroll_arc",
+                                                                                                     "ws:scroll_black_hole",
+                                                                                                     "ws:scroll_blink",
+                                                                                                     "ws:scroll_chain_lightning",
+                                                                                                     "ws:scroll_charge",
+                                                                                                     "ws:scroll_conjure_sword",
+                                                                                                     "ws:scroll_cure_effects",
+                                                                                                     "ws:scroll_darkvision",
+                                                                                                     "ws:scroll_decay",
+                                                                                                     "ws:scroll_earthquake",
+                                                                                                     "ws:scroll_fangs",
+                                                                                                     "ws:scroll_fire_resistance",
+                                                                                                     "ws:scroll_fire_sigil",
+                                                                                                     "ws:scroll_fireball",
+                                                                                                     "ws:scroll_firebolt",
+                                                                                                     "ws:scroll_fireskin",
+                                                                                                     "ws:scroll_flame_ray",
+                                                                                                     "ws:scroll_forcefield",
+                                                                                                     "ws:scroll_freeze",
+                                                                                                     "ws:scroll_frost_ray",
+                                                                                                     "ws:scroll_frost_sigil",
+                                                                                                     "ws:scroll_frost_step",
+                                                                                                     "ws:scroll_grapple",
+                                                                                                     "ws:scroll_greater_heal",
+                                                                                                     "ws:scroll_heal",
+                                                                                                     "ws:scroll_heal_ally",
+                                                                                                     "ws:scroll_healing_aura",
+                                                                                                     "ws:scroll_ice_age",
+                                                                                                     "ws:scroll_ice_shard",
+                                                                                                     "ws:scroll_ice_shroud",
+                                                                                                     "ws:scroll_ice_spikes",
+                                                                                                     "ws:scroll_ignite",
+                                                                                                     "ws:scroll_invisibility",
+                                                                                                     "ws:scroll_gust",
+                "ws:scroll_wind_step",
+                "ws:scroll_leap",
+                                                                                                     "ws:scroll_life_drain",
+                                                                                                     "ws:scroll_light",
+                                                                                                     "ws:scroll_lightning_bolt",
+                                                                                                     "ws:scroll_lightning_hammer",
+                                                                                                     "ws:scroll_lightning_pulse",
+                                                                                                     "ws:scroll_lightning_ray",
+                                                                                                     "ws:scroll_lightning_sigil",
+                                                                                                     "ws:scroll_magic_missile",
+                                                                                                     "ws:scroll_meteor",
+                                                                                                     "ws:scroll_mind_trick",
+                                                                                                     "ws:scroll_mine",
+                                                                                                     "ws:scroll_phase_step",
+                                                                                                     "ws:scroll_plague_of_darkness",
+                                                                                                     "ws:scroll_poison",
+                                                                                                     "ws:scroll_replenish_hunger",
+                                                                                                     "ws:scroll_resurrection",
+                                                                                                     "ws:scroll_ring_of_fire",
+                                                                                                     "ws:scroll_satiety",
+                                                                                                     "ws:scroll_snare",
+                                                                                                     "ws:scroll_snowball",
+                                                                                                     "ws:scroll_summon_lightning_wraith",
+                                                                                                     "ws:scroll_summon_skeleton",
+                                                                                                     "ws:scroll_summon_zombie",
+                                                                                                     "ws:scroll_thunderbolt",
+                                                                                                     "ws:scroll_transportation",
+                                                                                                     "ws:scroll_ward",
+                                                                                                     "ws:scroll_water_breathing",
+                                                                                                     "ws:scroll_wither",
+                                                                                                     "ws:scroll_wither_skull"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:crystal_magic",
+                                                                                                                "name":  "ws:itemGroup.name.ws_crystal"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:crystal_earth",
+                                                                                                     "ws:crystal_shard",
+                                                                                                     "ws:crystal_fire",
+                                                                                                     "ws:crystal_healing",
+                                                                                                     "ws:crystal_ice",
+                                                                                                     "ws:crystal_lightning",
+                                                                                                     "ws:crystal_magic",
+                                                                                                     "ws:crystal_necromancy",
+                                                                                                     "ws:crystal_sorcery",
+                                                                                                     "ws:grand_crystal"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:spectral_dust",
+                                                                                                                "name":  "ws:itemGroup.name.ws_spectral_dust"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:spectral_dust",
+                                                                                                     "ws:spectral_dust_earth",
+                                                                                                     "ws:spectral_dust_fire",
+                                                                                                     "ws:spectral_dust_healing",
+                                                                                                     "ws:spectral_dust_ice",
+                                                                                                     "ws:spectral_dust_lightning",
+                                                                                                     "ws:spectral_dust_necromancy",
+                                                                                                     "ws:spectral_dust_sorcery"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:storage_upgrade",
+                                                                                                                "name":  "ws:itemGroup.name.ws_upgrade"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:attunement_upgrade",
+                                                                                                     "ws:blast_upgrade",
+                                                                                                     "ws:condenser_upgrade",
+                                                                                                     "ws:cooldown_upgrade",
+                                                                                                     "ws:duration_upgrade",
+                                                                                                     "ws:melee_upgrade",
+                                                                                                     "ws:range_upgrade",
+                                                                                                     "ws:siphon_upgrade",
+                                                                                                     "ws:storage_upgrade"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:large_mana_flask",
+                                                                                                                "name":  "ws:itemGroup.name.ws_mana_flask"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:large_mana_flask",
+                                                                                                     "ws:medium_mana_flask",
+                                                                                                     "ws:small_mana_flask"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:grand_crystal",
+                                                                                                                "name":  "ws:itemGroup.name.ws_material"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:astral_diamond",
+                                                                                                     "ws:crystal_silver_plating",
+                                                                                                     "ws:ethereal_crystalweave",
+                                                                                                     "ws:magic_silk",
+                                                                                                     "ws:resplendent_thread"
+                                                                                                 ]
+                                                                                   }
+                                                                               ]
+                                                                },
+                                                                {
+                                                                    "category_name":  "equipment",
+                                                                    "groups":  [
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:master_wand",
+                                                                                                                "name":  "ws:itemGroup.name.ws_wand"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:advanced_wand",
+                                                                                                     "ws:apprentice_wand",
+                                                                                                     "ws:earth_wand",
+                                                                                                     "ws:fire_wand",
+                                                                                                     "ws:healing_wand",
+                                                                                                     "ws:ice_wand",
+                                                                                                     "ws:lightning_wand",
+                                                                                                     "ws:magic_wand",
+                                                                                                     "ws:master_wand",
+                                                                                                     "ws:necromancy_wand",
+                                                                                                     "ws:sorcery_wand"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:wizard_hat",
+                                                                                                                "name":  "ws:itemGroup.name.ws_wizard_hat"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:wizard_hat",
+                                                                                                     "ws:wizard_hat_earth",
+                                                                                                     "ws:wizard_hat_fire",
+                                                                                                     "ws:wizard_hat_healing",
+                                                                                                     "ws:wizard_hat_ice",
+                                                                                                     "ws:wizard_hat_lightning",
+                                                                                                     "ws:wizard_hat_necromancy",
+                                                                                                     "ws:wizard_hat_sorcery"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:wizard_robe",
+                                                                                                                "name":  "ws:itemGroup.name.ws_wizard_robe"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:wizard_robe",
+                                                                                                     "ws:wizard_robe_earth",
+                                                                                                     "ws:wizard_robe_fire",
+                                                                                                     "ws:wizard_robe_healing",
+                                                                                                     "ws:wizard_robe_ice",
+                                                                                                     "ws:wizard_robe_lightning",
+                                                                                                     "ws:wizard_robe_necromancy",
+                                                                                                     "ws:wizard_robe_sorcery"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:wizard_leggings",
+                                                                                                                "name":  "ws:itemGroup.name.ws_wizard_leggings"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:wizard_leggings",
+                                                                                                     "ws:wizard_leggings_earth",
+                                                                                                     "ws:wizard_leggings_fire",
+                                                                                                     "ws:wizard_leggings_healing",
+                                                                                                     "ws:wizard_leggings_ice",
+                                                                                                     "ws:wizard_leggings_lightning",
+                                                                                                     "ws:wizard_leggings_necromancy",
+                                                                                                     "ws:wizard_leggings_sorcery"
+                                                                                                 ]
+                                                                                   },
+                                                                                   {
+                                                                                       "group_identifier":  {
+                                                                                                                "icon":  "ws:wizard_boots",
+                                                                                                                "name":  "ws:itemGroup.name.ws_wizard_boots"
+                                                                                                            },
+                                                                                       "items":  [
+                                                                                                     "ws:wizard_boots",
+                                                                                                     "ws:wizard_boots_earth",
+                                                                                                     "ws:wizard_boots_fire",
+                                                                                                     "ws:wizard_boots_healing",
+                                                                                                     "ws:wizard_boots_ice",
+                                                                                                     "ws:wizard_boots_lightning",
+                                                                                                     "ws:wizard_boots_necromancy",
+                                                                                                     "ws:wizard_boots_sorcery"
+                                                                                                 ]
+                                                                                   }
+                                                                               ]
+                                                                }
+                                                            ]
+                                         }
+}

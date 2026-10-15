@@ -1,0 +1,58 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+        "description": {
+            "identifier": "ws:quake_dust",
+            "basic_render_parameters": {
+                "material": "particles_blend",
+                "texture": "textures/particles/dust_grain"
+            }
+        },
+        "components": {
+            "minecraft:emitter_initialization": {
+                "creation_expression": "variable.scale = variable.scale ?? 1; variable.r = variable.r ?? 0.55; variable.g = variable.g ?? 0.50; variable.b = variable.b ?? 0.42;"
+            },
+            "minecraft:emitter_rate_instant": {
+                "num_particles": 2
+            },
+            "minecraft:emitter_lifetime_once": {
+                "active_time": 0.05
+            },
+            "minecraft:emitter_shape_disc": {
+                "radius": "variable.scale * 0.3",
+                "plane_normal": "y",
+                "direction": [
+                    "math.random(-0.4, 0.4)",
+                    1,
+                    "math.random(-0.4, 0.4)"
+                ]
+            },
+            "minecraft:particle_lifetime_expression": {
+                "max_lifetime": "0.8 + math.random(0, 0.5)"
+            },
+            "minecraft:particle_initial_speed": "2.4 + math.random(0, 2.2)",
+            "minecraft:particle_motion_dynamic": {
+                "linear_drag_coefficient": 0.5,
+                "linear_acceleration": [0, -9.0, 0]
+            },
+            "minecraft:particle_appearance_billboard": {
+                "size": [0.045, 0.045],
+                "facing_camera_mode": "lookat_xyz",
+                "uv": {
+                    "texture_width": 4,
+                    "texture_height": 4,
+                    "uv": [0, 0],
+                    "uv_size": [4, 4]
+                }
+            },
+            "minecraft:particle_appearance_tinting": {
+                "color": [
+                    "variable.r",
+                    "variable.g",
+                    "variable.b",
+                    "math.clamp(1.7 - 1.7 * v.particle_age / v.particle_lifetime, 0, 1)"
+                ]
+            }
+        }
+    }
+}

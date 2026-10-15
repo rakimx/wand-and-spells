@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.0",
+  "ws:arcane_workbench": {
+    "sound": "wood"
+  },
+  "ws:imbuement_altar": {
+    "sound": "stone"
+  },
+  "ws:imbuement_altar_inactive": {
+    "sound": "stone"
+  },
+  "ws:lectern": {
+    "sound": "wood"
+  },
+  "ws:bookshelf": {
+    "sound": "wood"
+  },
+  "ws:runestone": {
+    "sound": "stone"
+  },
+  "ws:runestone_pedestal": {
+    "sound": "stone"
+  },
+  "ws:receptacle": {
+    "sound": "stone"
+  },
+  "ws:transportation_stone": {
+    "sound": "stone"
+  },
+  "ws:petrified_stone": {
+    "sound": "stone"
+  },
+  "ws:crystal_flower": {
+    "sound": "grass"
+  }
+}

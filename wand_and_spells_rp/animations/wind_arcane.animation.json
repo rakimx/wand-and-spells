@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ws.wind_arcane.walk": {
+			"loop": true,
+			"bones": {
+				"right_leg": {
+					"rotation": ["variable.ws_swing * 0.55", 0, 0]
+				},
+				"left_leg": {
+					"rotation": ["-variable.ws_swing * 0.55", 0, 0]
+				},
+				"right_lower_leg": {
+					"rotation": ["math.max(0, -variable.ws_swing) * 0.45", 0, 0]
+				},
+				"left_lower_leg": {
+					"rotation": ["math.max(0, variable.ws_swing) * 0.45", 0, 0]
+				},
+				"left_arm": {
+					"rotation": ["-variable.ws_swing * 0.35", 0, 0]
+				},
+				"right_front_robe": {
+					"rotation": ["-variable.ws_swing * 0.30", 0, 0]
+				},
+				"left_front_robe": {
+					"rotation": ["variable.ws_swing * 0.30", 0, 0]
+				},
+				"right_skirt_tail": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.25", 0, 0]
+				},
+				"left_skirt_tail": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.25", 0, 0]
+				},
+				"cape_center": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.35", 0, 0]
+				},
+				"right_cape_strip": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.40", 0, 0]
+				},
+				"left_cape_strip": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.40", 0, 0]
+				},
+				"right_cape_edge": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.30", 0, 0]
+				},
+				"left_cape_edge": {
+					"rotation": ["math.abs(variable.ws_swing) * 0.30", 0, 0]
+				}
+			}
+		},
+		"animation.ws.wind_arcane.idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, "math.sin(query.life_time * 60) * 0.35", 0]
+				},
+				"right_arm": {
+					"rotation": [0, 0, "-3 + math.sin(query.life_time * 50) * 2"]
+				},
+				"right_floating_rune": {
+					"rotation": [0, "query.life_time * 45", 0],
+					"position": [0, "math.sin(query.life_time * 70) * 1.5", 0]
+				},
+				"left_floating_rune": {
+					"rotation": [0, "-query.life_time * 45", 0],
+					"position": [0, "math.sin(query.life_time * 70 + 120) * 1.5", 0]
+				},
+				"right_floating_rune_back": {
+					"rotation": [0, "query.life_time * 38", 0],
+					"position": [0, "math.sin(query.life_time * 62 + 45) * 1.2", 0]
+				},
+				"left_floating_rune_back": {
+					"rotation": [0, "-query.life_time * 38", 0],
+					"position": [0, "math.sin(query.life_time * 62 + 200) * 1.2", 0]
+				},
+				"right_floating_rune_front": {
+					"rotation": [0, "query.life_time * 52", 0],
+					"position": [0, "math.sin(query.life_time * 80 + 90) * 1.4", 0]
+				},
+				"left_floating_rune_front": {
+					"rotation": [0, "-query.life_time * 52", 0],
+					"position": [0, "math.sin(query.life_time * 80 + 260) * 1.4", 0]
+				},
+				"rear_shard_cluster_right": {
+					"rotation": [0, "query.life_time * 30", 0]
+				},
+				"rear_shard_cluster_left": {
+					"rotation": [0, "-query.life_time * 30", 0]
+				}
+			}
+		},
+		"animation.ws.wind_arcane.cast": {
+			"loop": true
+		},
+		"animation.ws_wind_arcane.cast_use": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.8333,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-75, 0, 0],
+						"0.5417": [-75, 0, 0],
+						"0.8333": [0, 0, 0]
+					}
+				},
+				"wind_staff": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [102.5, 0, 0],
+						"0.5417": [102.5, 0, 0],
+						"0.8333": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_darkvision",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_earthquake",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fangs",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_grapple",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_leap",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_mine",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_poison",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_snare",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_water_breathing",
+                                          "weight":  3
+                                      }
+                                  ]
+                  }
+              ]
+}

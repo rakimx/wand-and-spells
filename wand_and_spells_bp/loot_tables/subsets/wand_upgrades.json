@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+                    "type": "item",
+                    "name": "ws:condenser_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:siphon_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:storage_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:range_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:duration_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:cooldown_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:blast_upgrade",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "ws:attunement_upgrade",
+                    "weight": 1
+                },
+				{
+					"type": "item",
+					"name": "ws:melee_upgrade",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

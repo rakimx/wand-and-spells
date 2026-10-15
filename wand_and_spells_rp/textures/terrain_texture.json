@@ -1,0 +1,1139 @@
+{
+    "resource_pack_name":  "wand_and_spells_rp",
+    "texture_name":  "atlas.terrain",
+    "padding":  8,
+    "num_mip_levels":  4,
+    "texture_data":  {
+                         "ws:acacia_bookshelf_inside":  {
+                                                            "textures":  "textures/blocks/acacia_bookshelf_inside"
+                                                        },
+                         "acacia_bookshelf_inside":  {
+                                                         "textures":  "textures/blocks/acacia_bookshelf_inside"
+                                                     },
+                         "ws:acacia_bookshelf_top":  {
+                                                         "textures":  "textures/blocks/acacia_bookshelf_top"
+                                                     },
+                         "acacia_bookshelf_top":  {
+                                                      "textures":  "textures/blocks/acacia_bookshelf_top"
+                                                  },
+                         "ws:acacia_lectern_base":  {
+                                                        "textures":  "textures/blocks/acacia_lectern_base"
+                                                    },
+                         "acacia_lectern_base":  {
+                                                     "textures":  "textures/blocks/acacia_lectern_base"
+                                                 },
+                         "ws:acacia_lectern_side":  {
+                                                        "textures":  "textures/blocks/acacia_lectern_side"
+                                                    },
+                         "acacia_lectern_side":  {
+                                                     "textures":  "textures/blocks/acacia_lectern_side"
+                                                 },
+                         "ws:acacia_lectern_top":  {
+                                                       "textures":  "textures/blocks/acacia_lectern_top"
+                                                   },
+                         "acacia_lectern_top":  {
+                                                    "textures":  "textures/blocks/acacia_lectern_top"
+                                                },
+                         "ws:acacia_lectern_underside":  {
+                                                             "textures":  "textures/blocks/acacia_lectern_underside"
+                                                         },
+                         "acacia_lectern_underside":  {
+                                                          "textures":  "textures/blocks/acacia_lectern_underside"
+                                                      },
+                         "ws:arcane_lock_0":  {
+                                                  "textures":  "textures/blocks/arcane_lock_0"
+                                              },
+                         "arcane_lock_0":  {
+                                               "textures":  "textures/blocks/arcane_lock_0"
+                                           },
+                         "ws:arcane_lock_1":  {
+                                                  "textures":  "textures/blocks/arcane_lock_1"
+                                              },
+                         "arcane_lock_1":  {
+                                               "textures":  "textures/blocks/arcane_lock_1"
+                                           },
+                         "ws:arcane_lock_2":  {
+                                                  "textures":  "textures/blocks/arcane_lock_2"
+                                              },
+                         "arcane_lock_2":  {
+                                               "textures":  "textures/blocks/arcane_lock_2"
+                                           },
+                         "ws:arcane_lock_3":  {
+                                                  "textures":  "textures/blocks/arcane_lock_3"
+                                              },
+                         "arcane_lock_3":  {
+                                               "textures":  "textures/blocks/arcane_lock_3"
+                                           },
+                         "ws:arcane_lock_4":  {
+                                                  "textures":  "textures/blocks/arcane_lock_4"
+                                              },
+                         "arcane_lock_4":  {
+                                               "textures":  "textures/blocks/arcane_lock_4"
+                                           },
+                         "ws:arcane_lock_5":  {
+                                                  "textures":  "textures/blocks/arcane_lock_5"
+                                              },
+                         "arcane_lock_5":  {
+                                               "textures":  "textures/blocks/arcane_lock_5"
+                                           },
+                         "ws:arcane_lock_6":  {
+                                                  "textures":  "textures/blocks/arcane_lock_6"
+                                              },
+                         "arcane_lock_6":  {
+                                               "textures":  "textures/blocks/arcane_lock_6"
+                                           },
+                         "ws:arcane_lock_7":  {
+                                                  "textures":  "textures/blocks/arcane_lock_7"
+                                              },
+                         "arcane_lock_7":  {
+                                               "textures":  "textures/blocks/arcane_lock_7"
+                                           },
+                         "ws:arcane_workbench_bottom":  {
+                                                            "textures":  "textures/blocks/arcane_workbench_bottom"
+                                                        },
+                         "arcane_workbench_bottom":  {
+                                                         "textures":  "textures/blocks/arcane_workbench_bottom"
+                                                     },
+                         "ws:arcane_workbench_side":  {
+                                                          "textures":  "textures/blocks/arcane_workbench_side"
+                                                      },
+                         "arcane_workbench_side":  {
+                                                       "textures":  "textures/blocks/arcane_workbench_side"
+                                                   },
+                         "ws:arcane_workbench_top":  {
+                                                         "textures":  "textures/blocks/arcane_workbench_top"
+                                                     },
+                         "arcane_workbench_top":  {
+                                                      "textures":  "textures/blocks/arcane_workbench_top"
+                                                  },
+                         "ws:birch_bookshelf_inside":  {
+                                                           "textures":  "textures/blocks/birch_bookshelf_inside"
+                                                       },
+                         "birch_bookshelf_inside":  {
+                                                        "textures":  "textures/blocks/birch_bookshelf_inside"
+                                                    },
+                         "ws:birch_bookshelf_side":  {
+                                                         "textures":  "textures/blocks/birch_bookshelf_side"
+                                                     },
+                         "birch_bookshelf_side":  {
+                                                      "textures":  "textures/blocks/birch_bookshelf_side"
+                                                  },
+                         "ws:birch_bookshelf_top":  {
+                                                        "textures":  "textures/blocks/birch_bookshelf_top"
+                                                    },
+                         "birch_bookshelf_top":  {
+                                                     "textures":  "textures/blocks/birch_bookshelf_top"
+                                                 },
+                         "ws:birch_lectern_base":  {
+                                                       "textures":  "textures/blocks/birch_lectern_base"
+                                                   },
+                         "birch_lectern_base":  {
+                                                    "textures":  "textures/blocks/birch_lectern_base"
+                                                },
+                         "ws:birch_lectern_side":  {
+                                                       "textures":  "textures/blocks/birch_lectern_side"
+                                                   },
+                         "birch_lectern_side":  {
+                                                    "textures":  "textures/blocks/birch_lectern_side"
+                                                },
+                         "ws:birch_lectern_top":  {
+                                                      "textures":  "textures/blocks/birch_lectern_top"
+                                                  },
+                         "birch_lectern_top":  {
+                                                   "textures":  "textures/blocks/birch_lectern_top"
+                                               },
+                         "ws:birch_lectern_underside":  {
+                                                            "textures":  "textures/blocks/birch_lectern_underside"
+                                                        },
+                         "birch_lectern_underside":  {
+                                                         "textures":  "textures/blocks/birch_lectern_underside"
+                                                     },
+                         "ws:books_blue":  {
+                                               "textures":  "textures/blocks/books_blue"
+                                           },
+                         "books_blue":  {
+                                            "textures":  "textures/blocks/books_blue"
+                                        },
+                         "ws:books_brown":  {
+                                                "textures":  "textures/blocks/books_brown"
+                                            },
+                         "books_brown":  {
+                                             "textures":  "textures/blocks/books_brown"
+                                         },
+                         "ws:books_enchanted":  {
+                                                    "textures":  "textures/blocks/books_enchanted"
+                                                },
+                         "books_enchanted":  {
+                                                 "textures":  "textures/blocks/books_enchanted"
+                                             },
+                         "ws:books_purple":  {
+                                                 "textures":  "textures/blocks/books_purple"
+                                             },
+                         "books_purple":  {
+                                              "textures":  "textures/blocks/books_purple"
+                                          },
+                         "ws:books_red":  {
+                                              "textures":  "textures/blocks/books_red"
+                                          },
+                         "books_red":  {
+                                           "textures":  "textures/blocks/books_red"
+                                       },
+                         "ws:crystal_block":  {
+                                                  "textures":  "textures/blocks/crystal_block"
+                                              },
+                         "crystal_block":  {
+                                               "textures":  "textures/blocks/crystal_block"
+                                           },
+                         "ws:crystal_block_earth":  {
+                                                        "textures":  "textures/blocks/crystal_block_earth"
+                                                    },
+                         "crystal_block_earth":  {
+                                                     "textures":  "textures/blocks/crystal_block_earth"
+                                                 },
+                         "ws:crystal_block_fire":  {
+                                                       "textures":  "textures/blocks/crystal_block_fire"
+                                                   },
+                         "crystal_block_fire":  {
+                                                    "textures":  "textures/blocks/crystal_block_fire"
+                                                },
+                         "ws:crystal_block_healing":  {
+                                                          "textures":  "textures/blocks/crystal_block_healing"
+                                                      },
+                         "crystal_block_healing":  {
+                                                       "textures":  "textures/blocks/crystal_block_healing"
+                                                   },
+                         "ws:crystal_block_ice":  {
+                                                      "textures":  "textures/blocks/crystal_block_ice"
+                                                  },
+                         "crystal_block_ice":  {
+                                                   "textures":  "textures/blocks/crystal_block_ice"
+                                               },
+                         "ws:crystal_block_lightning":  {
+                                                            "textures":  "textures/blocks/crystal_block_lightning"
+                                                        },
+                         "crystal_block_lightning":  {
+                                                         "textures":  "textures/blocks/crystal_block_lightning"
+                                                     },
+                         "ws:crystal_block_necromancy":  {
+                                                             "textures":  "textures/blocks/crystal_block_necromancy"
+                                                         },
+                         "crystal_block_necromancy":  {
+                                                          "textures":  "textures/blocks/crystal_block_necromancy"
+                                                      },
+                         "ws:crystal_block_sorcery":  {
+                                                          "textures":  "textures/blocks/crystal_block_sorcery"
+                                                      },
+                         "crystal_block_sorcery":  {
+                                                       "textures":  "textures/blocks/crystal_block_sorcery"
+                                                   },
+                         "ws:crystal_flower":  {
+                                                   "textures":  "textures/blocks/crystal_flower"
+                                               },
+                         "crystal_flower":  {
+                                                "textures":  "textures/blocks/crystal_flower"
+                                            },
+                         "ws:crystal_ore":  {
+                                                "textures":  "textures/blocks/crystal_ore"
+                                            },
+                         "crystal_ore":  {
+                                             "textures":  "textures/blocks/crystal_ore"
+                                         },
+                         "ws:dark_oak_bookshelf_inside":  {
+                                                              "textures":  "textures/blocks/dark_oak_bookshelf_inside"
+                                                          },
+                         "dark_oak_bookshelf_inside":  {
+                                                           "textures":  "textures/blocks/dark_oak_bookshelf_inside"
+                                                       },
+                         "ws:dark_oak_bookshelf_side":  {
+                                                            "textures":  "textures/blocks/dark_oak_bookshelf_side"
+                                                        },
+                         "dark_oak_bookshelf_side":  {
+                                                         "textures":  "textures/blocks/dark_oak_bookshelf_side"
+                                                     },
+                         "ws:dark_oak_bookshelf_top":  {
+                                                           "textures":  "textures/blocks/dark_oak_bookshelf_top"
+                                                       },
+                         "dark_oak_bookshelf_top":  {
+                                                        "textures":  "textures/blocks/dark_oak_bookshelf_top"
+                                                    },
+                         "ws:dark_oak_lectern_base":  {
+                                                          "textures":  "textures/blocks/dark_oak_lectern_base"
+                                                      },
+                         "dark_oak_lectern_base":  {
+                                                       "textures":  "textures/blocks/dark_oak_lectern_base"
+                                                   },
+                         "ws:dark_oak_lectern_side":  {
+                                                          "textures":  "textures/blocks/dark_oak_lectern_side"
+                                                      },
+                         "dark_oak_lectern_side":  {
+                                                       "textures":  "textures/blocks/dark_oak_lectern_side"
+                                                   },
+                         "ws:dark_oak_lectern_top":  {
+                                                         "textures":  "textures/blocks/dark_oak_lectern_top"
+                                                     },
+                         "dark_oak_lectern_top":  {
+                                                      "textures":  "textures/blocks/dark_oak_lectern_top"
+                                                  },
+                         "ws:dark_oak_lectern_underside":  {
+                                                               "textures":  "textures/blocks/dark_oak_lectern_underside"
+                                                           },
+                         "dark_oak_lectern_underside":  {
+                                                            "textures":  "textures/blocks/dark_oak_lectern_underside"
+                                                        },
+                         "ws:gilded_acacia_wood":  {
+                                                       "textures":  "textures/blocks/gilded_acacia_wood"
+                                                   },
+                         "gilded_acacia_wood":  {
+                                                    "textures":  "textures/blocks/gilded_acacia_wood"
+                                                },
+                         "ws:gilded_birch_wood":  {
+                                                      "textures":  "textures/blocks/gilded_birch_wood"
+                                                  },
+                         "gilded_birch_wood":  {
+                                                   "textures":  "textures/blocks/gilded_birch_wood"
+                                               },
+                         "ws:gilded_dark_oak_wood":  {
+                                                         "textures":  "textures/blocks/gilded_dark_oak_wood"
+                                                     },
+                         "gilded_dark_oak_wood":  {
+                                                      "textures":  "textures/blocks/gilded_dark_oak_wood"
+                                                  },
+                         "ws:gilded_jungle_wood":  {
+                                                       "textures":  "textures/blocks/gilded_jungle_wood"
+                                                   },
+                         "gilded_jungle_wood":  {
+                                                    "textures":  "textures/blocks/gilded_jungle_wood"
+                                                },
+                         "ws:gilded_oak_wood":  {
+                                                    "textures":  "textures/blocks/gilded_oak_wood"
+                                                },
+                         "gilded_oak_wood":  {
+                                                 "textures":  "textures/blocks/gilded_oak_wood"
+                                             },
+                         "ws:gilded_spruce_wood":  {
+                                                       "textures":  "textures/blocks/gilded_spruce_wood"
+                                                   },
+                         "gilded_spruce_wood":  {
+                                                    "textures":  "textures/blocks/gilded_spruce_wood"
+                                                },
+                         "ws:imbuement_altar_bottom":  {
+                                                           "textures":  "textures/blocks/imbuement_altar_bottom"
+                                                       },
+                         "imbuement_altar_bottom":  {
+                                                        "textures":  "textures/blocks/imbuement_altar_bottom"
+                                                    },
+                         "ws:imbuement_altar_side":  {
+                                                         "textures":  "textures/blocks/imbuement_altar_side"
+                                                     },
+                         "imbuement_altar_side":  {
+                                                      "textures":  "textures/blocks/imbuement_altar_side"
+                                                  },
+                         "ws:imbuement_altar_side_overlay":  {
+                                                                 "textures":  "textures/blocks/imbuement_altar_side_overlay"
+                                                             },
+                         "imbuement_altar_side_overlay":  {
+                                                              "textures":  "textures/blocks/imbuement_altar_side_overlay"
+                                                          },
+                         "ws:imbuement_altar_top":  {
+                                                        "textures":  "textures/blocks/imbuement_altar_top"
+                                                    },
+                         "imbuement_altar_top":  {
+                                                     "textures":  "textures/blocks/imbuement_altar_top"
+                                                 },
+                         "ws:imbuement_altar_top_overlay":  {
+                                                                "textures":  "textures/blocks/imbuement_altar_top_overlay"
+                                                            },
+                         "imbuement_altar_top_overlay":  {
+                                                             "textures":  "textures/blocks/imbuement_altar_top_overlay"
+                                                         },
+                         "ws:jungle_bookshelf_inside":  {
+                                                            "textures":  "textures/blocks/jungle_bookshelf_inside"
+                                                        },
+                         "jungle_bookshelf_inside":  {
+                                                         "textures":  "textures/blocks/jungle_bookshelf_inside"
+                                                     },
+                         "ws:jungle_bookshelf_side":  {
+                                                          "textures":  "textures/blocks/jungle_bookshelf_side"
+                                                      },
+                         "jungle_bookshelf_side":  {
+                                                       "textures":  "textures/blocks/jungle_bookshelf_side"
+                                                   },
+                         "ws:jungle_bookshelf_top":  {
+                                                         "textures":  "textures/blocks/jungle_bookshelf_top"
+                                                     },
+                         "jungle_bookshelf_top":  {
+                                                      "textures":  "textures/blocks/jungle_bookshelf_top"
+                                                  },
+                         "ws:jungle_lectern_base":  {
+                                                        "textures":  "textures/blocks/jungle_lectern_base"
+                                                    },
+                         "jungle_lectern_base":  {
+                                                     "textures":  "textures/blocks/jungle_lectern_base"
+                                                 },
+                         "ws:jungle_lectern_side":  {
+                                                        "textures":  "textures/blocks/jungle_lectern_side"
+                                                    },
+                         "jungle_lectern_side":  {
+                                                     "textures":  "textures/blocks/jungle_lectern_side"
+                                                 },
+                         "ws:jungle_lectern_top":  {
+                                                       "textures":  "textures/blocks/jungle_lectern_top"
+                                                   },
+                         "jungle_lectern_top":  {
+                                                    "textures":  "textures/blocks/jungle_lectern_top"
+                                                },
+                         "ws:jungle_lectern_underside":  {
+                                                             "textures":  "textures/blocks/jungle_lectern_underside"
+                                                         },
+                         "jungle_lectern_underside":  {
+                                                          "textures":  "textures/blocks/jungle_lectern_underside"
+                                                      },
+                         "ws:meteor":  {
+                                           "textures":  "textures/blocks/meteor"
+                                       },
+                         "meteor":  {
+                                        "textures":  "textures/blocks/meteor"
+                                    },
+                         "ws:oak_bookshelf_inside":  {
+                                                         "textures":  "textures/blocks/oak_bookshelf_inside"
+                                                     },
+                         "oak_bookshelf_inside":  {
+                                                      "textures":  "textures/blocks/oak_bookshelf_inside"
+                                                  },
+                         "ws:oak_bookshelf_side":  {
+                                                       "textures":  "textures/blocks/oak_bookshelf_side"
+                                                   },
+                         "oak_bookshelf_side":  {
+                                                    "textures":  "textures/blocks/oak_bookshelf_side"
+                                                },
+                         "ws:oak_bookshelf_top":  {
+                                                      "textures":  "textures/blocks/oak_bookshelf_top"
+                                                  },
+                         "oak_bookshelf_top":  {
+                                                   "textures":  "textures/blocks/oak_bookshelf_top"
+                                               },
+                         "ws:oak_lectern_base":  {
+                                                     "textures":  "textures/blocks/oak_lectern_base"
+                                                 },
+                         "oak_lectern_base":  {
+                                                  "textures":  "textures/blocks/oak_lectern_base"
+                                              },
+                         "ws:oak_lectern_side":  {
+                                                     "textures":  "textures/blocks/oak_lectern_side"
+                                                 },
+                         "oak_lectern_side":  {
+                                                  "textures":  "textures/blocks/oak_lectern_side"
+                                              },
+                         "ws:oak_lectern_top":  {
+                                                    "textures":  "textures/blocks/oak_lectern_top"
+                                                },
+                         "oak_lectern_top":  {
+                                                 "textures":  "textures/blocks/oak_lectern_top"
+                                             },
+                         "ws:oak_lectern_underside":  {
+                                                          "textures":  "textures/blocks/oak_lectern_underside"
+                                                      },
+                         "oak_lectern_underside":  {
+                                                       "textures":  "textures/blocks/oak_lectern_underside"
+                                                   },
+                         "ws:obsidian_crust_0":  {
+                                                     "textures":  "textures/blocks/obsidian_crust_0"
+                                                 },
+                         "obsidian_crust_0":  {
+                                                  "textures":  "textures/blocks/obsidian_crust_0"
+                                              },
+                         "ws:obsidian_crust_1":  {
+                                                     "textures":  "textures/blocks/obsidian_crust_1"
+                                                 },
+                         "obsidian_crust_1":  {
+                                                  "textures":  "textures/blocks/obsidian_crust_1"
+                                              },
+                         "ws:obsidian_crust_2":  {
+                                                     "textures":  "textures/blocks/obsidian_crust_2"
+                                                 },
+                         "obsidian_crust_2":  {
+                                                  "textures":  "textures/blocks/obsidian_crust_2"
+                                              },
+                         "ws:obsidian_crust_3":  {
+                                                     "textures":  "textures/blocks/obsidian_crust_3"
+                                                 },
+                         "obsidian_crust_3":  {
+                                                  "textures":  "textures/blocks/obsidian_crust_3"
+                                              },
+                         "ws:receptacle":  {
+                                               "textures":  "textures/blocks/receptacle"
+                                           },
+                         "receptacle":  {
+                                            "textures":  "textures/blocks/receptacle"
+                                        },
+                         "ws:runestone_earth_0":  {
+                                                      "textures":  "textures/blocks/runestone_earth_0"
+                                                  },
+                         "runestone_earth_0":  {
+                                                   "textures":  "textures/blocks/runestone_earth_0"
+                                               },
+                         "ws:runestone_earth_1":  {
+                                                      "textures":  "textures/blocks/runestone_earth_1"
+                                                  },
+                         "runestone_earth_1":  {
+                                                   "textures":  "textures/blocks/runestone_earth_1"
+                                               },
+                         "ws:runestone_earth_1_overlay":  {
+                                                              "textures":  "textures/blocks/runestone_earth_1_overlay"
+                                                          },
+                         "runestone_earth_1_overlay":  {
+                                                           "textures":  "textures/blocks/runestone_earth_1_overlay"
+                                                       },
+                         "ws:runestone_earth_2":  {
+                                                      "textures":  "textures/blocks/runestone_earth_2"
+                                                  },
+                         "runestone_earth_2":  {
+                                                   "textures":  "textures/blocks/runestone_earth_2"
+                                               },
+                         "ws:runestone_earth_2_overlay":  {
+                                                              "textures":  "textures/blocks/runestone_earth_2_overlay"
+                                                          },
+                         "runestone_earth_2_overlay":  {
+                                                           "textures":  "textures/blocks/runestone_earth_2_overlay"
+                                                       },
+                         "ws:runestone_earth_3":  {
+                                                      "textures":  "textures/blocks/runestone_earth_3"
+                                                  },
+                         "runestone_earth_3":  {
+                                                   "textures":  "textures/blocks/runestone_earth_3"
+                                               },
+                         "ws:runestone_earth_3_overlay":  {
+                                                              "textures":  "textures/blocks/runestone_earth_3_overlay"
+                                                          },
+                         "runestone_earth_3_overlay":  {
+                                                           "textures":  "textures/blocks/runestone_earth_3_overlay"
+                                                       },
+                         "ws:runestone_earth_4":  {
+                                                      "textures":  "textures/blocks/runestone_earth_4"
+                                                  },
+                         "runestone_earth_4":  {
+                                                   "textures":  "textures/blocks/runestone_earth_4"
+                                               },
+                         "ws:runestone_earth_4_overlay":  {
+                                                              "textures":  "textures/blocks/runestone_earth_4_overlay"
+                                                          },
+                         "runestone_earth_4_overlay":  {
+                                                           "textures":  "textures/blocks/runestone_earth_4_overlay"
+                                                       },
+                         "ws:runestone_fire_0":  {
+                                                     "textures":  "textures/blocks/runestone_fire_0"
+                                                 },
+                         "runestone_fire_0":  {
+                                                  "textures":  "textures/blocks/runestone_fire_0"
+                                              },
+                         "ws:runestone_fire_1":  {
+                                                     "textures":  "textures/blocks/runestone_fire_1"
+                                                 },
+                         "runestone_fire_1":  {
+                                                  "textures":  "textures/blocks/runestone_fire_1"
+                                              },
+                         "ws:runestone_fire_1_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_fire_1_overlay"
+                                                         },
+                         "runestone_fire_1_overlay":  {
+                                                          "textures":  "textures/blocks/runestone_fire_1_overlay"
+                                                      },
+                         "ws:runestone_fire_2":  {
+                                                     "textures":  "textures/blocks/runestone_fire_2"
+                                                 },
+                         "runestone_fire_2":  {
+                                                  "textures":  "textures/blocks/runestone_fire_2"
+                                              },
+                         "ws:runestone_fire_2_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_fire_2_overlay"
+                                                         },
+                         "runestone_fire_2_overlay":  {
+                                                          "textures":  "textures/blocks/runestone_fire_2_overlay"
+                                                      },
+                         "ws:runestone_fire_3":  {
+                                                     "textures":  "textures/blocks/runestone_fire_3"
+                                                 },
+                         "runestone_fire_3":  {
+                                                  "textures":  "textures/blocks/runestone_fire_3"
+                                              },
+                         "ws:runestone_fire_3_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_fire_3_overlay"
+                                                         },
+                         "runestone_fire_3_overlay":  {
+                                                          "textures":  "textures/blocks/runestone_fire_3_overlay"
+                                                      },
+                         "ws:runestone_fire_4":  {
+                                                     "textures":  "textures/blocks/runestone_fire_4"
+                                                 },
+                         "runestone_fire_4":  {
+                                                  "textures":  "textures/blocks/runestone_fire_4"
+                                              },
+                         "ws:runestone_fire_4_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_fire_4_overlay"
+                                                         },
+                         "runestone_fire_4_overlay":  {
+                                                          "textures":  "textures/blocks/runestone_fire_4_overlay"
+                                                      },
+                         "ws:runestone_healing_0":  {
+                                                        "textures":  "textures/blocks/runestone_healing_0"
+                                                    },
+                         "runestone_healing_0":  {
+                                                     "textures":  "textures/blocks/runestone_healing_0"
+                                                 },
+                         "ws:runestone_healing_1":  {
+                                                        "textures":  "textures/blocks/runestone_healing_1"
+                                                    },
+                         "runestone_healing_1":  {
+                                                     "textures":  "textures/blocks/runestone_healing_1"
+                                                 },
+                         "ws:runestone_healing_1_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_healing_1_overlay"
+                                                            },
+                         "runestone_healing_1_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_healing_1_overlay"
+                                                         },
+                         "ws:runestone_healing_2":  {
+                                                        "textures":  "textures/blocks/runestone_healing_2"
+                                                    },
+                         "runestone_healing_2":  {
+                                                     "textures":  "textures/blocks/runestone_healing_2"
+                                                 },
+                         "ws:runestone_healing_2_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_healing_2_overlay"
+                                                            },
+                         "runestone_healing_2_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_healing_2_overlay"
+                                                         },
+                         "ws:runestone_healing_3":  {
+                                                        "textures":  "textures/blocks/runestone_healing_3"
+                                                    },
+                         "runestone_healing_3":  {
+                                                     "textures":  "textures/blocks/runestone_healing_3"
+                                                 },
+                         "ws:runestone_healing_3_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_healing_3_overlay"
+                                                            },
+                         "runestone_healing_3_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_healing_3_overlay"
+                                                         },
+                         "ws:runestone_healing_4":  {
+                                                        "textures":  "textures/blocks/runestone_healing_4"
+                                                    },
+                         "runestone_healing_4":  {
+                                                     "textures":  "textures/blocks/runestone_healing_4"
+                                                 },
+                         "ws:runestone_healing_4_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_healing_4_overlay"
+                                                            },
+                         "runestone_healing_4_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_healing_4_overlay"
+                                                         },
+                         "ws:runestone_ice_0":  {
+                                                    "textures":  "textures/blocks/runestone_ice_0"
+                                                },
+                         "runestone_ice_0":  {
+                                                 "textures":  "textures/blocks/runestone_ice_0"
+                                             },
+                         "ws:runestone_ice_1":  {
+                                                    "textures":  "textures/blocks/runestone_ice_1"
+                                                },
+                         "runestone_ice_1":  {
+                                                 "textures":  "textures/blocks/runestone_ice_1"
+                                             },
+                         "ws:runestone_ice_1_overlay":  {
+                                                            "textures":  "textures/blocks/runestone_ice_1_overlay"
+                                                        },
+                         "runestone_ice_1_overlay":  {
+                                                         "textures":  "textures/blocks/runestone_ice_1_overlay"
+                                                     },
+                         "ws:runestone_ice_2":  {
+                                                    "textures":  "textures/blocks/runestone_ice_2"
+                                                },
+                         "runestone_ice_2":  {
+                                                 "textures":  "textures/blocks/runestone_ice_2"
+                                             },
+                         "ws:runestone_ice_2_overlay":  {
+                                                            "textures":  "textures/blocks/runestone_ice_2_overlay"
+                                                        },
+                         "runestone_ice_2_overlay":  {
+                                                         "textures":  "textures/blocks/runestone_ice_2_overlay"
+                                                     },
+                         "ws:runestone_ice_3":  {
+                                                    "textures":  "textures/blocks/runestone_ice_3"
+                                                },
+                         "runestone_ice_3":  {
+                                                 "textures":  "textures/blocks/runestone_ice_3"
+                                             },
+                         "ws:runestone_ice_3_overlay":  {
+                                                            "textures":  "textures/blocks/runestone_ice_3_overlay"
+                                                        },
+                         "runestone_ice_3_overlay":  {
+                                                         "textures":  "textures/blocks/runestone_ice_3_overlay"
+                                                     },
+                         "ws:runestone_ice_4":  {
+                                                    "textures":  "textures/blocks/runestone_ice_4"
+                                                },
+                         "runestone_ice_4":  {
+                                                 "textures":  "textures/blocks/runestone_ice_4"
+                                             },
+                         "ws:runestone_ice_4_overlay":  {
+                                                            "textures":  "textures/blocks/runestone_ice_4_overlay"
+                                                        },
+                         "runestone_ice_4_overlay":  {
+                                                         "textures":  "textures/blocks/runestone_ice_4_overlay"
+                                                     },
+                         "ws:runestone_lightning_0":  {
+                                                          "textures":  "textures/blocks/runestone_lightning_0"
+                                                      },
+                         "runestone_lightning_0":  {
+                                                       "textures":  "textures/blocks/runestone_lightning_0"
+                                                   },
+                         "ws:runestone_lightning_1":  {
+                                                          "textures":  "textures/blocks/runestone_lightning_1"
+                                                      },
+                         "runestone_lightning_1":  {
+                                                       "textures":  "textures/blocks/runestone_lightning_1"
+                                                   },
+                         "ws:runestone_lightning_1_overlay":  {
+                                                                  "textures":  "textures/blocks/runestone_lightning_1_overlay"
+                                                              },
+                         "runestone_lightning_1_overlay":  {
+                                                               "textures":  "textures/blocks/runestone_lightning_1_overlay"
+                                                           },
+                         "ws:runestone_lightning_2":  {
+                                                          "textures":  "textures/blocks/runestone_lightning_2"
+                                                      },
+                         "runestone_lightning_2":  {
+                                                       "textures":  "textures/blocks/runestone_lightning_2"
+                                                   },
+                         "ws:runestone_lightning_2_overlay":  {
+                                                                  "textures":  "textures/blocks/runestone_lightning_2_overlay"
+                                                              },
+                         "runestone_lightning_2_overlay":  {
+                                                               "textures":  "textures/blocks/runestone_lightning_2_overlay"
+                                                           },
+                         "ws:runestone_lightning_3":  {
+                                                          "textures":  "textures/blocks/runestone_lightning_3"
+                                                      },
+                         "runestone_lightning_3":  {
+                                                       "textures":  "textures/blocks/runestone_lightning_3"
+                                                   },
+                         "ws:runestone_lightning_3_overlay":  {
+                                                                  "textures":  "textures/blocks/runestone_lightning_3_overlay"
+                                                              },
+                         "runestone_lightning_3_overlay":  {
+                                                               "textures":  "textures/blocks/runestone_lightning_3_overlay"
+                                                           },
+                         "ws:runestone_lightning_4":  {
+                                                          "textures":  "textures/blocks/runestone_lightning_4"
+                                                      },
+                         "runestone_lightning_4":  {
+                                                       "textures":  "textures/blocks/runestone_lightning_4"
+                                                   },
+                         "ws:runestone_lightning_4_overlay":  {
+                                                                  "textures":  "textures/blocks/runestone_lightning_4_overlay"
+                                                              },
+                         "runestone_lightning_4_overlay":  {
+                                                               "textures":  "textures/blocks/runestone_lightning_4_overlay"
+                                                           },
+                         "ws:runestone_necromancy_0":  {
+                                                           "textures":  "textures/blocks/runestone_necromancy_0"
+                                                       },
+                         "runestone_necromancy_0":  {
+                                                        "textures":  "textures/blocks/runestone_necromancy_0"
+                                                    },
+                         "ws:runestone_necromancy_1":  {
+                                                           "textures":  "textures/blocks/runestone_necromancy_1"
+                                                       },
+                         "runestone_necromancy_1":  {
+                                                        "textures":  "textures/blocks/runestone_necromancy_1"
+                                                    },
+                         "ws:runestone_necromancy_1_overlay":  {
+                                                                   "textures":  "textures/blocks/runestone_necromancy_1_overlay"
+                                                               },
+                         "runestone_necromancy_1_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_necromancy_1_overlay"
+                                                            },
+                         "ws:runestone_necromancy_2":  {
+                                                           "textures":  "textures/blocks/runestone_necromancy_2"
+                                                       },
+                         "runestone_necromancy_2":  {
+                                                        "textures":  "textures/blocks/runestone_necromancy_2"
+                                                    },
+                         "ws:runestone_necromancy_2_overlay":  {
+                                                                   "textures":  "textures/blocks/runestone_necromancy_2_overlay"
+                                                               },
+                         "runestone_necromancy_2_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_necromancy_2_overlay"
+                                                            },
+                         "ws:runestone_necromancy_3":  {
+                                                           "textures":  "textures/blocks/runestone_necromancy_3"
+                                                       },
+                         "runestone_necromancy_3":  {
+                                                        "textures":  "textures/blocks/runestone_necromancy_3"
+                                                    },
+                         "ws:runestone_necromancy_3_overlay":  {
+                                                                   "textures":  "textures/blocks/runestone_necromancy_3_overlay"
+                                                               },
+                         "runestone_necromancy_3_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_necromancy_3_overlay"
+                                                            },
+                         "ws:runestone_necromancy_4":  {
+                                                           "textures":  "textures/blocks/runestone_necromancy_4"
+                                                       },
+                         "runestone_necromancy_4":  {
+                                                        "textures":  "textures/blocks/runestone_necromancy_4"
+                                                    },
+                         "ws:runestone_necromancy_4_overlay":  {
+                                                                   "textures":  "textures/blocks/runestone_necromancy_4_overlay"
+                                                               },
+                         "runestone_necromancy_4_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_necromancy_4_overlay"
+                                                            },
+                         "ws:runestone_pedestal_earth":  {
+                                                             "textures":  "textures/blocks/runestone_pedestal_earth"
+                                                         },
+                         "runestone_pedestal_earth":  {
+                                                          "textures":  "textures/blocks/runestone_pedestal_earth"
+                                                      },
+                         "ws:runestone_pedestal_earth_overlay":  {
+                                                                     "textures":  "textures/blocks/runestone_pedestal_earth_overlay"
+                                                                 },
+                         "runestone_pedestal_earth_overlay":  {
+                                                                  "textures":  "textures/blocks/runestone_pedestal_earth_overlay"
+                                                              },
+                         "ws:runestone_pedestal_fire":  {
+                                                            "textures":  "textures/blocks/runestone_pedestal_fire"
+                                                        },
+                         "runestone_pedestal_fire":  {
+                                                         "textures":  "textures/blocks/runestone_pedestal_fire"
+                                                     },
+                         "ws:runestone_pedestal_fire_overlay":  {
+                                                                    "textures":  "textures/blocks/runestone_pedestal_fire_overlay"
+                                                                },
+                         "runestone_pedestal_fire_overlay":  {
+                                                                 "textures":  "textures/blocks/runestone_pedestal_fire_overlay"
+                                                             },
+                         "ws:runestone_pedestal_healing":  {
+                                                               "textures":  "textures/blocks/runestone_pedestal_healing"
+                                                           },
+                         "runestone_pedestal_healing":  {
+                                                            "textures":  "textures/blocks/runestone_pedestal_healing"
+                                                        },
+                         "ws:runestone_pedestal_healing_overlay":  {
+                                                                       "textures":  "textures/blocks/runestone_pedestal_healing_overlay"
+                                                                   },
+                         "runestone_pedestal_healing_overlay":  {
+                                                                    "textures":  "textures/blocks/runestone_pedestal_healing_overlay"
+                                                                },
+                         "ws:runestone_pedestal_ice":  {
+                                                           "textures":  "textures/blocks/runestone_pedestal_ice"
+                                                       },
+                         "runestone_pedestal_ice":  {
+                                                        "textures":  "textures/blocks/runestone_pedestal_ice"
+                                                    },
+                         "ws:runestone_pedestal_ice_overlay":  {
+                                                                   "textures":  "textures/blocks/runestone_pedestal_ice_overlay"
+                                                               },
+                         "runestone_pedestal_ice_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_pedestal_ice_overlay"
+                                                            },
+                         "ws:runestone_pedestal_lightning":  {
+                                                                 "textures":  "textures/blocks/runestone_pedestal_lightning"
+                                                             },
+                         "runestone_pedestal_lightning":  {
+                                                              "textures":  "textures/blocks/runestone_pedestal_lightning"
+                                                          },
+                         "ws:runestone_pedestal_lightning_overlay":  {
+                                                                         "textures":  "textures/blocks/runestone_pedestal_lightning_overlay"
+                                                                     },
+                         "runestone_pedestal_lightning_overlay":  {
+                                                                      "textures":  "textures/blocks/runestone_pedestal_lightning_overlay"
+                                                                  },
+                         "ws:runestone_pedestal_necromancy":  {
+                                                                  "textures":  "textures/blocks/runestone_pedestal_necromancy"
+                                                              },
+                         "runestone_pedestal_necromancy":  {
+                                                               "textures":  "textures/blocks/runestone_pedestal_necromancy"
+                                                           },
+                         "ws:runestone_pedestal_necromancy_overlay":  {
+                                                                          "textures":  "textures/blocks/runestone_pedestal_necromancy_overlay"
+                                                                      },
+                         "runestone_pedestal_necromancy_overlay":  {
+                                                                       "textures":  "textures/blocks/runestone_pedestal_necromancy_overlay"
+                                                                   },
+                         "ws:runestone_pedestal_sorcery":  {
+                                                               "textures":  "textures/blocks/runestone_pedestal_sorcery"
+                                                           },
+                         "runestone_pedestal_sorcery":  {
+                                                            "textures":  "textures/blocks/runestone_pedestal_sorcery"
+                                                        },
+                         "ws:runestone_pedestal_sorcery_overlay":  {
+                                                                       "textures":  "textures/blocks/runestone_pedestal_sorcery_overlay"
+                                                                   },
+                         "runestone_pedestal_sorcery_overlay":  {
+                                                                    "textures":  "textures/blocks/runestone_pedestal_sorcery_overlay"
+                                                                },
+                         "ws:runestone_sorcery_0":  {
+                                                        "textures":  "textures/blocks/runestone_sorcery_0"
+                                                    },
+                         "runestone_sorcery_0":  {
+                                                     "textures":  "textures/blocks/runestone_sorcery_0"
+                                                 },
+                         "ws:runestone_sorcery_1":  {
+                                                        "textures":  "textures/blocks/runestone_sorcery_1"
+                                                    },
+                         "runestone_sorcery_1":  {
+                                                     "textures":  "textures/blocks/runestone_sorcery_1"
+                                                 },
+                         "ws:runestone_sorcery_1_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_sorcery_1_overlay"
+                                                            },
+                         "runestone_sorcery_1_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_sorcery_1_overlay"
+                                                         },
+                         "ws:runestone_sorcery_2":  {
+                                                        "textures":  "textures/blocks/runestone_sorcery_2"
+                                                    },
+                         "runestone_sorcery_2":  {
+                                                     "textures":  "textures/blocks/runestone_sorcery_2"
+                                                 },
+                         "ws:runestone_sorcery_2_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_sorcery_2_overlay"
+                                                            },
+                         "runestone_sorcery_2_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_sorcery_2_overlay"
+                                                         },
+                         "ws:runestone_sorcery_3":  {
+                                                        "textures":  "textures/blocks/runestone_sorcery_3"
+                                                    },
+                         "runestone_sorcery_3":  {
+                                                     "textures":  "textures/blocks/runestone_sorcery_3"
+                                                 },
+                         "ws:runestone_sorcery_3_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_sorcery_3_overlay"
+                                                            },
+                         "runestone_sorcery_3_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_sorcery_3_overlay"
+                                                         },
+                         "ws:runestone_sorcery_4":  {
+                                                        "textures":  "textures/blocks/runestone_sorcery_4"
+                                                    },
+                         "runestone_sorcery_4":  {
+                                                     "textures":  "textures/blocks/runestone_sorcery_4"
+                                                 },
+                         "ws:runestone_sorcery_4_overlay":  {
+                                                                "textures":  "textures/blocks/runestone_sorcery_4_overlay"
+                                                            },
+                         "runestone_sorcery_4_overlay":  {
+                                                             "textures":  "textures/blocks/runestone_sorcery_4_overlay"
+                                                         },
+                         "ws:scrolls_blue":  {
+                                                 "textures":  "textures/blocks/scrolls_blue"
+                                             },
+                         "scrolls_blue":  {
+                                              "textures":  "textures/blocks/scrolls_blue"
+                                          },
+                         "ws:scrolls_purple":  {
+                                                   "textures":  "textures/blocks/scrolls_purple"
+                                               },
+                         "scrolls_purple":  {
+                                                "textures":  "textures/blocks/scrolls_purple"
+                                            },
+                         "ws:scrolls_red":  {
+                                                "textures":  "textures/blocks/scrolls_red"
+                                            },
+                         "scrolls_red":  {
+                                             "textures":  "textures/blocks/scrolls_red"
+                                         },
+                         "ws:scrolls_wooden":  {
+                                                   "textures":  "textures/blocks/scrolls_wooden"
+                                               },
+                         "scrolls_wooden":  {
+                                                "textures":  "textures/blocks/scrolls_wooden"
+                                            },
+                         "ws:snare":  {
+                                          "textures":  "textures/blocks/snare"
+                                      },
+                         "snare":  {
+                                       "textures":  "textures/blocks/snare"
+                                   },
+                         "ws:spectral_block":  {
+                                                   "textures":  "textures/blocks/spectral_block"
+                                               },
+                         "spectral_block":  {
+                                                "textures":  "textures/blocks/spectral_block"
+                                            },
+                         "ws:spruce_bookshelf_inside":  {
+                                                            "textures":  "textures/blocks/spruce_bookshelf_inside"
+                                                        },
+                         "spruce_bookshelf_inside":  {
+                                                         "textures":  "textures/blocks/spruce_bookshelf_inside"
+                                                     },
+                         "ws:spruce_bookshelf_side":  {
+                                                          "textures":  "textures/blocks/spruce_bookshelf_side"
+                                                      },
+                         "spruce_bookshelf_side":  {
+                                                       "textures":  "textures/blocks/spruce_bookshelf_side"
+                                                   },
+                         "ws:spruce_bookshelf_top":  {
+                                                         "textures":  "textures/blocks/spruce_bookshelf_top"
+                                                     },
+                         "spruce_bookshelf_top":  {
+                                                      "textures":  "textures/blocks/spruce_bookshelf_top"
+                                                  },
+                         "ws:spruce_lectern_base":  {
+                                                        "textures":  "textures/blocks/spruce_lectern_base"
+                                                    },
+                         "spruce_lectern_base":  {
+                                                     "textures":  "textures/blocks/spruce_lectern_base"
+                                                 },
+                         "ws:spruce_lectern_side":  {
+                                                        "textures":  "textures/blocks/spruce_lectern_side"
+                                                    },
+                         "spruce_lectern_side":  {
+                                                     "textures":  "textures/blocks/spruce_lectern_side"
+                                                 },
+                         "ws:spruce_lectern_top":  {
+                                                       "textures":  "textures/blocks/spruce_lectern_top"
+                                                   },
+                         "spruce_lectern_top":  {
+                                                    "textures":  "textures/blocks/spruce_lectern_top"
+                                                },
+                         "ws:spruce_lectern_underside":  {
+                                                             "textures":  "textures/blocks/spruce_lectern_underside"
+                                                         },
+                         "spruce_lectern_underside":  {
+                                                          "textures":  "textures/blocks/spruce_lectern_underside"
+                                                      },
+                         "ws:thorns_lower_0":  {
+                                                   "textures":  "textures/blocks/thorns_lower_0"
+                                               },
+                         "thorns_lower_0":  {
+                                                "textures":  "textures/blocks/thorns_lower_0"
+                                            },
+                         "ws:thorns_lower_1":  {
+                                                   "textures":  "textures/blocks/thorns_lower_1"
+                                               },
+                         "thorns_lower_1":  {
+                                                "textures":  "textures/blocks/thorns_lower_1"
+                                            },
+                         "ws:thorns_lower_2":  {
+                                                   "textures":  "textures/blocks/thorns_lower_2"
+                                               },
+                         "thorns_lower_2":  {
+                                                "textures":  "textures/blocks/thorns_lower_2"
+                                            },
+                         "ws:thorns_lower_3":  {
+                                                   "textures":  "textures/blocks/thorns_lower_3"
+                                               },
+                         "thorns_lower_3":  {
+                                                "textures":  "textures/blocks/thorns_lower_3"
+                                            },
+                         "ws:thorns_lower_4":  {
+                                                   "textures":  "textures/blocks/thorns_lower_4"
+                                               },
+                         "thorns_lower_4":  {
+                                                "textures":  "textures/blocks/thorns_lower_4"
+                                            },
+                         "ws:thorns_lower_5":  {
+                                                   "textures":  "textures/blocks/thorns_lower_5"
+                                               },
+                         "thorns_lower_5":  {
+                                                "textures":  "textures/blocks/thorns_lower_5"
+                                            },
+                         "ws:thorns_lower_6":  {
+                                                   "textures":  "textures/blocks/thorns_lower_6"
+                                               },
+                         "thorns_lower_6":  {
+                                                "textures":  "textures/blocks/thorns_lower_6"
+                                            },
+                         "ws:thorns_lower_7":  {
+                                                   "textures":  "textures/blocks/thorns_lower_7"
+                                               },
+                         "thorns_lower_7":  {
+                                                "textures":  "textures/blocks/thorns_lower_7"
+                                            },
+                         "ws:thorns_upper_0":  {
+                                                   "textures":  "textures/blocks/thorns_upper_0"
+                                               },
+                         "thorns_upper_0":  {
+                                                "textures":  "textures/blocks/thorns_upper_0"
+                                            },
+                         "ws:thorns_upper_1":  {
+                                                   "textures":  "textures/blocks/thorns_upper_1"
+                                               },
+                         "thorns_upper_1":  {
+                                                "textures":  "textures/blocks/thorns_upper_1"
+                                            },
+                         "ws:thorns_upper_2":  {
+                                                   "textures":  "textures/blocks/thorns_upper_2"
+                                               },
+                         "thorns_upper_2":  {
+                                                "textures":  "textures/blocks/thorns_upper_2"
+                                            },
+                         "ws:thorns_upper_3":  {
+                                                   "textures":  "textures/blocks/thorns_upper_3"
+                                               },
+                         "thorns_upper_3":  {
+                                                "textures":  "textures/blocks/thorns_upper_3"
+                                            },
+                         "ws:thorns_upper_4":  {
+                                                   "textures":  "textures/blocks/thorns_upper_4"
+                                               },
+                         "thorns_upper_4":  {
+                                                "textures":  "textures/blocks/thorns_upper_4"
+                                            },
+                         "ws:thorns_upper_5":  {
+                                                   "textures":  "textures/blocks/thorns_upper_5"
+                                               },
+                         "thorns_upper_5":  {
+                                                "textures":  "textures/blocks/thorns_upper_5"
+                                            },
+                         "ws:thorns_upper_6":  {
+                                                   "textures":  "textures/blocks/thorns_upper_6"
+                                               },
+                         "thorns_upper_6":  {
+                                                "textures":  "textures/blocks/thorns_upper_6"
+                                            },
+                         "ws:thorns_upper_7":  {
+                                                   "textures":  "textures/blocks/thorns_upper_7"
+                                               },
+                         "thorns_upper_7":  {
+                                                "textures":  "textures/blocks/thorns_upper_7"
+                                            },
+                         "ws:transportation_stone":  {
+                                                         "textures":  "textures/blocks/transportation_stone"
+                                                     },
+                         "transportation_stone":  {
+                                                      "textures":  "textures/blocks/transportation_stone"
+                                                  },
+                         "ws:wall_receptacle":  {
+                                                    "textures":  "textures/blocks/wall_receptacle"
+                                                },
+                         "wall_receptacle":  {
+                                                 "textures":  "textures/blocks/wall_receptacle"
+                                             },
+                         "ws:receptacle_dust_fire":  {
+                                                         "textures":  "textures/blocks/receptacle_dust_fire"
+                                                     },
+                         "ws:receptacle_dust_ice":  {
+                                                        "textures":  "textures/blocks/receptacle_dust_ice"
+                                                    },
+                         "ws:receptacle_dust_lightning":  {
+                                                              "textures":  "textures/blocks/receptacle_dust_lightning"
+                                                          },
+                         "ws:receptacle_dust_earth":  {
+                                                          "textures":  "textures/blocks/receptacle_dust_earth"
+                                                      },
+                         "ws:receptacle_dust_healing":  {
+                                                            "textures":  "textures/blocks/receptacle_dust_healing"
+                                                        },
+                         "ws:receptacle_dust_necromancy":  {
+                                                               "textures":  "textures/blocks/receptacle_dust_necromancy"
+                                                           },
+                         "ws:receptacle_dust_sorcery":  {
+                                                            "textures":  "textures/blocks/receptacle_dust_sorcery"
+                                                        }
+                     }
+}

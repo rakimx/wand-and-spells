@@ -1,0 +1,42 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "ws:shrine_random_feature"
+        },
+        "features": [
+            [
+                "ws:shrine_0_feature",
+                1000
+            ],
+            [
+                "ws:shrine_1_feature",
+                1000
+            ],
+            [
+                "ws:shrine_2_feature",
+                1000
+            ],
+            [
+                "ws:shrine_3_feature",
+                1000
+            ],
+            [
+                "ws:shrine_4_feature",
+                1000
+            ],
+            [
+                "ws:shrine_5_feature",
+                1000
+            ],
+            [
+                "ws:shrine_6_feature",
+                1000
+            ],
+            [
+                "ws:shrine_7_feature",
+                1000
+            ]
+        ]
+    }
+}

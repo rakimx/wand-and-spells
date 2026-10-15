@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ws:wizard_robe_ice"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "ingredients": [
+            {
+                "item": "ws:wizard_robe"
+            },
+            {
+                "item": "ws:crystal_ice"
+            }
+        ],
+        "result": {
+            "item": "ws:wizard_robe_ice",
+            "count": 1
+        }
+    }
+}

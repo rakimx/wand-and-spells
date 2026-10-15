@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "ws:library_ruins_0_feature"
+        },
+        "early_out": "first_failure",
+        "features": [
+            "ws:library_ruins_0_base_feature",
+            "ws:library_ruins_0_detalhes_feature"
+        ]
+    }
+}

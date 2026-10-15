@@ -1,0 +1,329 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_agility",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_arc",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_black_hole",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_blink",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_chain_lightning",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_charge",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_conjure_sword",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_cure_effects",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_darkvision",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_decay",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_earthquake",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fangs",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fireball",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_firebolt",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fireskin",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fire_resistance",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fire_sigil",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_flame_ray",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_forcefield",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_freeze",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_frost_ray",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_frost_sigil",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_frost_step",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_grapple",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_greater_heal",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_heal",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_healing_aura",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_heal_ally",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_age",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_shard",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_shroud",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_spikes",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ignite",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_invisibility",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_leap",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_life_drain",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_light",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_bolt",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_hammer",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_pulse",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_ray",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_sigil",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_magic_missile",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_meteor",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_mind_trick",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_mine",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_phase_step",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_plague_of_darkness",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_poison",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_replenish_hunger",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_resurrection",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ring_of_fire",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_satiety",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_snare",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_snowball",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_summon_lightning_wraith",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_summon_skeleton",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_summon_zombie",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_thunderbolt",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_transportation",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ward",
+                                          "weight":  12
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_water_breathing",
+                                          "weight":  3
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_wither",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_wither_skull",
+                                          "weight":  3
+                                      }
+                                  ]
+                  }
+              ]
+}

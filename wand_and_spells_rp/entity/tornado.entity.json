@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:tornado",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/tornado"
+			},
+			"geometry": {
+				"default": "geometry.ws.tornado"
+			},
+			"animations": {
+				"spin": "animation.ws.tornado.spin"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			},
+			"render_controllers": [
+				"controller.render.tornado"
+			]
+		}
+	}
+}

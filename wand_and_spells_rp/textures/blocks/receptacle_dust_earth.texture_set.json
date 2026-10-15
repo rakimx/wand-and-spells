@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "receptacle_dust_earth",
+        "metalness_emissive_roughness": "receptacle_dust_earth_mer"
+    }
+}

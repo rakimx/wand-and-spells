@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ws:crystal_healing",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.ws:crystal_healing.name"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ws:crystal_healing"
+                }
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

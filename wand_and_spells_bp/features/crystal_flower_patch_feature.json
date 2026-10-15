@@ -1,0 +1,25 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "ws:crystal_flower_patch_feature"
+        },
+        "places_feature": "ws:crystal_flower_feature",
+        "iterations": 3,
+        "x": {
+            "distribution": "uniform",
+            "extent": [
+                -4,
+                4
+            ]
+        },
+        "z": {
+            "distribution": "uniform",
+            "extent": [
+                -4,
+                4
+            ]
+        },
+        "y": "q.heightmap(v.worldx, v.worldz)"
+    }
+}

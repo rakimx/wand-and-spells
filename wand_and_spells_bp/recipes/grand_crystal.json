@@ -1,0 +1,27 @@
+{
+    "minecraft:recipe_shaped":  {
+                                    "description":  {
+                                                        "identifier":  "ws:grand_crystal"
+                                                    },
+                                    "tags":  [
+                                                 "crafting_table"
+                                             ],
+                                    "unlock":  {
+                                                   "context":  "AlwaysUnlocked"
+                                               },
+                                    "pattern":  [
+                                                    "CC",
+                                                    "CC"
+                                                ],
+                                    "key":  {
+                                                "C":  {
+                                                          "item":  "ws:crystal_magic"
+                                                      }
+                                            },
+                                    "result":  {
+                                                   "item":  "ws:grand_crystal",
+                                                   "count":  1
+                                               }
+                                },
+    "format_version":  "1.21.0"
+}

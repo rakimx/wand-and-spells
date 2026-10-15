@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:lightning_wraith",
+			"materials": { "default": "entity_alphatest" },
+			"textures": { "default": "textures/entity/lightning_wraith" },
+			"geometry": { "default": "geometry.ws.lightning_wraith" },
+			"animations": { "drift": "animation.ws.lightning_wraith.drift" },
+			"scripts": { "animate": [ "drift" ] },
+			"render_controllers": [ "controller.render.ws_minion" ]
+		}
+	}
+}

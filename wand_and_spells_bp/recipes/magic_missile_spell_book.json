@@ -1,0 +1,29 @@
+{
+    "minecraft:recipe_shapeless":  {
+                                       "description":  {
+                                                           "identifier":  "ws:magic_missile_spell_book"
+                                                       },
+                                       "tags":  [
+                                                    "crafting_table"
+                                                ],
+                                       "unlock":  {
+                                                      "context":  "AlwaysUnlocked"
+                                                  },
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "minecraft:book"
+                                                           },
+                                                           {
+                                                               "item":  "ws:crystal_magic"
+                                                           },
+                                                           {
+                                                               "item":  "ws:blank_scroll"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "ws:spell_book_magic_missile",
+                                                      "count":  1
+                                                  }
+                                   },
+    "format_version":  "1.21.0"
+}

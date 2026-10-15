@@ -1,0 +1,3580 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "spell.arc": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "spell.lightning_ray": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_start",
+                "sounds/arc1",
+                "sounds/arc2"
+            ]
+        },
+        "block.arcane_workbench.bind_spell": {
+            "category": "block",
+            "sounds": [
+                "sounds/spellbind"
+            ]
+        },
+        "ws.block.arcane_workbench.bind_spell": {
+            "category": "block",
+            "sounds": [
+                "sounds/spellbind"
+            ]
+        },
+        "block.pedestal.activate": {
+            "category": "block",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.block.pedestal.activate": {
+            "category": "block",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "block.pedestal.conquer": {
+            "category": "block",
+            "sounds": [
+                "sounds/random/levelup"
+            ]
+        },
+        "ws.block.pedestal.conquer": {
+            "category": "block",
+            "sounds": [
+                "sounds/random/levelup"
+            ]
+        },
+        "block.lectern.locate_spell": {
+            "category": "block",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "ws.block.lectern.locate_spell": {
+            "category": "block",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "block.receptacle.ignite": {
+            "category": "block",
+            "sounds": [
+                "sounds/mob/evocation_illager/cast1",
+                "sounds/mob/evocation_illager/cast2"
+            ]
+        },
+        "ws.block.receptacle.ignite": {
+            "category": "block",
+            "sounds": [
+                "sounds/mob/evocation_illager/cast1",
+                "sounds/mob/evocation_illager/cast2"
+            ]
+        },
+        "block.imbuement_altar.imbue": {
+            "category": "block",
+            "sounds": [
+                "sounds/imbue"
+            ]
+        },
+        "ws.block.imbuement_altar.imbue": {
+            "category": "block",
+            "sounds": [
+                "sounds/imbue"
+            ]
+        },
+        "item.wand.switch_spell": {
+            "category": "player",
+            "sounds": [
+                "sounds/select"
+            ]
+        },
+        "ws.item.wand.switch_spell": {
+            "category": "player",
+            "sounds": [
+                "sounds/select"
+            ]
+        },
+        "item.wand.levelup": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/levelup"
+            ]
+        },
+        "ws.item.wand.levelup": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/levelup"
+            ]
+        },
+        "item.wand.melee": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.item.wand.melee": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "item.wand.chargeup": {
+            "category": "player",
+            "sounds": [
+                "sounds/chargeup"
+            ]
+        },
+        "ws.item.wand.chargeup": {
+            "category": "player",
+            "sounds": [
+                "sounds/chargeup"
+            ]
+        },
+        "item.armour.equip_silk": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_leather1",
+                "sounds/armor/equip_leather2",
+                "sounds/armor/equip_leather3",
+                "sounds/armor/equip_leather4",
+                "sounds/armor/equip_leather5",
+                "sounds/armor/equip_leather6"
+            ]
+        },
+        "ws.item.armour.equip_silk": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_leather1",
+                "sounds/armor/equip_leather2",
+                "sounds/armor/equip_leather3",
+                "sounds/armor/equip_leather4",
+                "sounds/armor/equip_leather5",
+                "sounds/armor/equip_leather6"
+            ]
+        },
+        "item.armour.equip_sage": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_leather1",
+                "sounds/armor/equip_leather2",
+                "sounds/armor/equip_leather3",
+                "sounds/armor/equip_leather4",
+                "sounds/armor/equip_leather5",
+                "sounds/armor/equip_leather6"
+            ]
+        },
+        "ws.item.armour.equip_sage": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_leather1",
+                "sounds/armor/equip_leather2",
+                "sounds/armor/equip_leather3",
+                "sounds/armor/equip_leather4",
+                "sounds/armor/equip_leather5",
+                "sounds/armor/equip_leather6"
+            ]
+        },
+        "item.armour.equip_battlemage": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_gold1",
+                "sounds/armor/equip_gold2",
+                "sounds/armor/equip_gold3",
+                "sounds/armor/equip_gold4",
+                "sounds/armor/equip_gold5",
+                "sounds/armor/equip_gold6"
+            ]
+        },
+        "ws.item.armour.equip_battlemage": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_gold1",
+                "sounds/armor/equip_gold2",
+                "sounds/armor/equip_gold3",
+                "sounds/armor/equip_gold4",
+                "sounds/armor/equip_gold5",
+                "sounds/armor/equip_gold6"
+            ]
+        },
+        "item.armour.equip_warlock": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_leather1",
+                "sounds/armor/equip_leather2",
+                "sounds/armor/equip_leather3",
+                "sounds/armor/equip_leather4",
+                "sounds/armor/equip_leather5",
+                "sounds/armor/equip_leather6"
+            ]
+        },
+        "ws.item.armour.equip_warlock": {
+            "category": "player",
+            "sounds": [
+                "sounds/armor/equip_leather1",
+                "sounds/armor/equip_leather2",
+                "sounds/armor/equip_leather3",
+                "sounds/armor/equip_leather4",
+                "sounds/armor/equip_leather5",
+                "sounds/armor/equip_leather6"
+            ]
+        },
+        "item.purifying_elixir.drink": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "ws.item.purifying_elixir.drink": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "item.mana_flask.use": {
+            "category": "player",
+            "sounds": [
+                "sounds/bottle/fill1",
+                "sounds/bottle/fill2",
+                "sounds/bottle/fill3",
+                "sounds/bottle/fill4"
+            ]
+        },
+        "ws.item.mana_flask.use": {
+            "category": "player",
+            "sounds": [
+                "sounds/bottle/fill1",
+                "sounds/bottle/fill2",
+                "sounds/bottle/fill3",
+                "sounds/bottle/fill4"
+            ]
+        },
+        "item.mana_flask.recharge": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "ws.item.mana_flask.recharge": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "item.flamecatcher.shoot": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/launch1"
+            ]
+        },
+        "ws.item.flamecatcher.shoot": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/launch1"
+            ]
+        },
+        "item.flamecatcher.flame": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "ws.item.flamecatcher.flame": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "entity.black_hole.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/portal"
+            ]
+        },
+        "ws.entity.black_hole.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/portal"
+            ]
+        },
+        "entity.black_hole.vanish": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/trigger"
+            ]
+        },
+        "ws.entity.black_hole.vanish": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/trigger"
+            ]
+        },
+        "entity.black_hole.break_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/zombie/woodbreak"
+            ]
+        },
+        "ws.entity.black_hole.break_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/zombie/woodbreak"
+            ]
+        },
+        "entity.blizzard.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "ws.entity.blizzard.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "entity.boulder.roll": {
+            "category": "player",
+            "sounds": [
+                "sounds/roll"
+            ]
+        },
+        "ws.entity.boulder.roll": {
+            "category": "player",
+            "sounds": [
+                "sounds/roll"
+            ]
+        },
+        "entity.boulder.land": {
+            "category": "player",
+            "sounds": [
+                "sounds/rumble"
+            ]
+        },
+        "ws.entity.boulder.land": {
+            "category": "player",
+            "sounds": [
+                "sounds/rumble"
+            ]
+        },
+        "entity.boulder.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.boulder.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.boulder.break_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/zombie/woodbreak"
+            ]
+        },
+        "ws.entity.boulder.break_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/zombie/woodbreak"
+            ]
+        },
+        "entity.bubble.pop": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/pop"
+            ]
+        },
+        "ws.entity.bubble.pop": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/pop"
+            ]
+        },
+        "entity.decay.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/liquid/lava"
+            ]
+        },
+        "ws.entity.decay.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/liquid/lava"
+            ]
+        },
+        "entity.entrapment.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/portal"
+            ]
+        },
+        "ws.entity.entrapment.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/portal"
+            ]
+        },
+        "entity.entrapment.vanish": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/trigger"
+            ]
+        },
+        "ws.entity.entrapment.vanish": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/trigger"
+            ]
+        },
+        "entity.fire_ring.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/fire"
+            ]
+        },
+        "ws.entity.fire_ring.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/fire"
+            ]
+        },
+        "entity.fire_sigil.trigger": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "ws.entity.fire_sigil.trigger": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "entity.forcefield.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/forcefield"
+            ]
+        },
+        "ws.entity.forcefield.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/forcefield"
+            ]
+        },
+        "entity.forcefield.deflect": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.entity.forcefield.deflect": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "entity.frost_sigil.trigger": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "ws.entity.frost_sigil.trigger": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "entity.hammer.attack": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.hammer.attack": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.hammer.explode": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/explode1",
+                "sounds/random/explode2",
+                "sounds/random/explode3",
+                "sounds/random/explode4"
+            ]
+        },
+        "ws.entity.hammer.explode": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/explode1",
+                "sounds/random/explode2",
+                "sounds/random/explode3",
+                "sounds/random/explode4"
+            ]
+        },
+        "entity.hammer.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.entity.hammer.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "entity.hammer.land": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/anvil_land"
+            ]
+        },
+        "ws.entity.hammer.land": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/anvil_land"
+            ]
+        },
+        "entity.heal_aura.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/sparkle"
+            ]
+        },
+        "ws.entity.heal_aura.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/sparkle"
+            ]
+        },
+        "entity.ice_barrier.deflect": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/anvil_land"
+            ]
+        },
+        "ws.entity.ice_barrier.deflect": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/anvil_land"
+            ]
+        },
+        "entity.ice_barrier.extend": {
+            "category": "player",
+            "sounds": [
+                "sounds/slice"
+            ]
+        },
+        "ws.entity.ice_barrier.extend": {
+            "category": "player",
+            "sounds": [
+                "sounds/slice"
+            ]
+        },
+        "entity.ice_spike.extend": {
+            "category": "player",
+            "sounds": [
+                "sounds/slice"
+            ]
+        },
+        "ws.entity.ice_spike.extend": {
+            "category": "player",
+            "sounds": [
+                "sounds/slice"
+            ]
+        },
+        "entity.lightning_sigil.trigger": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.lightning_sigil.trigger": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.meteor.falling": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_loop"
+            ]
+        },
+        "ws.entity.meteor.falling": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_loop"
+            ]
+        },
+        "entity.radiant_totem.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/beam_loop"
+            ]
+        },
+        "ws.entity.radiant_totem.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/beam_loop"
+            ]
+        },
+        "entity.radiant_totem.vanish": {
+            "category": "player",
+            "sounds": [
+                "sounds/beam_end"
+            ]
+        },
+        "ws.entity.radiant_totem.vanish": {
+            "category": "player",
+            "sounds": [
+                "sounds/beam_end"
+            ]
+        },
+        "entity.shield.deflect": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.entity.shield.deflect": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "entity.stormcloud.thunder": {
+            "category": "player",
+            "sounds": [
+                "sounds/ambient/weather/thunder1",
+                "sounds/ambient/weather/thunder2",
+                "sounds/ambient/weather/thunder3"
+            ]
+        },
+        "ws.entity.stormcloud.thunder": {
+            "category": "player",
+            "sounds": [
+                "sounds/ambient/weather/thunder1",
+                "sounds/ambient/weather/thunder2",
+                "sounds/ambient/weather/thunder3"
+            ]
+        },
+        "entity.stormcloud.attack": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.stormcloud.attack": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.tornado.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "ws.entity.tornado.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "entity.withering_totem.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_loop"
+            ]
+        },
+        "ws.entity.withering_totem.ambient": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_loop"
+            ]
+        },
+        "entity.withering_totem.explode": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/death"
+            ]
+        },
+        "ws.entity.withering_totem.explode": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/death"
+            ]
+        },
+        "entity.zombie_spawner.spawn": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/elder_death"
+            ]
+        },
+        "ws.entity.zombie_spawner.spawn": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/elder_death"
+            ]
+        },
+        "entity.evil_wizard.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/evocation_illager/idle1",
+                "sounds/mob/evocation_illager/idle2",
+                "sounds/mob/evocation_illager/idle3",
+                "sounds/mob/evocation_illager/idle4"
+            ]
+        },
+        "ws.entity.evil_wizard.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/evocation_illager/idle1",
+                "sounds/mob/evocation_illager/idle2",
+                "sounds/mob/evocation_illager/idle3",
+                "sounds/mob/evocation_illager/idle4"
+            ]
+        },
+        "entity.evil_wizard.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/evocation_illager/hurt1",
+                "sounds/mob/evocation_illager/hurt2"
+            ]
+        },
+        "ws.entity.evil_wizard.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/evocation_illager/hurt1",
+                "sounds/mob/evocation_illager/hurt2"
+            ]
+        },
+        "entity.evil_wizard.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/evocation_illager/death1",
+                "sounds/mob/evocation_illager/death2"
+            ]
+        },
+        "ws.entity.evil_wizard.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/evocation_illager/death1",
+                "sounds/mob/evocation_illager/death2"
+            ]
+        },
+        "entity.ice_giant.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/irongolem/throw"
+            ]
+        },
+        "ws.entity.ice_giant.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/irongolem/throw"
+            ]
+        },
+        "entity.ice_giant.despawn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "ws.entity.ice_giant.despawn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "entity.ice_wraith.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "ws.entity.ice_wraith.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "entity.magic_slime.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/slime/attack1",
+                "sounds/mob/slime/attack2"
+            ]
+        },
+        "ws.entity.magic_slime.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/slime/attack1",
+                "sounds/mob/slime/attack2"
+            ]
+        },
+        "entity.magic_slime.explode": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "ws.entity.magic_slime.explode": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "entity.magic_slime.splat": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/slime/attack1",
+                "sounds/mob/slime/attack2"
+            ]
+        },
+        "ws.entity.magic_slime.splat": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/slime/attack1",
+                "sounds/mob/slime/attack2"
+            ]
+        },
+        "entity.phoenix.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/breathe1",
+                "sounds/mob/blaze/breathe2",
+                "sounds/mob/blaze/breathe3",
+                "sounds/mob/blaze/breathe4"
+            ]
+        },
+        "ws.entity.phoenix.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/breathe1",
+                "sounds/mob/blaze/breathe2",
+                "sounds/mob/blaze/breathe3",
+                "sounds/mob/blaze/breathe4"
+            ]
+        },
+        "entity.phoenix.burn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/fire/fire"
+            ]
+        },
+        "ws.entity.phoenix.burn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/fire/fire"
+            ]
+        },
+        "entity.phoenix.flap": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/enderdragon/wings1",
+                "sounds/mob/enderdragon/wings2",
+                "sounds/mob/enderdragon/wings3",
+                "sounds/mob/enderdragon/wings4",
+                "sounds/mob/enderdragon/wings5",
+                "sounds/mob/enderdragon/wings6"
+            ]
+        },
+        "ws.entity.phoenix.flap": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/enderdragon/wings1",
+                "sounds/mob/enderdragon/wings2",
+                "sounds/mob/enderdragon/wings3",
+                "sounds/mob/enderdragon/wings4",
+                "sounds/mob/enderdragon/wings5",
+                "sounds/mob/enderdragon/wings6"
+            ]
+        },
+        "entity.phoenix.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/hit1",
+                "sounds/mob/blaze/hit2",
+                "sounds/mob/blaze/hit3",
+                "sounds/mob/blaze/hit4"
+            ]
+        },
+        "ws.entity.phoenix.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/hit1",
+                "sounds/mob/blaze/hit2",
+                "sounds/mob/blaze/hit3",
+                "sounds/mob/blaze/hit4"
+            ]
+        },
+        "entity.phoenix.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/death"
+            ]
+        },
+        "ws.entity.phoenix.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/death"
+            ]
+        },
+        "entity.remnant.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/remnant_hiss"
+            ]
+        },
+        "ws.entity.remnant.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/remnant_hiss"
+            ]
+        },
+        "entity.remnant.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/remnant_hurt"
+            ]
+        },
+        "ws.entity.remnant.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/remnant_hurt"
+            ]
+        },
+        "entity.remnant.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/remnant_death"
+            ]
+        },
+        "ws.entity.remnant.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/remnant_death"
+            ]
+        },
+        "entity.shadow_wraith.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/breathe1",
+                "sounds/mob/blaze/breathe2",
+                "sounds/mob/blaze/breathe3",
+                "sounds/mob/blaze/breathe4"
+            ]
+        },
+        "ws.entity.shadow_wraith.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/breathe1",
+                "sounds/mob/blaze/breathe2",
+                "sounds/mob/blaze/breathe3",
+                "sounds/mob/blaze/breathe4"
+            ]
+        },
+        "entity.shadow_wraith.noise": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/portal/portal"
+            ]
+        },
+        "ws.entity.shadow_wraith.noise": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/portal/portal"
+            ]
+        },
+        "entity.shadow_wraith.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/hit1",
+                "sounds/mob/blaze/hit2",
+                "sounds/mob/blaze/hit3",
+                "sounds/mob/blaze/hit4"
+            ]
+        },
+        "ws.entity.shadow_wraith.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/hit1",
+                "sounds/mob/blaze/hit2",
+                "sounds/mob/blaze/hit3",
+                "sounds/mob/blaze/hit4"
+            ]
+        },
+        "entity.shadow_wraith.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/death"
+            ]
+        },
+        "ws.entity.shadow_wraith.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/death"
+            ]
+        },
+        "entity.spirit_horse.vanish": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "ws.entity.spirit_horse.vanish": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "entity.spirit_wolf.vanish": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "ws.entity.spirit_wolf.vanish": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "entity.storm_elemental.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/breathe1",
+                "sounds/mob/blaze/breathe2",
+                "sounds/mob/blaze/breathe3",
+                "sounds/mob/blaze/breathe4"
+            ]
+        },
+        "ws.entity.storm_elemental.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/breathe1",
+                "sounds/mob/blaze/breathe2",
+                "sounds/mob/blaze/breathe3",
+                "sounds/mob/blaze/breathe4"
+            ]
+        },
+        "entity.storm_elemental.burn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/fire/fire"
+            ]
+        },
+        "ws.entity.storm_elemental.burn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/fire/fire"
+            ]
+        },
+        "entity.storm_elemental.wind": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "ws.entity.storm_elemental.wind": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/wind"
+            ]
+        },
+        "entity.storm_elemental.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/hit1",
+                "sounds/mob/blaze/hit2",
+                "sounds/mob/blaze/hit3",
+                "sounds/mob/blaze/hit4"
+            ]
+        },
+        "ws.entity.storm_elemental.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/hit1",
+                "sounds/mob/blaze/hit2",
+                "sounds/mob/blaze/hit3",
+                "sounds/mob/blaze/hit4"
+            ]
+        },
+        "entity.storm_elemental.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/death"
+            ]
+        },
+        "ws.entity.storm_elemental.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/blaze/death"
+            ]
+        },
+        "entity.wizard.ambient": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/idle1",
+                "sounds/mob/villager/idle2",
+                "sounds/mob/villager/idle3"
+            ]
+        },
+        "ws.entity.wizard.ambient": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/idle1",
+                "sounds/mob/villager/idle2",
+                "sounds/mob/villager/idle3"
+            ]
+        },
+        "entity.wizard.trading": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/haggle1",
+                "sounds/mob/villager/haggle2",
+                "sounds/mob/villager/haggle3"
+            ]
+        },
+        "ws.entity.wizard.trading": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/haggle1",
+                "sounds/mob/villager/haggle2",
+                "sounds/mob/villager/haggle3"
+            ]
+        },
+        "entity.wizard.yes": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/yes1",
+                "sounds/mob/villager/yes2",
+                "sounds/mob/villager/yes3"
+            ]
+        },
+        "ws.entity.wizard.yes": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/yes1",
+                "sounds/mob/villager/yes2",
+                "sounds/mob/villager/yes3"
+            ]
+        },
+        "entity.wizard.no": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/no1",
+                "sounds/mob/villager/no2",
+                "sounds/mob/villager/no3"
+            ]
+        },
+        "ws.entity.wizard.no": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/no1",
+                "sounds/mob/villager/no2",
+                "sounds/mob/villager/no3"
+            ]
+        },
+        "entity.wizard.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/hit1",
+                "sounds/mob/villager/hit2",
+                "sounds/mob/villager/hit3",
+                "sounds/mob/villager/hit4"
+            ]
+        },
+        "ws.entity.wizard.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/hit1",
+                "sounds/mob/villager/hit2",
+                "sounds/mob/villager/hit3",
+                "sounds/mob/villager/hit4"
+            ]
+        },
+        "entity.wizard.death": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/death"
+            ]
+        },
+        "ws.entity.wizard.death": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/villager/death"
+            ]
+        },
+        "entity.wizard.hohoho": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/hohoho"
+            ]
+        },
+        "ws.entity.wizard.hohoho": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/hohoho"
+            ]
+        },
+        "entity.darkness_orb.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/hurt1",
+                "sounds/mob/wither/hurt2",
+                "sounds/mob/wither/hurt3",
+                "sounds/mob/wither/hurt4"
+            ]
+        },
+        "ws.entity.darkness_orb.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/hurt1",
+                "sounds/mob/wither/hurt2",
+                "sounds/mob/wither/hurt3",
+                "sounds/mob/wither/hurt4"
+            ]
+        },
+        "entity.dart.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.dart.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.dart.hit_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bowhit1",
+                "sounds/random/bowhit2",
+                "sounds/random/bowhit3"
+            ]
+        },
+        "ws.entity.dart.hit_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bowhit1",
+                "sounds/random/bowhit2",
+                "sounds/random/bowhit3"
+            ]
+        },
+        "entity.firebolt.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/liquid/lavapop"
+            ]
+        },
+        "ws.entity.firebolt.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/liquid/lavapop"
+            ]
+        },
+        "entity.firebomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.entity.firebomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "entity.firebomb.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "ws.entity.firebomb.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "entity.firebomb.fire": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "ws.entity.firebomb.fire": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "entity.flamecatcher_arrow.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.flamecatcher_arrow.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.force_arrow.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "ws.entity.force_arrow.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "entity.force_orb.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.force_orb.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.force_orb.hit_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "ws.entity.force_orb.hit_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "entity.iceball.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.iceball.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.ice_charge.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "ws.entity.ice_charge.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "entity.ice_charge.ice": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "ws.entity.ice_charge.ice": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "entity.ice_lance.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "ws.entity.ice_lance.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "entity.ice_lance.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.ice_lance.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.ice_shard.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "ws.entity.ice_shard.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "entity.ice_shard.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.ice_shard.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.lightning_arrow.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.lightning_arrow.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.lightning_disc.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.lightning_disc.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.magic_missile.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.magic_missile.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.poison_bomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.entity.poison_bomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "entity.poison_bomb.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "ws.entity.poison_bomb.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "entity.poison_bomb.poison": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "ws.entity.poison_bomb.poison": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "entity.smoke_bomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.entity.smoke_bomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "entity.smoke_bomb.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "ws.entity.smoke_bomb.smash": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/glass1",
+                "sounds/random/glass2",
+                "sounds/random/glass3"
+            ]
+        },
+        "entity.smoke_bomb.smoke": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "ws.entity.smoke_bomb.smoke": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "entity.homing_spark.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.homing_spark.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.spark_bomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.entity.spark_bomb.throw": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "entity.spark_bomb.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.entity.spark_bomb.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "entity.spark_bomb.hit_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "ws.entity.spark_bomb.hit_block": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/blast1"
+            ]
+        },
+        "entity.spark_bomb.chain": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.entity.spark_bomb.chain": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "entity.thunderbolt.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/largeBlast1"
+            ]
+        },
+        "ws.entity.thunderbolt.hit": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/largeBlast1"
+            ]
+        },
+        "misc.discover_spell": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/levelup"
+            ]
+        },
+        "ws.misc.discover_spell": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/levelup"
+            ]
+        },
+        "misc.page_turn": {
+            "category": "player",
+            "sounds": [
+                "sounds/page1",
+                "sounds/page2",
+                "sounds/page3"
+            ]
+        },
+        "ws.misc.page_turn": {
+            "category": "player",
+            "sounds": [
+                "sounds/page1",
+                "sounds/page2",
+                "sounds/page3"
+            ]
+        },
+        "misc.book_open": {
+            "category": "player",
+            "sounds": [
+                "sounds/book"
+            ]
+        },
+        "ws.misc.book_open": {
+            "category": "player",
+            "sounds": [
+                "sounds/book"
+            ]
+        },
+        "misc.freeze": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "ws.misc.freeze": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "misc.spell_fail": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "ws.misc.spell_fail": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "spell.agility": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.agility": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.arc": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "spell.black_hole": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "ws.spell.black_hole": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "spell.blink": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/endermen/portal",
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        "ws.spell.blink": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/endermen/portal",
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        "spell.chain_lightning": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "ws.spell.chain_lightning": {
+            "category": "player",
+            "sounds": [
+                "sounds/arc1",
+                "sounds/arc2",
+                "sounds/arc3"
+            ]
+        },
+        "spell.charge": {
+            "category": "player",
+            "sounds": [
+                "sounds/shockwave"
+            ]
+        },
+        "ws.spell.charge": {
+            "category": "player",
+            "sounds": [
+                "sounds/shockwave"
+            ]
+        },
+        "spell.conjure_sword": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "ws.spell.conjure_sword": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "spell.cure_effects": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.cure_effects": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "spell.darkvision": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.darkvision": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "spell.decay": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/shoot"
+            ]
+        },
+        "ws.spell.decay": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/shoot"
+            ]
+        },
+        "spell.decoy": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "ws.spell.decoy": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "spell.earthquake": {
+            "category": "player",
+            "sounds": [
+                "sounds/rumble"
+            ]
+        },
+        "ws.spell.earthquake": {
+            "category": "player",
+            "sounds": [
+                "sounds/rumble"
+            ]
+        },
+        "spell.fangs": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "ws.spell.fangs": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "spell.fireball": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "ws.spell.fireball": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "spell.firebolt": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "ws.spell.firebolt": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "spell.fire_resistance": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.fire_resistance": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.fire_sigil": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/ignite"
+            ]
+        },
+        "ws.spell.fire_sigil": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/ignite"
+            ]
+        },
+        "spell.fireskin": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.fireskin": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.flame_ray.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_start"
+            ]
+        },
+        "ws.spell.flame_ray.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_start"
+            ]
+        },
+        "spell.flame_ray.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_loop"
+            ]
+        },
+        "ws.spell.flame_ray.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_loop"
+            ]
+        },
+        "spell.flame_ray.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_end"
+            ]
+        },
+        "ws.spell.flame_ray.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_end"
+            ]
+        },
+        "spell.flight": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/enderdragon/wings1",
+                "sounds/mob/enderdragon/wings2",
+                "sounds/mob/enderdragon/wings3",
+                "sounds/mob/enderdragon/wings4",
+                "sounds/mob/enderdragon/wings5",
+                "sounds/mob/enderdragon/wings6"
+            ]
+        },
+        "ws.spell.flight": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/enderdragon/wings1",
+                "sounds/mob/enderdragon/wings2",
+                "sounds/mob/enderdragon/wings3",
+                "sounds/mob/enderdragon/wings4",
+                "sounds/mob/enderdragon/wings5",
+                "sounds/mob/enderdragon/wings6"
+            ]
+        },
+        "spell.forcefield": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "ws.spell.forcefield": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "spell.freeze": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "ws.spell.freeze": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "spell.frost_ray.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_start"
+            ]
+        },
+        "ws.spell.frost_ray.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_start"
+            ]
+        },
+        "spell.frost_ray.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_loop"
+            ]
+        },
+        "ws.spell.frost_ray.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_loop"
+            ]
+        },
+        "spell.frost_ray.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_end"
+            ]
+        },
+        "ws.spell.frost_ray.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_end"
+            ]
+        },
+        "spell.frost_sigil": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "ws.spell.frost_sigil": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "spell.frost_step": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.frost_step": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.grapple.shoot": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.spell.grapple.shoot": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "spell.grapple.attach": {
+            "category": "player",
+            "sounds": [
+                "sounds/dig/grass1",
+                "sounds/dig/grass2",
+                "sounds/dig/grass3",
+                "sounds/dig/grass4"
+            ]
+        },
+        "ws.spell.grapple.attach": {
+            "category": "player",
+            "sounds": [
+                "sounds/dig/grass1",
+                "sounds/dig/grass2",
+                "sounds/dig/grass3",
+                "sounds/dig/grass4"
+            ]
+        },
+        "spell.grapple.pull": {
+            "category": "player",
+            "sounds": [
+                "sounds/pull1",
+                "sounds/pull2"
+            ]
+        },
+        "ws.spell.grapple.pull": {
+            "category": "player",
+            "sounds": [
+                "sounds/pull1",
+                "sounds/pull2"
+            ]
+        },
+        "spell.grapple.release": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bowhit1",
+                "sounds/random/bowhit2",
+                "sounds/random/bowhit3"
+            ]
+        },
+        "ws.spell.grapple.release": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bowhit1",
+                "sounds/random/bowhit2",
+                "sounds/random/bowhit3"
+            ]
+        },
+        "spell.greater_heal": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "ws.spell.greater_heal": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "spell.heal": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.heal": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "spell.heal_ally": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.heal_ally": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "spell.healing_aura": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "ws.spell.healing_aura": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "spell.ice_age": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice_age"
+            ]
+        },
+        "ws.spell.ice_age": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice_age"
+            ]
+        },
+        "spell.ice_shard": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "ws.spell.ice_shard": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice"
+            ]
+        },
+        "spell.ice_shroud": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.ice_shroud": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.ice_spikes": {
+            "category": "player",
+            "sounds": [
+                "sounds/whoosh1",
+                "sounds/whoosh2"
+            ]
+        },
+        "ws.spell.ice_spikes": {
+            "category": "player",
+            "sounds": [
+                "sounds/whoosh1",
+                "sounds/whoosh2"
+            ]
+        },
+        "spell.ignite": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/ignite"
+            ]
+        },
+        "ws.spell.ignite": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/ignite"
+            ]
+        },
+        "spell.invisibility": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.invisibility": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.leap": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/enderdragon/wings1",
+                "sounds/mob/enderdragon/wings2",
+                "sounds/mob/enderdragon/wings3",
+                "sounds/mob/enderdragon/wings4",
+                "sounds/mob/enderdragon/wings5",
+                "sounds/mob/enderdragon/wings6"
+            ]
+        },
+        "ws.spell.leap": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/enderdragon/wings1",
+                "sounds/mob/enderdragon/wings2",
+                "sounds/mob/enderdragon/wings3",
+                "sounds/mob/enderdragon/wings4",
+                "sounds/mob/enderdragon/wings5",
+                "sounds/mob/enderdragon/wings6"
+            ]
+        },
+        "spell.life_drain.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_start"
+            ]
+        },
+        "ws.spell.life_drain.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_start"
+            ]
+        },
+        "spell.life_drain.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_loop"
+            ]
+        },
+        "ws.spell.life_drain.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_loop"
+            ]
+        },
+        "spell.life_drain.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_end"
+            ]
+        },
+        "ws.spell.life_drain.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_end"
+            ]
+        },
+        "spell.light": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "ws.spell.light": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "spell.lightning_bolt": {
+            "category": "player",
+            "sounds": []
+        },
+        "ws.spell.lightning_bolt": {
+            "category": "player",
+            "sounds": []
+        },
+        "spell.lightning_hammer": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.spell.lightning_hammer": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "spell.lightning_pulse.spark": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_start"
+            ]
+        },
+        "ws.spell.lightning_pulse.spark": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_start"
+            ]
+        },
+        "spell.lightning_pulse.explosion": {
+            "category": "player",
+            "sounds": [
+                "sounds/shockwave"
+            ]
+        },
+        "ws.spell.lightning_pulse.explosion": {
+            "category": "player",
+            "sounds": [
+                "sounds/shockwave"
+            ]
+        },
+        "spell.lightning_ray.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_start"
+            ]
+        },
+        "ws.spell.lightning_ray.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_start"
+            ]
+        },
+        "spell.lightning_ray.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_loop"
+            ]
+        },
+        "ws.spell.lightning_ray.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_loop"
+            ]
+        },
+        "spell.lightning_ray.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_end"
+            ]
+        },
+        "ws.spell.lightning_ray.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_end"
+            ]
+        },
+        "spell.lightning_sigil": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "ws.spell.lightning_sigil": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "spell.magic_missile": {
+            "category": "player",
+            "sounds": [
+                "sounds/magic"
+            ]
+        },
+        "ws.spell.magic_missile": {
+            "category": "player",
+            "sounds": [
+                "sounds/magic"
+            ]
+        },
+        "spell.meteor": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.spell.meteor": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "spell.mind_control": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/elder_death"
+            ]
+        },
+        "ws.spell.mind_control": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/elder_death"
+            ]
+        },
+        "spell.mind_trick": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.spell.mind_trick": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "spell.mine": {
+            "category": "player",
+            "sounds": []
+        },
+        "ws.spell.mine": {
+            "category": "player",
+            "sounds": []
+        },
+        "spell.none": {
+            "category": "player",
+            "sounds": []
+        },
+        "ws.spell.none": {
+            "category": "player",
+            "sounds": []
+        },
+        "spell.phase_step": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/endermen/portal",
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        "ws.spell.phase_step": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/endermen/portal",
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        "spell.plague_of_darkness": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/death"
+            ]
+        },
+        "ws.spell.plague_of_darkness": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/death"
+            ]
+        },
+        "spell.poison": {
+            "category": "player",
+            "sounds": [
+                "sounds/whoosh1",
+                "sounds/whoosh2"
+            ]
+        },
+        "ws.spell.poison": {
+            "category": "player",
+            "sounds": [
+                "sounds/whoosh1",
+                "sounds/whoosh2"
+            ]
+        },
+        "spell.possession.possess": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "ws.spell.possession.possess": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "spell.possession.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/elder_idle1",
+                "sounds/mob/guardian/elder_idle2",
+                "sounds/mob/guardian/elder_idle3",
+                "sounds/mob/guardian/elder_idle4"
+            ]
+        },
+        "ws.spell.possession.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/elder_idle1",
+                "sounds/mob/guardian/elder_idle2",
+                "sounds/mob/guardian/elder_idle3",
+                "sounds/mob/guardian/elder_idle4"
+            ]
+        },
+        "spell.replenish_hunger": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "ws.spell.replenish_hunger": {
+            "category": "player",
+            "sounds": [
+                "sounds/heal"
+            ]
+        },
+        "spell.resurrection": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "ws.spell.resurrection": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "spell.ring_of_fire": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "ws.spell.ring_of_fire": {
+            "category": "player",
+            "sounds": [
+                "sounds/combust"
+            ]
+        },
+        "spell.satiety": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "ws.spell.satiety": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff_large"
+            ]
+        },
+        "spell.slow_time": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/travel"
+            ]
+        },
+        "ws.spell.slow_time": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/travel"
+            ]
+        },
+        "spell.snare": {
+            "category": "player",
+            "sounds": [
+                "sounds/dig/grass1",
+                "sounds/dig/grass2",
+                "sounds/dig/grass3",
+                "sounds/dig/grass4"
+            ]
+        },
+        "ws.spell.snare": {
+            "category": "player",
+            "sounds": [
+                "sounds/dig/grass1",
+                "sounds/dig/grass2",
+                "sounds/dig/grass3",
+                "sounds/dig/grass4"
+            ]
+        },
+        "spell.snowball": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "ws.spell.snowball": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "spell.spectral_pathway": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "ws.spell.spectral_pathway": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure_large"
+            ]
+        },
+        "spell.speed_time.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/aura_start"
+            ]
+        },
+        "ws.spell.speed_time.start": {
+            "category": "player",
+            "sounds": [
+                "sounds/aura_start"
+            ]
+        },
+        "spell.speed_time.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/aura_loop"
+            ]
+        },
+        "ws.spell.speed_time.loop": {
+            "category": "player",
+            "sounds": [
+                "sounds/aura_loop"
+            ]
+        },
+        "spell.speed_time.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/aura_end"
+            ]
+        },
+        "ws.spell.speed_time.end": {
+            "category": "player",
+            "sounds": [
+                "sounds/aura_end"
+            ]
+        },
+        "spell.summon_lightning_wraith": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "ws.spell.summon_lightning_wraith": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "spell.summon_skeleton": {
+            "category": "player",
+            "sounds": [
+                "sounds/summon1",
+                "sounds/summon2"
+            ]
+        },
+        "ws.spell.summon_skeleton": {
+            "category": "player",
+            "sounds": [
+                "sounds/summon1",
+                "sounds/summon2"
+            ]
+        },
+        "spell.summon_zombie": {
+            "category": "player",
+            "sounds": [
+                "sounds/summon1",
+                "sounds/summon2"
+            ]
+        },
+        "ws.spell.summon_zombie": {
+            "category": "player",
+            "sounds": [
+                "sounds/summon1",
+                "sounds/summon2"
+            ]
+        },
+        "spell.thunderbolt": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/cast1",
+                "sounds/mob/evocation_illager/cast2"
+            ]
+        },
+        "ws.spell.thunderbolt": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/cast1",
+                "sounds/mob/evocation_illager/cast2"
+            ]
+        },
+        "spell.transportation": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/trigger"
+            ]
+        },
+        "ws.spell.transportation": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/trigger"
+            ]
+        },
+        "spell.transportation.travel": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/travel"
+            ]
+        },
+        "ws.spell.transportation.travel": {
+            "category": "player",
+            "sounds": [
+                "sounds/portal/travel"
+            ]
+        },
+        "spell.vanishing_box": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/enderchest/open"
+            ]
+        },
+        "ws.spell.vanishing_box": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/enderchest/open"
+            ]
+        },
+        "spell.ward": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.ward": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.water_breathing": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "ws.spell.water_breathing": {
+            "category": "player",
+            "sounds": [
+                "sounds/buff"
+            ]
+        },
+        "spell.wither": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/hurt1",
+                "sounds/mob/wither/hurt2",
+                "sounds/mob/wither/hurt3",
+                "sounds/mob/wither/hurt4"
+            ]
+        },
+        "ws.spell.wither": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/hurt1",
+                "sounds/mob/wither/hurt2",
+                "sounds/mob/wither/hurt3",
+                "sounds/mob/wither/hurt4"
+            ]
+        },
+        "spell.wither_skull": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/shoot"
+            ]
+        },
+        "ws.spell.wither_skull": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/shoot"
+            ]
+        },
+        "forfeit.burn_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/ignite"
+            ]
+        },
+        "ws.forfeit.burn_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/fire/ignite"
+            ]
+        },
+        "forfeit.fireball": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "ws.forfeit.fireball": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "forfeit.firebomb": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "ws.forfeit.firebomb": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/ghast/fireball4"
+            ]
+        },
+        "forfeit.explode": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/explode1",
+                "sounds/random/explode2",
+                "sounds/random/explode3",
+                "sounds/random/explode4"
+            ]
+        },
+        "ws.forfeit.explode": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/explode1",
+                "sounds/random/explode2",
+                "sounds/random/explode3",
+                "sounds/random/explode4"
+            ]
+        },
+        "forfeit.blazes": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "ws.forfeit.blazes": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "forfeit.burn_surroundings": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "ws.forfeit.burn_surroundings": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "forfeit.meteors": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.forfeit.meteors": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "forfeit.freeze_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "ws.forfeit.freeze_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "forfeit.freeze_self_2": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "ws.forfeit.freeze_self_2": {
+            "category": "player",
+            "sounds": [
+                "sounds/freeze"
+            ]
+        },
+        "forfeit.ice_spikes": {
+            "category": "player",
+            "sounds": []
+        },
+        "ws.forfeit.ice_spikes": {
+            "category": "player",
+            "sounds": []
+        },
+        "forfeit.blizzard": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice_age"
+            ]
+        },
+        "ws.forfeit.blizzard": {
+            "category": "player",
+            "sounds": [
+                "sounds/ice_age"
+            ]
+        },
+        "forfeit.ice_wraiths": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "ws.forfeit.ice_wraiths": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "forfeit.hailstorm": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.forfeit.hailstorm": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "forfeit.ice_giant": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.forfeit.ice_giant": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "forfeit.thunder": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/largeBlast1"
+            ]
+        },
+        "ws.forfeit.thunder": {
+            "category": "player",
+            "sounds": [
+                "sounds/fireworks/largeBlast1"
+            ]
+        },
+        "forfeit.storm": {
+            "category": "player",
+            "sounds": [
+                "sounds/ambient/weather/thunder1",
+                "sounds/ambient/weather/thunder2",
+                "sounds/ambient/weather/thunder3"
+            ]
+        },
+        "ws.forfeit.storm": {
+            "category": "player",
+            "sounds": [
+                "sounds/ambient/weather/thunder1",
+                "sounds/ambient/weather/thunder2",
+                "sounds/ambient/weather/thunder3"
+            ]
+        },
+        "forfeit.lightning_sigils": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "ws.forfeit.lightning_sigils": {
+            "category": "player",
+            "sounds": [
+                "sounds/conjure"
+            ]
+        },
+        "forfeit.lightning": {
+            "category": "player",
+            "sounds": []
+        },
+        "ws.forfeit.lightning": {
+            "category": "player",
+            "sounds": []
+        },
+        "forfeit.paralyse_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/shockwave"
+            ]
+        },
+        "ws.forfeit.paralyse_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/shockwave"
+            ]
+        },
+        "forfeit.lightning_wraiths": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "ws.forfeit.lightning_wraiths": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "forfeit.storm_elementals": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "ws.forfeit.storm_elementals": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "forfeit.nausea": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.forfeit.nausea": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "forfeit.zombie_horde": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.forfeit.zombie_horde": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "forfeit.wither_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/hurt1",
+                "sounds/mob/wither/hurt2",
+                "sounds/mob/wither/hurt3",
+                "sounds/mob/wither/hurt4"
+            ]
+        },
+        "ws.forfeit.wither_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/hurt1",
+                "sounds/mob/wither/hurt2",
+                "sounds/mob/wither/hurt3",
+                "sounds/mob/wither/hurt4"
+            ]
+        },
+        "forfeit.cripple_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/death"
+            ]
+        },
+        "ws.forfeit.cripple_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/death"
+            ]
+        },
+        "forfeit.shadow_wraiths": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "ws.forfeit.shadow_wraiths": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/wither/idle1",
+                "sounds/mob/wither/idle2",
+                "sounds/mob/wither/idle3",
+                "sounds/mob/wither/idle4"
+            ]
+        },
+        "forfeit.snares": {
+            "category": "player",
+            "sounds": [
+                "sounds/dig/grass1",
+                "sounds/dig/grass2",
+                "sounds/dig/grass3",
+                "sounds/dig/grass4"
+            ]
+        },
+        "ws.forfeit.snares": {
+            "category": "player",
+            "sounds": [
+                "sounds/dig/grass1",
+                "sounds/dig/grass2",
+                "sounds/dig/grass3",
+                "sounds/dig/grass4"
+            ]
+        },
+        "forfeit.squid": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/swim1",
+                "sounds/random/swim2",
+                "sounds/random/swim3",
+                "sounds/random/swim4"
+            ]
+        },
+        "ws.forfeit.squid": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/swim1",
+                "sounds/random/swim2",
+                "sounds/random/swim3",
+                "sounds/random/swim4"
+            ]
+        },
+        "forfeit.uproot_plants": {
+            "category": "player",
+            "sounds": []
+        },
+        "ws.forfeit.uproot_plants": {
+            "category": "player",
+            "sounds": []
+        },
+        "forfeit.poison_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "ws.forfeit.poison_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/fizz"
+            ]
+        },
+        "forfeit.flood": {
+            "category": "player",
+            "sounds": [
+                "sounds/bucket/empty1",
+                "sounds/bucket/empty2",
+                "sounds/bucket/empty3"
+            ]
+        },
+        "ws.forfeit.flood": {
+            "category": "player",
+            "sounds": [
+                "sounds/bucket/empty1",
+                "sounds/bucket/empty2",
+                "sounds/bucket/empty3"
+            ]
+        },
+        "forfeit.bury_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/rumble"
+            ]
+        },
+        "ws.forfeit.bury_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/rumble"
+            ]
+        },
+        "forfeit.spill_inventory": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.forfeit.spill_inventory": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "forfeit.teleport_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/endermen/portal",
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        "ws.forfeit.teleport_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/endermen/portal",
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        "forfeit.levitate_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.forfeit.levitate_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "forfeit.vex_horde": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.forfeit.vex_horde": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "forfeit.black_hole": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "ws.forfeit.black_hole": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_attack1",
+                "sounds/mob/evocation_illager/prepare_attack2"
+            ]
+        },
+        "forfeit.arrow_rain": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "ws.forfeit.arrow_rain": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/evocation_illager/prepare_summon"
+            ]
+        },
+        "forfeit.damage_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "ws.forfeit.damage_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/damage/hit1",
+                "sounds/damage/hit2",
+                "sounds/damage/hit3"
+            ]
+        },
+        "forfeit.spill_armour": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.forfeit.spill_armour": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "forfeit.hunger": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "ws.forfeit.hunger": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "forfeit.blind_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "ws.forfeit.blind_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "forfeit.weaken_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "ws.forfeit.weaken_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "forfeit.jam_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "ws.forfeit.jam_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/effect1",
+                "sounds/effect2"
+            ]
+        },
+        "forfeit.curse_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "ws.forfeit.curse_self": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/guardian/curse"
+            ]
+        },
+        "spell.flame_ray": {
+            "category": "player",
+            "sounds": [
+                "sounds/flames_start"
+            ]
+        },
+        "spell.frost_ray": {
+            "category": "player",
+            "sounds": [
+                "sounds/frost_start"
+            ]
+        },
+        "spell.grapple": {
+            "category": "player",
+            "sounds": [
+                "sounds/random/bow"
+            ]
+        },
+        "spell.life_drain": {
+            "category": "player",
+            "sounds": [
+                "sounds/dark_aura_start"
+            ]
+        },
+        "spell.lightning_pulse": {
+            "category": "player",
+            "sounds": [
+                "sounds/lightning_ray_start"
+            ]
+        }}
+}

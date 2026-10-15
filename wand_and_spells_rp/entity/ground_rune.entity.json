@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:ground_rune",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"fire_sigil": "textures/entity/fire_sigil",
+				"frost_sigil": "textures/entity/frost_sigil",
+				"lightning_sigil": "textures/entity/lightning_sigil",
+				"ring_of_fire": "textures/entity/ring_of_fire",
+				"healing_aura": "textures/entity/healing_aura",
+				"necromancy_sigil": "textures/entity/necromancy_sigil"
+			},
+			"geometry": {
+				"default": "geometry.ws.ground_rune"
+			},
+			"animations": {
+				"setup": "animation.ws.ground_rune.setup"
+			},
+			"scripts": {
+				"animate": [
+					"setup"
+				]
+			},
+			"render_controllers": [
+				"controller.render.ground_rune"
+			]
+		}
+	}
+}

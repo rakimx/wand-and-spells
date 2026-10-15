@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ws:crystal_to_dust_necromancy"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "ingredients": [
+            {
+                "item": "ws:crystal_necromancy"
+            }
+        ],
+        "result": {
+            "item": "ws:spectral_dust_necromancy",
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ws.ice_spike",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"comment": "The slab at the foot. Its unwrap is the lower half of ice_barrier.png, which lays out a box of exactly 18 x 18 x 8 starting at 0,32.",
+							"origin": [-9, 0, -4],
+							"size": [18, 18, 8],
+							"uv": [0, 32]
+						},
+						{
+							"comment": "The pane. The top half of the texture is the unwrap of a 29 x 29 x 3 box starting at 0,0 - thin, wide and tall, which is what makes it read as a wall rather than a pillar.",
+							"origin": [-14.5, 10, -1.5],
+							"size": [29, 29, 3],
+							"uv": [0, 0]
+						}
+					]
+				}
+			]
+		}
+	]
+}

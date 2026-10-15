@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/elemental_crystals.json",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/wizard_armour.json",
+                    "weight": 6
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/arcane_tomes.json",
+                    "weight": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/wand_upgrades.json",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/armour_upgrades.json",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "ws:crystal_magic",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/generated/books_all.json",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/generated/scrolls_all_cvb8jz.json",
+                    "weight": 7
+                },
+                {
+                    "type": "item",
+                    "name": "ws:identification_scroll",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

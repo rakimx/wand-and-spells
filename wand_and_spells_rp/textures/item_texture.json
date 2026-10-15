@@ -1,0 +1,1800 @@
+{
+  "resource_pack_name": "wand_and_spells_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ws:arcane_tome": {
+      "textures": "textures/items/arcane_tome"
+    },
+    "arcane_tome": {
+      "textures": "textures/items/arcane_tome"
+    },
+    "ws:astral_diamond": {
+      "textures": "textures/items/astral_diamond"
+    },
+    "astral_diamond": {
+      "textures": "textures/items/astral_diamond"
+    },
+    "ws:battlemage_boots": {
+      "textures": "textures/items/battlemage_boots"
+    },
+    "battlemage_boots": {
+      "textures": "textures/items/battlemage_boots"
+    },
+    "ws:battlemage_boots_earth": {
+      "textures": "textures/items/battlemage_boots_earth"
+    },
+    "battlemage_boots_earth": {
+      "textures": "textures/items/battlemage_boots_earth"
+    },
+    "ws:battlemage_boots_fire": {
+      "textures": "textures/items/battlemage_boots_fire"
+    },
+    "battlemage_boots_fire": {
+      "textures": "textures/items/battlemage_boots_fire"
+    },
+    "ws:battlemage_boots_healing": {
+      "textures": "textures/items/battlemage_boots_healing"
+    },
+    "battlemage_boots_healing": {
+      "textures": "textures/items/battlemage_boots_healing"
+    },
+    "ws:battlemage_boots_ice": {
+      "textures": "textures/items/battlemage_boots_ice"
+    },
+    "battlemage_boots_ice": {
+      "textures": "textures/items/battlemage_boots_ice"
+    },
+    "ws:battlemage_boots_lightning": {
+      "textures": "textures/items/battlemage_boots_lightning"
+    },
+    "battlemage_boots_lightning": {
+      "textures": "textures/items/battlemage_boots_lightning"
+    },
+    "ws:battlemage_boots_necromancy": {
+      "textures": "textures/items/battlemage_boots_necromancy"
+    },
+    "battlemage_boots_necromancy": {
+      "textures": "textures/items/battlemage_boots_necromancy"
+    },
+    "ws:battlemage_boots_sorcery": {
+      "textures": "textures/items/battlemage_boots_sorcery"
+    },
+    "battlemage_boots_sorcery": {
+      "textures": "textures/items/battlemage_boots_sorcery"
+    },
+    "ws:battlemage_chestplate": {
+      "textures": "textures/items/battlemage_chestplate"
+    },
+    "battlemage_chestplate": {
+      "textures": "textures/items/battlemage_chestplate"
+    },
+    "ws:battlemage_chestplate_earth": {
+      "textures": "textures/items/battlemage_chestplate_earth"
+    },
+    "battlemage_chestplate_earth": {
+      "textures": "textures/items/battlemage_chestplate_earth"
+    },
+    "ws:battlemage_chestplate_fire": {
+      "textures": "textures/items/battlemage_chestplate_fire"
+    },
+    "battlemage_chestplate_fire": {
+      "textures": "textures/items/battlemage_chestplate_fire"
+    },
+    "ws:battlemage_chestplate_healing": {
+      "textures": "textures/items/battlemage_chestplate_healing"
+    },
+    "battlemage_chestplate_healing": {
+      "textures": "textures/items/battlemage_chestplate_healing"
+    },
+    "ws:battlemage_chestplate_ice": {
+      "textures": "textures/items/battlemage_chestplate_ice"
+    },
+    "battlemage_chestplate_ice": {
+      "textures": "textures/items/battlemage_chestplate_ice"
+    },
+    "ws:battlemage_chestplate_lightning": {
+      "textures": "textures/items/battlemage_chestplate_lightning"
+    },
+    "battlemage_chestplate_lightning": {
+      "textures": "textures/items/battlemage_chestplate_lightning"
+    },
+    "ws:battlemage_chestplate_necromancy": {
+      "textures": "textures/items/battlemage_chestplate_necromancy"
+    },
+    "battlemage_chestplate_necromancy": {
+      "textures": "textures/items/battlemage_chestplate_necromancy"
+    },
+    "ws:battlemage_chestplate_sorcery": {
+      "textures": "textures/items/battlemage_chestplate_sorcery"
+    },
+    "battlemage_chestplate_sorcery": {
+      "textures": "textures/items/battlemage_chestplate_sorcery"
+    },
+    "ws:battlemage_helmet": {
+      "textures": "textures/items/battlemage_helmet"
+    },
+    "battlemage_helmet": {
+      "textures": "textures/items/battlemage_helmet"
+    },
+    "ws:battlemage_helmet_earth": {
+      "textures": "textures/items/battlemage_helmet_earth"
+    },
+    "battlemage_helmet_earth": {
+      "textures": "textures/items/battlemage_helmet_earth"
+    },
+    "ws:battlemage_helmet_fire": {
+      "textures": "textures/items/battlemage_helmet_fire"
+    },
+    "battlemage_helmet_fire": {
+      "textures": "textures/items/battlemage_helmet_fire"
+    },
+    "ws:battlemage_helmet_healing": {
+      "textures": "textures/items/battlemage_helmet_healing"
+    },
+    "battlemage_helmet_healing": {
+      "textures": "textures/items/battlemage_helmet_healing"
+    },
+    "ws:battlemage_helmet_ice": {
+      "textures": "textures/items/battlemage_helmet_ice"
+    },
+    "battlemage_helmet_ice": {
+      "textures": "textures/items/battlemage_helmet_ice"
+    },
+    "ws:battlemage_helmet_lightning": {
+      "textures": "textures/items/battlemage_helmet_lightning"
+    },
+    "battlemage_helmet_lightning": {
+      "textures": "textures/items/battlemage_helmet_lightning"
+    },
+    "ws:battlemage_helmet_necromancy": {
+      "textures": "textures/items/battlemage_helmet_necromancy"
+    },
+    "battlemage_helmet_necromancy": {
+      "textures": "textures/items/battlemage_helmet_necromancy"
+    },
+    "ws:battlemage_helmet_sorcery": {
+      "textures": "textures/items/battlemage_helmet_sorcery"
+    },
+    "battlemage_helmet_sorcery": {
+      "textures": "textures/items/battlemage_helmet_sorcery"
+    },
+    "ws:battlemage_leggings": {
+      "textures": "textures/items/battlemage_leggings"
+    },
+    "battlemage_leggings": {
+      "textures": "textures/items/battlemage_leggings"
+    },
+    "ws:battlemage_leggings_earth": {
+      "textures": "textures/items/battlemage_leggings_earth"
+    },
+    "battlemage_leggings_earth": {
+      "textures": "textures/items/battlemage_leggings_earth"
+    },
+    "ws:battlemage_leggings_fire": {
+      "textures": "textures/items/battlemage_leggings_fire"
+    },
+    "battlemage_leggings_fire": {
+      "textures": "textures/items/battlemage_leggings_fire"
+    },
+    "ws:battlemage_leggings_healing": {
+      "textures": "textures/items/battlemage_leggings_healing"
+    },
+    "battlemage_leggings_healing": {
+      "textures": "textures/items/battlemage_leggings_healing"
+    },
+    "ws:battlemage_leggings_ice": {
+      "textures": "textures/items/battlemage_leggings_ice"
+    },
+    "battlemage_leggings_ice": {
+      "textures": "textures/items/battlemage_leggings_ice"
+    },
+    "ws:battlemage_leggings_lightning": {
+      "textures": "textures/items/battlemage_leggings_lightning"
+    },
+    "battlemage_leggings_lightning": {
+      "textures": "textures/items/battlemage_leggings_lightning"
+    },
+    "ws:battlemage_leggings_necromancy": {
+      "textures": "textures/items/battlemage_leggings_necromancy"
+    },
+    "battlemage_leggings_necromancy": {
+      "textures": "textures/items/battlemage_leggings_necromancy"
+    },
+    "ws:battlemage_leggings_sorcery": {
+      "textures": "textures/items/battlemage_leggings_sorcery"
+    },
+    "battlemage_leggings_sorcery": {
+      "textures": "textures/items/battlemage_leggings_sorcery"
+    },
+    "ws:charm_abseiling": {
+      "textures": "textures/items/charm_abseiling"
+    },
+    "charm_abseiling": {
+      "textures": "textures/items/charm_abseiling"
+    },
+    "ws:charm_auto_smelt": {
+      "textures": "textures/items/charm_auto_smelt"
+    },
+    "charm_auto_smelt": {
+      "textures": "textures/items/charm_auto_smelt"
+    },
+    "ws:charm_black_hole": {
+      "textures": "textures/items/charm_black_hole"
+    },
+    "charm_black_hole": {
+      "textures": "textures/items/charm_black_hole"
+    },
+    "ws:charm_experience_tome": {
+      "textures": "textures/items/charm_experience_tome"
+    },
+    "charm_experience_tome": {
+      "textures": "textures/items/charm_experience_tome"
+    },
+    "ws:charm_feeding": {
+      "textures": "textures/items/charm_feeding"
+    },
+    "charm_feeding": {
+      "textures": "textures/items/charm_feeding"
+    },
+    "ws:charm_flight": {
+      "textures": "textures/items/charm_flight"
+    },
+    "charm_flight": {
+      "textures": "textures/items/charm_flight"
+    },
+    "ws:charm_growth": {
+      "textures": "textures/items/charm_growth"
+    },
+    "charm_growth": {
+      "textures": "textures/items/charm_growth"
+    },
+    "ws:charm_haggler": {
+      "textures": "textures/items/charm_haggler"
+    },
+    "charm_haggler": {
+      "textures": "textures/items/charm_haggler"
+    },
+    "ws:charm_hunger_casting": {
+      "textures": "textures/items/charm_hunger_casting"
+    },
+    "charm_hunger_casting": {
+      "textures": "textures/items/charm_hunger_casting"
+    },
+    "ws:charm_lava_walking": {
+      "textures": "textures/items/charm_lava_walking"
+    },
+    "charm_lava_walking": {
+      "textures": "textures/items/charm_lava_walking"
+    },
+    "ws:charm_light": {
+      "textures": "textures/items/charm_light"
+    },
+    "charm_light": {
+      "textures": "textures/items/charm_light"
+    },
+    "ws:charm_minion_health": {
+      "textures": "textures/items/charm_minion_health"
+    },
+    "charm_minion_health": {
+      "textures": "textures/items/charm_minion_health"
+    },
+    "ws:charm_minion_variants": {
+      "textures": "textures/items/charm_minion_variants"
+    },
+    "charm_minion_variants": {
+      "textures": "textures/items/charm_minion_variants"
+    },
+    "ws:charm_mount_teleporting": {
+      "textures": "textures/items/charm_mount_teleporting"
+    },
+    "charm_mount_teleporting": {
+      "textures": "textures/items/charm_mount_teleporting"
+    },
+    "ws:charm_move_speed": {
+      "textures": "textures/items/charm_move_speed"
+    },
+    "charm_move_speed": {
+      "textures": "textures/items/charm_move_speed"
+    },
+    "ws:charm_silk_touch": {
+      "textures": "textures/items/charm_silk_touch"
+    },
+    "charm_silk_touch": {
+      "textures": "textures/items/charm_silk_touch"
+    },
+    "ws:charm_sixth_sense": {
+      "textures": "textures/items/charm_sixth_sense"
+    },
+    "charm_sixth_sense": {
+      "textures": "textures/items/charm_sixth_sense"
+    },
+    "ws:charm_spell_discovery": {
+      "textures": "textures/items/charm_spell_discovery"
+    },
+    "charm_spell_discovery": {
+      "textures": "textures/items/charm_spell_discovery"
+    },
+    "ws:charm_stop_time": {
+      "textures": "textures/items/charm_stop_time"
+    },
+    "charm_stop_time": {
+      "textures": "textures/items/charm_stop_time"
+    },
+    "ws:charm_storm": {
+      "textures": "textures/items/charm_storm"
+    },
+    "charm_storm": {
+      "textures": "textures/items/charm_storm"
+    },
+    "ws:charm_transportation": {
+      "textures": "textures/items/charm_transportation"
+    },
+    "charm_transportation": {
+      "textures": "textures/items/charm_transportation"
+    },
+    "ws:charm_undead_helmets": {
+      "textures": "textures/items/charm_undead_helmets"
+    },
+    "charm_undead_helmets": {
+      "textures": "textures/items/charm_undead_helmets"
+    },
+    "ws:crystal_earth": {
+      "textures": "textures/items/crystal_earth"
+    },
+    "crystal_earth": {
+      "textures": "textures/items/crystal_earth"
+    },
+    "ws:crystal_fire": {
+      "textures": "textures/items/crystal_fire"
+    },
+    "crystal_fire": {
+      "textures": "textures/items/crystal_fire"
+    },
+    "ws:crystal_grand": {
+      "textures": "textures/items/crystal_grand"
+    },
+    "crystal_grand": {
+      "textures": "textures/items/crystal_grand"
+    },
+    "ws:crystal_healing": {
+      "textures": "textures/items/crystal_healing"
+    },
+    "crystal_healing": {
+      "textures": "textures/items/crystal_healing"
+    },
+    "ws:crystal_ice": {
+      "textures": "textures/items/crystal_ice"
+    },
+    "crystal_ice": {
+      "textures": "textures/items/crystal_ice"
+    },
+    "ws:crystal_lightning": {
+      "textures": "textures/items/crystal_lightning"
+    },
+    "crystal_lightning": {
+      "textures": "textures/items/crystal_lightning"
+    },
+    "ws:crystal_magic": {
+      "textures": "textures/items/crystal_magic"
+    },
+    "crystal_magic": {
+      "textures": "textures/items/crystal_magic"
+    },
+    "ws:crystal_necromancy": {
+      "textures": "textures/items/crystal_necromancy"
+    },
+    "crystal_necromancy": {
+      "textures": "textures/items/crystal_necromancy"
+    },
+    "ws:crystal_shard": {
+      "textures": "textures/items/crystal_shard"
+    },
+    "crystal_shard": {
+      "textures": "textures/items/crystal_shard"
+    },
+    "ws:crystal_silver_plating": {
+      "textures": "textures/items/crystal_silver_plating"
+    },
+    "crystal_silver_plating": {
+      "textures": "textures/items/crystal_silver_plating"
+    },
+    "ws:crystal_sorcery": {
+      "textures": "textures/items/crystal_sorcery"
+    },
+    "crystal_sorcery": {
+      "textures": "textures/items/crystal_sorcery"
+    },
+    "ws:ethereal_crystalweave": {
+      "textures": "textures/items/ethereal_crystalweave"
+    },
+    "ethereal_crystalweave": {
+      "textures": "textures/items/ethereal_crystalweave"
+    },
+    "ws:firebomb": {
+      "textures": "textures/items/firebomb"
+    },
+    "firebomb": {
+      "textures": "textures/items/firebomb"
+    },
+    "ws:flamecatcher_conjuring_0": {
+      "textures": "textures/items/flamecatcher_conjuring_0"
+    },
+    "flamecatcher_conjuring_0": {
+      "textures": "textures/items/flamecatcher_conjuring_0"
+    },
+    "ws:flamecatcher_conjuring_1": {
+      "textures": "textures/items/flamecatcher_conjuring_1"
+    },
+    "flamecatcher_conjuring_1": {
+      "textures": "textures/items/flamecatcher_conjuring_1"
+    },
+    "ws:flamecatcher_conjuring_2": {
+      "textures": "textures/items/flamecatcher_conjuring_2"
+    },
+    "flamecatcher_conjuring_2": {
+      "textures": "textures/items/flamecatcher_conjuring_2"
+    },
+    "ws:flamecatcher_conjuring_3": {
+      "textures": "textures/items/flamecatcher_conjuring_3"
+    },
+    "flamecatcher_conjuring_3": {
+      "textures": "textures/items/flamecatcher_conjuring_3"
+    },
+    "ws:flamecatcher_conjuring_4": {
+      "textures": "textures/items/flamecatcher_conjuring_4"
+    },
+    "flamecatcher_conjuring_4": {
+      "textures": "textures/items/flamecatcher_conjuring_4"
+    },
+    "ws:flamecatcher_conjuring_5": {
+      "textures": "textures/items/flamecatcher_conjuring_5"
+    },
+    "flamecatcher_conjuring_5": {
+      "textures": "textures/items/flamecatcher_conjuring_5"
+    },
+    "ws:flamecatcher_conjuring_6": {
+      "textures": "textures/items/flamecatcher_conjuring_6"
+    },
+    "flamecatcher_conjuring_6": {
+      "textures": "textures/items/flamecatcher_conjuring_6"
+    },
+    "ws:flamecatcher_conjuring_7": {
+      "textures": "textures/items/flamecatcher_conjuring_7"
+    },
+    "flamecatcher_conjuring_7": {
+      "textures": "textures/items/flamecatcher_conjuring_7"
+    },
+    "ws:flamecatcher_pulling_0": {
+      "textures": "textures/items/flamecatcher_pulling_0"
+    },
+    "flamecatcher_pulling_0": {
+      "textures": "textures/items/flamecatcher_pulling_0"
+    },
+    "ws:flamecatcher_pulling_1": {
+      "textures": "textures/items/flamecatcher_pulling_1"
+    },
+    "flamecatcher_pulling_1": {
+      "textures": "textures/items/flamecatcher_pulling_1"
+    },
+    "ws:flamecatcher_pulling_2": {
+      "textures": "textures/items/flamecatcher_pulling_2"
+    },
+    "flamecatcher_pulling_2": {
+      "textures": "textures/items/flamecatcher_pulling_2"
+    },
+    "ws:flamecatcher_standby": {
+      "textures": "textures/items/flamecatcher_standby"
+    },
+    "flamecatcher_standby": {
+      "textures": "textures/items/flamecatcher_standby"
+    },
+    "ws:flaming_axe": {
+      "textures": "textures/items/flaming_axe"
+    },
+    "flaming_axe": {
+      "textures": "textures/items/flaming_axe"
+    },
+    "ws:flaming_axe_conjuring_0": {
+      "textures": "textures/items/flaming_axe_conjuring_0"
+    },
+    "flaming_axe_conjuring_0": {
+      "textures": "textures/items/flaming_axe_conjuring_0"
+    },
+    "ws:flaming_axe_conjuring_1": {
+      "textures": "textures/items/flaming_axe_conjuring_1"
+    },
+    "flaming_axe_conjuring_1": {
+      "textures": "textures/items/flaming_axe_conjuring_1"
+    },
+    "ws:flaming_axe_conjuring_2": {
+      "textures": "textures/items/flaming_axe_conjuring_2"
+    },
+    "flaming_axe_conjuring_2": {
+      "textures": "textures/items/flaming_axe_conjuring_2"
+    },
+    "ws:flaming_axe_conjuring_3": {
+      "textures": "textures/items/flaming_axe_conjuring_3"
+    },
+    "flaming_axe_conjuring_3": {
+      "textures": "textures/items/flaming_axe_conjuring_3"
+    },
+    "ws:flaming_axe_conjuring_4": {
+      "textures": "textures/items/flaming_axe_conjuring_4"
+    },
+    "flaming_axe_conjuring_4": {
+      "textures": "textures/items/flaming_axe_conjuring_4"
+    },
+    "ws:flaming_axe_conjuring_5": {
+      "textures": "textures/items/flaming_axe_conjuring_5"
+    },
+    "flaming_axe_conjuring_5": {
+      "textures": "textures/items/flaming_axe_conjuring_5"
+    },
+    "ws:flaming_axe_conjuring_6": {
+      "textures": "textures/items/flaming_axe_conjuring_6"
+    },
+    "flaming_axe_conjuring_6": {
+      "textures": "textures/items/flaming_axe_conjuring_6"
+    },
+    "ws:flaming_axe_conjuring_7": {
+      "textures": "textures/items/flaming_axe_conjuring_7"
+    },
+    "flaming_axe_conjuring_7": {
+      "textures": "textures/items/flaming_axe_conjuring_7"
+    },
+    "ws:frost_axe": {
+      "textures": "textures/items/frost_axe"
+    },
+    "frost_axe": {
+      "textures": "textures/items/frost_axe"
+    },
+    "ws:frost_axe_conjuring_0": {
+      "textures": "textures/items/frost_axe_conjuring_0"
+    },
+    "frost_axe_conjuring_0": {
+      "textures": "textures/items/frost_axe_conjuring_0"
+    },
+    "ws:frost_axe_conjuring_1": {
+      "textures": "textures/items/frost_axe_conjuring_1"
+    },
+    "frost_axe_conjuring_1": {
+      "textures": "textures/items/frost_axe_conjuring_1"
+    },
+    "ws:frost_axe_conjuring_2": {
+      "textures": "textures/items/frost_axe_conjuring_2"
+    },
+    "frost_axe_conjuring_2": {
+      "textures": "textures/items/frost_axe_conjuring_2"
+    },
+    "ws:frost_axe_conjuring_3": {
+      "textures": "textures/items/frost_axe_conjuring_3"
+    },
+    "frost_axe_conjuring_3": {
+      "textures": "textures/items/frost_axe_conjuring_3"
+    },
+    "ws:frost_axe_conjuring_4": {
+      "textures": "textures/items/frost_axe_conjuring_4"
+    },
+    "frost_axe_conjuring_4": {
+      "textures": "textures/items/frost_axe_conjuring_4"
+    },
+    "ws:frost_axe_conjuring_5": {
+      "textures": "textures/items/frost_axe_conjuring_5"
+    },
+    "frost_axe_conjuring_5": {
+      "textures": "textures/items/frost_axe_conjuring_5"
+    },
+    "ws:frost_axe_conjuring_6": {
+      "textures": "textures/items/frost_axe_conjuring_6"
+    },
+    "frost_axe_conjuring_6": {
+      "textures": "textures/items/frost_axe_conjuring_6"
+    },
+    "ws:frost_axe_conjuring_7": {
+      "textures": "textures/items/frost_axe_conjuring_7"
+    },
+    "frost_axe_conjuring_7": {
+      "textures": "textures/items/frost_axe_conjuring_7"
+    },
+    "ws:identification_scroll": {
+      "textures": "textures/items/identification_scroll"
+    },
+    "identification_scroll": {
+      "textures": "textures/items/identification_scroll"
+    },
+    "ws:magic_silk": {
+      "textures": "textures/items/magic_silk"
+    },
+    "magic_silk": {
+      "textures": "textures/items/magic_silk"
+    },
+    "ws:mana_flask_large": {
+      "textures": "textures/items/mana_flask_large"
+    },
+    "mana_flask_large": {
+      "textures": "textures/items/mana_flask_large"
+    },
+    "ws:mana_flask_medium": {
+      "textures": "textures/items/mana_flask_medium"
+    },
+    "mana_flask_medium": {
+      "textures": "textures/items/mana_flask_medium"
+    },
+    "ws:mana_flask_small": {
+      "textures": "textures/items/mana_flask_small"
+    },
+    "mana_flask_small": {
+      "textures": "textures/items/mana_flask_small"
+    },
+    "ws:poison_bomb": {
+      "textures": "textures/items/poison_bomb"
+    },
+    "poison_bomb": {
+      "textures": "textures/items/poison_bomb"
+    },
+    "ws:purifying_elixir": {
+      "textures": "textures/items/purifying_elixir"
+    },
+    "purifying_elixir": {
+      "textures": "textures/items/purifying_elixir"
+    },
+    "ws:resplendent_thread": {
+      "textures": "textures/items/resplendent_thread"
+    },
+    "resplendent_thread": {
+      "textures": "textures/items/resplendent_thread"
+    },
+    "ws:ruined_spell_book": {
+      "textures": "textures/items/ruined_spell_book"
+    },
+    "ruined_spell_book": {
+      "textures": "textures/items/ruined_spell_book"
+    },
+    "ws:sage_boots": {
+      "textures": "textures/items/sage_boots"
+    },
+    "sage_boots": {
+      "textures": "textures/items/sage_boots"
+    },
+    "ws:sage_boots_earth": {
+      "textures": "textures/items/sage_boots_earth"
+    },
+    "sage_boots_earth": {
+      "textures": "textures/items/sage_boots_earth"
+    },
+    "ws:sage_boots_fire": {
+      "textures": "textures/items/sage_boots_fire"
+    },
+    "sage_boots_fire": {
+      "textures": "textures/items/sage_boots_fire"
+    },
+    "ws:sage_boots_healing": {
+      "textures": "textures/items/sage_boots_healing"
+    },
+    "sage_boots_healing": {
+      "textures": "textures/items/sage_boots_healing"
+    },
+    "ws:sage_boots_ice": {
+      "textures": "textures/items/sage_boots_ice"
+    },
+    "sage_boots_ice": {
+      "textures": "textures/items/sage_boots_ice"
+    },
+    "ws:sage_boots_lightning": {
+      "textures": "textures/items/sage_boots_lightning"
+    },
+    "sage_boots_lightning": {
+      "textures": "textures/items/sage_boots_lightning"
+    },
+    "ws:sage_boots_necromancy": {
+      "textures": "textures/items/sage_boots_necromancy"
+    },
+    "sage_boots_necromancy": {
+      "textures": "textures/items/sage_boots_necromancy"
+    },
+    "ws:sage_boots_sorcery": {
+      "textures": "textures/items/sage_boots_sorcery"
+    },
+    "sage_boots_sorcery": {
+      "textures": "textures/items/sage_boots_sorcery"
+    },
+    "ws:sage_hat": {
+      "textures": "textures/items/sage_hat"
+    },
+    "sage_hat": {
+      "textures": "textures/items/sage_hat"
+    },
+    "ws:sage_hat_earth": {
+      "textures": "textures/items/sage_hat_earth"
+    },
+    "sage_hat_earth": {
+      "textures": "textures/items/sage_hat_earth"
+    },
+    "ws:sage_hat_fire": {
+      "textures": "textures/items/sage_hat_fire"
+    },
+    "sage_hat_fire": {
+      "textures": "textures/items/sage_hat_fire"
+    },
+    "ws:sage_hat_healing": {
+      "textures": "textures/items/sage_hat_healing"
+    },
+    "sage_hat_healing": {
+      "textures": "textures/items/sage_hat_healing"
+    },
+    "ws:sage_hat_ice": {
+      "textures": "textures/items/sage_hat_ice"
+    },
+    "sage_hat_ice": {
+      "textures": "textures/items/sage_hat_ice"
+    },
+    "ws:sage_hat_lightning": {
+      "textures": "textures/items/sage_hat_lightning"
+    },
+    "sage_hat_lightning": {
+      "textures": "textures/items/sage_hat_lightning"
+    },
+    "ws:sage_hat_necromancy": {
+      "textures": "textures/items/sage_hat_necromancy"
+    },
+    "sage_hat_necromancy": {
+      "textures": "textures/items/sage_hat_necromancy"
+    },
+    "ws:sage_hat_sorcery": {
+      "textures": "textures/items/sage_hat_sorcery"
+    },
+    "sage_hat_sorcery": {
+      "textures": "textures/items/sage_hat_sorcery"
+    },
+    "ws:sage_leggings": {
+      "textures": "textures/items/sage_leggings"
+    },
+    "sage_leggings": {
+      "textures": "textures/items/sage_leggings"
+    },
+    "ws:sage_leggings_earth": {
+      "textures": "textures/items/sage_leggings_earth"
+    },
+    "sage_leggings_earth": {
+      "textures": "textures/items/sage_leggings_earth"
+    },
+    "ws:sage_leggings_fire": {
+      "textures": "textures/items/sage_leggings_fire"
+    },
+    "sage_leggings_fire": {
+      "textures": "textures/items/sage_leggings_fire"
+    },
+    "ws:sage_leggings_healing": {
+      "textures": "textures/items/sage_leggings_healing"
+    },
+    "sage_leggings_healing": {
+      "textures": "textures/items/sage_leggings_healing"
+    },
+    "ws:sage_leggings_ice": {
+      "textures": "textures/items/sage_leggings_ice"
+    },
+    "sage_leggings_ice": {
+      "textures": "textures/items/sage_leggings_ice"
+    },
+    "ws:sage_leggings_lightning": {
+      "textures": "textures/items/sage_leggings_lightning"
+    },
+    "sage_leggings_lightning": {
+      "textures": "textures/items/sage_leggings_lightning"
+    },
+    "ws:sage_leggings_necromancy": {
+      "textures": "textures/items/sage_leggings_necromancy"
+    },
+    "sage_leggings_necromancy": {
+      "textures": "textures/items/sage_leggings_necromancy"
+    },
+    "ws:sage_leggings_sorcery": {
+      "textures": "textures/items/sage_leggings_sorcery"
+    },
+    "sage_leggings_sorcery": {
+      "textures": "textures/items/sage_leggings_sorcery"
+    },
+    "ws:sage_robe": {
+      "textures": "textures/items/sage_robe"
+    },
+    "sage_robe": {
+      "textures": "textures/items/sage_robe"
+    },
+    "ws:sage_robe_earth": {
+      "textures": "textures/items/sage_robe_earth"
+    },
+    "sage_robe_earth": {
+      "textures": "textures/items/sage_robe_earth"
+    },
+    "ws:sage_robe_fire": {
+      "textures": "textures/items/sage_robe_fire"
+    },
+    "sage_robe_fire": {
+      "textures": "textures/items/sage_robe_fire"
+    },
+    "ws:sage_robe_healing": {
+      "textures": "textures/items/sage_robe_healing"
+    },
+    "sage_robe_healing": {
+      "textures": "textures/items/sage_robe_healing"
+    },
+    "ws:sage_robe_ice": {
+      "textures": "textures/items/sage_robe_ice"
+    },
+    "sage_robe_ice": {
+      "textures": "textures/items/sage_robe_ice"
+    },
+    "ws:sage_robe_lightning": {
+      "textures": "textures/items/sage_robe_lightning"
+    },
+    "sage_robe_lightning": {
+      "textures": "textures/items/sage_robe_lightning"
+    },
+    "ws:sage_robe_necromancy": {
+      "textures": "textures/items/sage_robe_necromancy"
+    },
+    "sage_robe_necromancy": {
+      "textures": "textures/items/sage_robe_necromancy"
+    },
+    "ws:sage_robe_sorcery": {
+      "textures": "textures/items/sage_robe_sorcery"
+    },
+    "sage_robe_sorcery": {
+      "textures": "textures/items/sage_robe_sorcery"
+    },
+    "ws:scroll": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_festive": {
+      "textures": "textures/items/scroll_festive"
+    },
+    "scroll_festive": {
+      "textures": "textures/items/scroll_festive"
+    },
+    "ws:smoke_bomb": {
+      "textures": "textures/items/smoke_bomb"
+    },
+    "smoke_bomb": {
+      "textures": "textures/items/smoke_bomb"
+    },
+    "ws:spark_bomb": {
+      "textures": "textures/items/spark_bomb"
+    },
+    "spark_bomb": {
+      "textures": "textures/items/spark_bomb"
+    },
+    "ws:spectral_boots": {
+      "textures": "textures/items/spectral_boots"
+    },
+    "spectral_boots": {
+      "textures": "textures/items/spectral_boots"
+    },
+    "ws:spectral_bow_conjuring_0": {
+      "textures": "textures/items/spectral_bow_conjuring_0"
+    },
+    "spectral_bow_conjuring_0": {
+      "textures": "textures/items/spectral_bow_conjuring_0"
+    },
+    "ws:spectral_bow_conjuring_1": {
+      "textures": "textures/items/spectral_bow_conjuring_1"
+    },
+    "spectral_bow_conjuring_1": {
+      "textures": "textures/items/spectral_bow_conjuring_1"
+    },
+    "ws:spectral_bow_conjuring_2": {
+      "textures": "textures/items/spectral_bow_conjuring_2"
+    },
+    "spectral_bow_conjuring_2": {
+      "textures": "textures/items/spectral_bow_conjuring_2"
+    },
+    "ws:spectral_bow_conjuring_3": {
+      "textures": "textures/items/spectral_bow_conjuring_3"
+    },
+    "spectral_bow_conjuring_3": {
+      "textures": "textures/items/spectral_bow_conjuring_3"
+    },
+    "ws:spectral_bow_conjuring_4": {
+      "textures": "textures/items/spectral_bow_conjuring_4"
+    },
+    "spectral_bow_conjuring_4": {
+      "textures": "textures/items/spectral_bow_conjuring_4"
+    },
+    "ws:spectral_bow_conjuring_5": {
+      "textures": "textures/items/spectral_bow_conjuring_5"
+    },
+    "spectral_bow_conjuring_5": {
+      "textures": "textures/items/spectral_bow_conjuring_5"
+    },
+    "ws:spectral_bow_conjuring_6": {
+      "textures": "textures/items/spectral_bow_conjuring_6"
+    },
+    "spectral_bow_conjuring_6": {
+      "textures": "textures/items/spectral_bow_conjuring_6"
+    },
+    "ws:spectral_bow_conjuring_7": {
+      "textures": "textures/items/spectral_bow_conjuring_7"
+    },
+    "spectral_bow_conjuring_7": {
+      "textures": "textures/items/spectral_bow_conjuring_7"
+    },
+    "ws:spectral_bow_pulling_0": {
+      "textures": "textures/items/spectral_bow_pulling_0"
+    },
+    "spectral_bow_pulling_0": {
+      "textures": "textures/items/spectral_bow_pulling_0"
+    },
+    "ws:spectral_bow_pulling_1": {
+      "textures": "textures/items/spectral_bow_pulling_1"
+    },
+    "spectral_bow_pulling_1": {
+      "textures": "textures/items/spectral_bow_pulling_1"
+    },
+    "ws:spectral_bow_pulling_2": {
+      "textures": "textures/items/spectral_bow_pulling_2"
+    },
+    "spectral_bow_pulling_2": {
+      "textures": "textures/items/spectral_bow_pulling_2"
+    },
+    "ws:spectral_bow_standby": {
+      "textures": "textures/items/spectral_bow_standby"
+    },
+    "spectral_bow_standby": {
+      "textures": "textures/items/spectral_bow_standby"
+    },
+    "ws:spectral_chestplate": {
+      "textures": "textures/items/spectral_chestplate"
+    },
+    "spectral_chestplate": {
+      "textures": "textures/items/spectral_chestplate"
+    },
+    "ws:spectral_dust": {
+      "textures": "textures/items/spectral_dust"
+    },
+    "spectral_dust": {
+      "textures": "textures/items/spectral_dust"
+    },
+    "ws:spectral_dust_earth": {
+      "textures": "textures/items/spectral_dust_earth"
+    },
+    "spectral_dust_earth": {
+      "textures": "textures/items/spectral_dust_earth"
+    },
+    "ws:spectral_dust_fire": {
+      "textures": "textures/items/spectral_dust_fire"
+    },
+    "spectral_dust_fire": {
+      "textures": "textures/items/spectral_dust_fire"
+    },
+    "ws:spectral_dust_healing": {
+      "textures": "textures/items/spectral_dust_healing"
+    },
+    "spectral_dust_healing": {
+      "textures": "textures/items/spectral_dust_healing"
+    },
+    "ws:spectral_dust_ice": {
+      "textures": "textures/items/spectral_dust_ice"
+    },
+    "spectral_dust_ice": {
+      "textures": "textures/items/spectral_dust_ice"
+    },
+    "ws:spectral_dust_lightning": {
+      "textures": "textures/items/spectral_dust_lightning"
+    },
+    "spectral_dust_lightning": {
+      "textures": "textures/items/spectral_dust_lightning"
+    },
+    "ws:spectral_dust_necromancy": {
+      "textures": "textures/items/spectral_dust_necromancy"
+    },
+    "spectral_dust_necromancy": {
+      "textures": "textures/items/spectral_dust_necromancy"
+    },
+    "ws:spectral_dust_sorcery": {
+      "textures": "textures/items/spectral_dust_sorcery"
+    },
+    "spectral_dust_sorcery": {
+      "textures": "textures/items/spectral_dust_sorcery"
+    },
+    "ws:spectral_helmet": {
+      "textures": "textures/items/spectral_helmet"
+    },
+    "spectral_helmet": {
+      "textures": "textures/items/spectral_helmet"
+    },
+    "ws:spectral_leggings": {
+      "textures": "textures/items/spectral_leggings"
+    },
+    "spectral_leggings": {
+      "textures": "textures/items/spectral_leggings"
+    },
+    "ws:spectral_pickaxe": {
+      "textures": "textures/items/spectral_pickaxe"
+    },
+    "spectral_pickaxe": {
+      "textures": "textures/items/spectral_pickaxe"
+    },
+    "ws:spectral_pickaxe_conjuring_0": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_0"
+    },
+    "spectral_pickaxe_conjuring_0": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_0"
+    },
+    "ws:spectral_pickaxe_conjuring_1": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_1"
+    },
+    "spectral_pickaxe_conjuring_1": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_1"
+    },
+    "ws:spectral_pickaxe_conjuring_2": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_2"
+    },
+    "spectral_pickaxe_conjuring_2": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_2"
+    },
+    "ws:spectral_pickaxe_conjuring_3": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_3"
+    },
+    "spectral_pickaxe_conjuring_3": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_3"
+    },
+    "ws:spectral_pickaxe_conjuring_4": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_4"
+    },
+    "spectral_pickaxe_conjuring_4": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_4"
+    },
+    "ws:spectral_pickaxe_conjuring_5": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_5"
+    },
+    "spectral_pickaxe_conjuring_5": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_5"
+    },
+    "ws:spectral_pickaxe_conjuring_6": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_6"
+    },
+    "spectral_pickaxe_conjuring_6": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_6"
+    },
+    "ws:spectral_pickaxe_conjuring_7": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_7"
+    },
+    "spectral_pickaxe_conjuring_7": {
+      "textures": "textures/items/spectral_pickaxe_conjuring_7"
+    },
+    "ws:spectral_sword": {
+      "textures": "textures/items/spectral_sword"
+    },
+    "spectral_sword": {
+      "textures": "textures/items/spectral_sword"
+    },
+    "ws:spectral_sword_conjuring_0": {
+      "textures": "textures/items/spectral_sword_conjuring_0"
+    },
+    "spectral_sword_conjuring_0": {
+      "textures": "textures/items/spectral_sword_conjuring_0"
+    },
+    "ws:spectral_sword_conjuring_1": {
+      "textures": "textures/items/spectral_sword_conjuring_1"
+    },
+    "spectral_sword_conjuring_1": {
+      "textures": "textures/items/spectral_sword_conjuring_1"
+    },
+    "ws:spectral_sword_conjuring_2": {
+      "textures": "textures/items/spectral_sword_conjuring_2"
+    },
+    "spectral_sword_conjuring_2": {
+      "textures": "textures/items/spectral_sword_conjuring_2"
+    },
+    "ws:spectral_sword_conjuring_3": {
+      "textures": "textures/items/spectral_sword_conjuring_3"
+    },
+    "spectral_sword_conjuring_3": {
+      "textures": "textures/items/spectral_sword_conjuring_3"
+    },
+    "ws:spectral_sword_conjuring_4": {
+      "textures": "textures/items/spectral_sword_conjuring_4"
+    },
+    "spectral_sword_conjuring_4": {
+      "textures": "textures/items/spectral_sword_conjuring_4"
+    },
+    "ws:spectral_sword_conjuring_5": {
+      "textures": "textures/items/spectral_sword_conjuring_5"
+    },
+    "spectral_sword_conjuring_5": {
+      "textures": "textures/items/spectral_sword_conjuring_5"
+    },
+    "ws:spectral_sword_conjuring_6": {
+      "textures": "textures/items/spectral_sword_conjuring_6"
+    },
+    "spectral_sword_conjuring_6": {
+      "textures": "textures/items/spectral_sword_conjuring_6"
+    },
+    "ws:spectral_sword_conjuring_7": {
+      "textures": "textures/items/spectral_sword_conjuring_7"
+    },
+    "spectral_sword_conjuring_7": {
+      "textures": "textures/items/spectral_sword_conjuring_7"
+    },
+    "ws:spell_book": {
+      "textures": "textures/items/spell_book"
+    },
+    "spell_book": {
+      "textures": "textures/items/spell_book"
+    },
+    "ws:spell_book_festive": {
+      "textures": "textures/items/spell_book_festive"
+    },
+    "spell_book_festive": {
+      "textures": "textures/items/spell_book_festive"
+    },
+    "ws:spell_book_overlay": {
+      "textures": "textures/items/spell_book_overlay"
+    },
+    "spell_book_overlay": {
+      "textures": "textures/items/spell_book_overlay"
+    },
+    "ws:spell_book_overlay_earth": {
+      "textures": "textures/items/spell_book_overlay_earth"
+    },
+    "spell_book_overlay_earth": {
+      "textures": "textures/items/spell_book_overlay_earth"
+    },
+    "ws:spell_book_overlay_fire": {
+      "textures": "textures/items/spell_book_overlay_fire"
+    },
+    "spell_book_overlay_fire": {
+      "textures": "textures/items/spell_book_overlay_fire"
+    },
+    "ws:spell_book_overlay_healing": {
+      "textures": "textures/items/spell_book_overlay_healing"
+    },
+    "spell_book_overlay_healing": {
+      "textures": "textures/items/spell_book_overlay_healing"
+    },
+    "ws:spell_book_overlay_ice": {
+      "textures": "textures/items/spell_book_overlay_ice"
+    },
+    "spell_book_overlay_ice": {
+      "textures": "textures/items/spell_book_overlay_ice"
+    },
+    "ws:spell_book_overlay_lightning": {
+      "textures": "textures/items/spell_book_overlay_lightning"
+    },
+    "spell_book_overlay_lightning": {
+      "textures": "textures/items/spell_book_overlay_lightning"
+    },
+    "ws:spell_book_overlay_magic": {
+      "textures": "textures/items/spell_book_overlay_magic"
+    },
+    "spell_book_overlay_magic": {
+      "textures": "textures/items/spell_book_overlay_magic"
+    },
+    "ws:spell_book_overlay_necromancy": {
+      "textures": "textures/items/spell_book_overlay_necromancy"
+    },
+    "spell_book_overlay_necromancy": {
+      "textures": "textures/items/spell_book_overlay_necromancy"
+    },
+    "ws:spell_book_overlay_sorcery": {
+      "textures": "textures/items/spell_book_overlay_sorcery"
+    },
+    "spell_book_overlay_sorcery": {
+      "textures": "textures/items/spell_book_overlay_sorcery"
+    },
+    "ws:transportation_stone": {
+      "textures": "textures/items/transportation_stone"
+    },
+    "transportation_stone": {
+      "textures": "textures/items/transportation_stone"
+    },
+    "ws:upgrade_attunement": {
+      "textures": "textures/items/upgrade_attunement"
+    },
+    "upgrade_attunement": {
+      "textures": "textures/items/upgrade_attunement"
+    },
+    "ws:upgrade_blast": {
+      "textures": "textures/items/upgrade_blast"
+    },
+    "upgrade_blast": {
+      "textures": "textures/items/upgrade_blast"
+    },
+    "ws:upgrade_condenser": {
+      "textures": "textures/items/upgrade_condenser"
+    },
+    "upgrade_condenser": {
+      "textures": "textures/items/upgrade_condenser"
+    },
+    "ws:upgrade_cooldown": {
+      "textures": "textures/items/upgrade_cooldown"
+    },
+    "upgrade_cooldown": {
+      "textures": "textures/items/upgrade_cooldown"
+    },
+    "ws:upgrade_duration": {
+      "textures": "textures/items/upgrade_duration"
+    },
+    "upgrade_duration": {
+      "textures": "textures/items/upgrade_duration"
+    },
+    "ws:upgrade_melee": {
+      "textures": "textures/items/upgrade_melee"
+    },
+    "upgrade_melee": {
+      "textures": "textures/items/upgrade_melee"
+    },
+    "ws:upgrade_range": {
+      "textures": "textures/items/upgrade_range"
+    },
+    "upgrade_range": {
+      "textures": "textures/items/upgrade_range"
+    },
+    "ws:upgrade_siphon": {
+      "textures": "textures/items/upgrade_siphon"
+    },
+    "upgrade_siphon": {
+      "textures": "textures/items/upgrade_siphon"
+    },
+    "ws:upgrade_storage": {
+      "textures": "textures/items/upgrade_storage"
+    },
+    "upgrade_storage": {
+      "textures": "textures/items/upgrade_storage"
+    },
+    "ws:warlock_boots": {
+      "textures": "textures/items/warlock_boots"
+    },
+    "warlock_boots": {
+      "textures": "textures/items/warlock_boots"
+    },
+    "ws:warlock_boots_earth": {
+      "textures": "textures/items/warlock_boots_earth"
+    },
+    "warlock_boots_earth": {
+      "textures": "textures/items/warlock_boots_earth"
+    },
+    "ws:warlock_boots_fire": {
+      "textures": "textures/items/warlock_boots_fire"
+    },
+    "warlock_boots_fire": {
+      "textures": "textures/items/warlock_boots_fire"
+    },
+    "ws:warlock_boots_healing": {
+      "textures": "textures/items/warlock_boots_healing"
+    },
+    "warlock_boots_healing": {
+      "textures": "textures/items/warlock_boots_healing"
+    },
+    "ws:warlock_boots_ice": {
+      "textures": "textures/items/warlock_boots_ice"
+    },
+    "warlock_boots_ice": {
+      "textures": "textures/items/warlock_boots_ice"
+    },
+    "ws:warlock_boots_lightning": {
+      "textures": "textures/items/warlock_boots_lightning"
+    },
+    "warlock_boots_lightning": {
+      "textures": "textures/items/warlock_boots_lightning"
+    },
+    "ws:warlock_boots_necromancy": {
+      "textures": "textures/items/warlock_boots_necromancy"
+    },
+    "warlock_boots_necromancy": {
+      "textures": "textures/items/warlock_boots_necromancy"
+    },
+    "ws:warlock_boots_sorcery": {
+      "textures": "textures/items/warlock_boots_sorcery"
+    },
+    "warlock_boots_sorcery": {
+      "textures": "textures/items/warlock_boots_sorcery"
+    },
+    "ws:warlock_hood": {
+      "textures": "textures/items/warlock_hood"
+    },
+    "warlock_hood": {
+      "textures": "textures/items/warlock_hood"
+    },
+    "ws:warlock_hood_earth": {
+      "textures": "textures/items/warlock_hood_earth"
+    },
+    "warlock_hood_earth": {
+      "textures": "textures/items/warlock_hood_earth"
+    },
+    "ws:warlock_hood_fire": {
+      "textures": "textures/items/warlock_hood_fire"
+    },
+    "warlock_hood_fire": {
+      "textures": "textures/items/warlock_hood_fire"
+    },
+    "ws:warlock_hood_healing": {
+      "textures": "textures/items/warlock_hood_healing"
+    },
+    "warlock_hood_healing": {
+      "textures": "textures/items/warlock_hood_healing"
+    },
+    "ws:warlock_hood_ice": {
+      "textures": "textures/items/warlock_hood_ice"
+    },
+    "warlock_hood_ice": {
+      "textures": "textures/items/warlock_hood_ice"
+    },
+    "ws:warlock_hood_lightning": {
+      "textures": "textures/items/warlock_hood_lightning"
+    },
+    "warlock_hood_lightning": {
+      "textures": "textures/items/warlock_hood_lightning"
+    },
+    "ws:warlock_hood_necromancy": {
+      "textures": "textures/items/warlock_hood_necromancy"
+    },
+    "warlock_hood_necromancy": {
+      "textures": "textures/items/warlock_hood_necromancy"
+    },
+    "ws:warlock_hood_sorcery": {
+      "textures": "textures/items/warlock_hood_sorcery"
+    },
+    "warlock_hood_sorcery": {
+      "textures": "textures/items/warlock_hood_sorcery"
+    },
+    "ws:warlock_leggings": {
+      "textures": "textures/items/warlock_leggings"
+    },
+    "warlock_leggings": {
+      "textures": "textures/items/warlock_leggings"
+    },
+    "ws:warlock_leggings_earth": {
+      "textures": "textures/items/warlock_leggings_earth"
+    },
+    "warlock_leggings_earth": {
+      "textures": "textures/items/warlock_leggings_earth"
+    },
+    "ws:warlock_leggings_fire": {
+      "textures": "textures/items/warlock_leggings_fire"
+    },
+    "warlock_leggings_fire": {
+      "textures": "textures/items/warlock_leggings_fire"
+    },
+    "ws:warlock_leggings_healing": {
+      "textures": "textures/items/warlock_leggings_healing"
+    },
+    "warlock_leggings_healing": {
+      "textures": "textures/items/warlock_leggings_healing"
+    },
+    "ws:warlock_leggings_ice": {
+      "textures": "textures/items/warlock_leggings_ice"
+    },
+    "warlock_leggings_ice": {
+      "textures": "textures/items/warlock_leggings_ice"
+    },
+    "ws:warlock_leggings_lightning": {
+      "textures": "textures/items/warlock_leggings_lightning"
+    },
+    "warlock_leggings_lightning": {
+      "textures": "textures/items/warlock_leggings_lightning"
+    },
+    "ws:warlock_leggings_necromancy": {
+      "textures": "textures/items/warlock_leggings_necromancy"
+    },
+    "warlock_leggings_necromancy": {
+      "textures": "textures/items/warlock_leggings_necromancy"
+    },
+    "ws:warlock_leggings_sorcery": {
+      "textures": "textures/items/warlock_leggings_sorcery"
+    },
+    "warlock_leggings_sorcery": {
+      "textures": "textures/items/warlock_leggings_sorcery"
+    },
+    "ws:warlock_robe": {
+      "textures": "textures/items/warlock_robe"
+    },
+    "warlock_robe": {
+      "textures": "textures/items/warlock_robe"
+    },
+    "ws:warlock_robe_earth": {
+      "textures": "textures/items/warlock_robe_earth"
+    },
+    "warlock_robe_earth": {
+      "textures": "textures/items/warlock_robe_earth"
+    },
+    "ws:warlock_robe_fire": {
+      "textures": "textures/items/warlock_robe_fire"
+    },
+    "warlock_robe_fire": {
+      "textures": "textures/items/warlock_robe_fire"
+    },
+    "ws:warlock_robe_healing": {
+      "textures": "textures/items/warlock_robe_healing"
+    },
+    "warlock_robe_healing": {
+      "textures": "textures/items/warlock_robe_healing"
+    },
+    "ws:warlock_robe_ice": {
+      "textures": "textures/items/warlock_robe_ice"
+    },
+    "warlock_robe_ice": {
+      "textures": "textures/items/warlock_robe_ice"
+    },
+    "ws:warlock_robe_lightning": {
+      "textures": "textures/items/warlock_robe_lightning"
+    },
+    "warlock_robe_lightning": {
+      "textures": "textures/items/warlock_robe_lightning"
+    },
+    "ws:warlock_robe_necromancy": {
+      "textures": "textures/items/warlock_robe_necromancy"
+    },
+    "warlock_robe_necromancy": {
+      "textures": "textures/items/warlock_robe_necromancy"
+    },
+    "ws:warlock_robe_sorcery": {
+      "textures": "textures/items/warlock_robe_sorcery"
+    },
+    "warlock_robe_sorcery": {
+      "textures": "textures/items/warlock_robe_sorcery"
+    },
+    "ws:wizard_boots": {
+      "textures": "textures/items/wizard_boots"
+    },
+    "wizard_boots": {
+      "textures": "textures/items/wizard_boots"
+    },
+    "ws:wizard_boots_earth": {
+      "textures": "textures/items/wizard_boots_earth"
+    },
+    "wizard_boots_earth": {
+      "textures": "textures/items/wizard_boots_earth"
+    },
+    "ws:wizard_boots_fire": {
+      "textures": "textures/items/wizard_boots_fire"
+    },
+    "wizard_boots_fire": {
+      "textures": "textures/items/wizard_boots_fire"
+    },
+    "ws:wizard_boots_healing": {
+      "textures": "textures/items/wizard_boots_healing"
+    },
+    "wizard_boots_healing": {
+      "textures": "textures/items/wizard_boots_healing"
+    },
+    "ws:wizard_boots_ice": {
+      "textures": "textures/items/wizard_boots_ice"
+    },
+    "wizard_boots_ice": {
+      "textures": "textures/items/wizard_boots_ice"
+    },
+    "ws:wizard_boots_lightning": {
+      "textures": "textures/items/wizard_boots_lightning"
+    },
+    "wizard_boots_lightning": {
+      "textures": "textures/items/wizard_boots_lightning"
+    },
+    "ws:wizard_boots_necromancy": {
+      "textures": "textures/items/wizard_boots_necromancy"
+    },
+    "wizard_boots_necromancy": {
+      "textures": "textures/items/wizard_boots_necromancy"
+    },
+    "ws:wizard_boots_sorcery": {
+      "textures": "textures/items/wizard_boots_sorcery"
+    },
+    "wizard_boots_sorcery": {
+      "textures": "textures/items/wizard_boots_sorcery"
+    },
+    "ws:wizard_handbook": {
+      "textures": "textures/items/wizard_handbook"
+    },
+    "wizard_handbook": {
+      "textures": "textures/items/wizard_handbook"
+    },
+    "ws:wizard_hat": {
+      "textures": "textures/items/wizard_hat"
+    },
+    "wizard_hat": {
+      "textures": "textures/items/wizard_hat"
+    },
+    "ws:wizard_hat_earth": {
+      "textures": "textures/items/wizard_hat_earth"
+    },
+    "wizard_hat_earth": {
+      "textures": "textures/items/wizard_hat_earth"
+    },
+    "ws:wizard_hat_fire": {
+      "textures": "textures/items/wizard_hat_fire"
+    },
+    "wizard_hat_fire": {
+      "textures": "textures/items/wizard_hat_fire"
+    },
+    "ws:wizard_hat_healing": {
+      "textures": "textures/items/wizard_hat_healing"
+    },
+    "wizard_hat_healing": {
+      "textures": "textures/items/wizard_hat_healing"
+    },
+    "ws:wizard_hat_ice": {
+      "textures": "textures/items/wizard_hat_ice"
+    },
+    "wizard_hat_ice": {
+      "textures": "textures/items/wizard_hat_ice"
+    },
+    "ws:wizard_hat_lightning": {
+      "textures": "textures/items/wizard_hat_lightning"
+    },
+    "wizard_hat_lightning": {
+      "textures": "textures/items/wizard_hat_lightning"
+    },
+    "ws:wizard_hat_necromancy": {
+      "textures": "textures/items/wizard_hat_necromancy"
+    },
+    "wizard_hat_necromancy": {
+      "textures": "textures/items/wizard_hat_necromancy"
+    },
+    "ws:wizard_hat_sorcery": {
+      "textures": "textures/items/wizard_hat_sorcery"
+    },
+    "wizard_hat_sorcery": {
+      "textures": "textures/items/wizard_hat_sorcery"
+    },
+    "ws:wizard_leggings": {
+      "textures": "textures/items/wizard_leggings"
+    },
+    "wizard_leggings": {
+      "textures": "textures/items/wizard_leggings"
+    },
+    "ws:wizard_leggings_earth": {
+      "textures": "textures/items/wizard_leggings_earth"
+    },
+    "wizard_leggings_earth": {
+      "textures": "textures/items/wizard_leggings_earth"
+    },
+    "ws:wizard_leggings_fire": {
+      "textures": "textures/items/wizard_leggings_fire"
+    },
+    "wizard_leggings_fire": {
+      "textures": "textures/items/wizard_leggings_fire"
+    },
+    "ws:wizard_leggings_healing": {
+      "textures": "textures/items/wizard_leggings_healing"
+    },
+    "wizard_leggings_healing": {
+      "textures": "textures/items/wizard_leggings_healing"
+    },
+    "ws:wizard_leggings_ice": {
+      "textures": "textures/items/wizard_leggings_ice"
+    },
+    "wizard_leggings_ice": {
+      "textures": "textures/items/wizard_leggings_ice"
+    },
+    "ws:wizard_leggings_lightning": {
+      "textures": "textures/items/wizard_leggings_lightning"
+    },
+    "wizard_leggings_lightning": {
+      "textures": "textures/items/wizard_leggings_lightning"
+    },
+    "ws:wizard_leggings_necromancy": {
+      "textures": "textures/items/wizard_leggings_necromancy"
+    },
+    "wizard_leggings_necromancy": {
+      "textures": "textures/items/wizard_leggings_necromancy"
+    },
+    "ws:wizard_leggings_sorcery": {
+      "textures": "textures/items/wizard_leggings_sorcery"
+    },
+    "wizard_leggings_sorcery": {
+      "textures": "textures/items/wizard_leggings_sorcery"
+    },
+    "ws:wizard_robe": {
+      "textures": "textures/items/wizard_robe"
+    },
+    "wizard_robe": {
+      "textures": "textures/items/wizard_robe"
+    },
+    "ws:wizard_robe_earth": {
+      "textures": "textures/items/wizard_robe_earth"
+    },
+    "wizard_robe_earth": {
+      "textures": "textures/items/wizard_robe_earth"
+    },
+    "ws:wizard_robe_fire": {
+      "textures": "textures/items/wizard_robe_fire"
+    },
+    "wizard_robe_fire": {
+      "textures": "textures/items/wizard_robe_fire"
+    },
+    "ws:wizard_robe_healing": {
+      "textures": "textures/items/wizard_robe_healing"
+    },
+    "wizard_robe_healing": {
+      "textures": "textures/items/wizard_robe_healing"
+    },
+    "ws:wizard_robe_ice": {
+      "textures": "textures/items/wizard_robe_ice"
+    },
+    "wizard_robe_ice": {
+      "textures": "textures/items/wizard_robe_ice"
+    },
+    "ws:wizard_robe_lightning": {
+      "textures": "textures/items/wizard_robe_lightning"
+    },
+    "wizard_robe_lightning": {
+      "textures": "textures/items/wizard_robe_lightning"
+    },
+    "ws:wizard_robe_necromancy": {
+      "textures": "textures/items/wizard_robe_necromancy"
+    },
+    "wizard_robe_necromancy": {
+      "textures": "textures/items/wizard_robe_necromancy"
+    },
+    "ws:wizard_robe_sorcery": {
+      "textures": "textures/items/wizard_robe_sorcery"
+    },
+    "wizard_robe_sorcery": {
+      "textures": "textures/items/wizard_robe_sorcery"
+    },
+    "ws:spell_book_earth": {
+      "textures": "textures/items/spell_book_earth"
+    },
+    "spell_book_earth": {
+      "textures": "textures/items/spell_book_earth"
+    },
+    "ws:spell_book_fire": {
+      "textures": "textures/items/spell_book_fire"
+    },
+    "spell_book_fire": {
+      "textures": "textures/items/spell_book_fire"
+    },
+    "ws:spell_book_healing": {
+      "textures": "textures/items/spell_book_healing"
+    },
+    "spell_book_healing": {
+      "textures": "textures/items/spell_book_healing"
+    },
+    "ws:spell_book_ice": {
+      "textures": "textures/items/spell_book_ice"
+    },
+    "spell_book_ice": {
+      "textures": "textures/items/spell_book_ice"
+    },
+    "ws:spell_book_lightning": {
+      "textures": "textures/items/spell_book_lightning"
+    },
+    "spell_book_lightning": {
+      "textures": "textures/items/spell_book_lightning"
+    },
+    "ws:spell_book_magic": {
+      "textures": "textures/items/spell_book_magic"
+    },
+    "spell_book_magic": {
+      "textures": "textures/items/spell_book_magic"
+    },
+    "ws:spell_book_necromancy": {
+      "textures": "textures/items/spell_book_necromancy"
+    },
+    "spell_book_necromancy": {
+      "textures": "textures/items/spell_book_necromancy"
+    },
+    "ws:spell_book_sorcery": {
+      "textures": "textures/items/spell_book_sorcery"
+    },
+    "spell_book_sorcery": {
+      "textures": "textures/items/spell_book_sorcery"
+    },
+    "ws:scroll_earth": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_earth": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_fire": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_fire": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_healing": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_healing": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_ice": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_ice": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_lightning": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_lightning": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_magic": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_magic": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_necromancy": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_necromancy": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:scroll_sorcery": {
+      "textures": "textures/items/scroll"
+    },
+    "scroll_sorcery": {
+      "textures": "textures/items/scroll"
+    },
+    "ws:wand_novice": {
+      "textures": "textures/items/wand_novice"
+    },
+    "wand_novice": {
+      "textures": "textures/items/wand_novice"
+    },
+    "ws:wand_apprentice": {
+      "textures": "textures/items/wand_apprentice"
+    },
+    "wand_apprentice": {
+      "textures": "textures/items/wand_apprentice"
+    },
+    "ws:wand_advanced": {
+      "textures": "textures/items/wand_advanced"
+    },
+    "wand_advanced": {
+      "textures": "textures/items/wand_advanced"
+    },
+    "ws:wand_master": {
+      "textures": "textures/items/wand_master"
+    },
+    "wand_master": {
+      "textures": "textures/items/wand_master"
+    },
+    "ws:wand_fire": {
+      "textures": "textures/items/wand_fire"
+    },
+    "wand_fire": {
+      "textures": "textures/items/wand_fire"
+    },
+    "ws:wand_ice": {
+      "textures": "textures/items/wand_ice"
+    },
+    "wand_ice": {
+      "textures": "textures/items/wand_ice"
+    },
+    "ws:wand_lightning": {
+      "textures": "textures/items/wand_lightning"
+    },
+    "wand_lightning": {
+      "textures": "textures/items/wand_lightning"
+    },
+    "ws:wand_earth": {
+      "textures": "textures/items/wand_earth"
+    },
+    "wand_earth": {
+      "textures": "textures/items/wand_earth"
+    },
+    "ws:wand_healing": {
+      "textures": "textures/items/wand_healing"
+    },
+    "wand_healing": {
+      "textures": "textures/items/wand_healing"
+    },
+    "ws:wand_necromancy": {
+      "textures": "textures/items/wand_necromancy"
+    },
+    "wand_necromancy": {
+      "textures": "textures/items/wand_necromancy"
+    },
+    "ws:wand_sorcery": {
+      "textures": "textures/items/wand_sorcery"
+    },
+    "wand_sorcery": {
+      "textures": "textures/items/wand_sorcery"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/generated/books_fire_all.json",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/generated/books_novice_apprentice_advanced.json",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

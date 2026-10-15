@@ -1,0 +1,42 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ws:evil_wizard_marker",
+            "menu_category": {
+                "category": "none",
+                "is_hidden_in_commands": true
+            }
+        },
+        "components": {
+            "minecraft:custom_components": [
+                "ws:wizard_marker"
+            ],
+            "minecraft:geometry": {
+                "identifier": "geometry.ws.empty"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ws:crystal_flower",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": false,
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:tick": {
+                "interval_range": [
+                    1,
+                    4
+                ],
+                "looping": true
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:ice_spike",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ice_barrier"
+			},
+			"geometry": {
+				"default": "geometry.ws.ice_spike"
+			},
+			"animations": {
+				"rise": "animation.ws.ice_spike.rise"
+			},
+			"scripts": {
+				"animate": [
+					"rise"
+				]
+			},
+			"render_controllers": [
+				"controller.render.ice_spike"
+			]
+		}
+	}
+}

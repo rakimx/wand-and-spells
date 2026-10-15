@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ws:crystal_fire",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.ws:crystal_fire.name"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ws:crystal_fire"
+                }
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

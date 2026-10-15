@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Wand and Spells BP",
+    "description": "Comportamentos e scripts para o addon Wand and Spells",
+    "uuid": "c96a4905-9f45-415a-9c54-180d2dd8929f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 60]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2eb06468-6afb-4762-8452-489b416ccfdc",
+      "version": [1, 0, 0]
+    },
+    {
+      "uuid": "6aa5358b-aad2-4287-b5a4-c0dab635c5ca",
+      "version": [1, 0, 0],
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c826aebd-66ab-4bb8-bb90-5fa0d2388652",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.19.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ]
+}

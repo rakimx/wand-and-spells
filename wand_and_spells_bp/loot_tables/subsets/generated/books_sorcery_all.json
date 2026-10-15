@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_agility",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_black_hole",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_blink",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_conjure_sword",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_invisibility",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_light",
+                    "weight": 12
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_magic_missile",
+                    "weight": 12
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_phase_step",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_transportation",
+                    "weight": 3
+                }]
+        }
+    ]
+}

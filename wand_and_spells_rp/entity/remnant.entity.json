@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "ws:remnant",
+            "materials": {
+                "default": "vex"
+            },
+            "textures": {
+                "default": "textures/entity/vex/vex",
+                "charging": "textures/entity/vex/vex_charging"
+            },
+            "geometry": {
+                "default": "geometry.vex.v1.8"
+            },
+            "animations": {
+                "look_at_target_default": "animation.humanoid.look_at_target.default",
+                "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+                "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+                "vex_charge": "animation.vex.charge",
+                "vex_idle": "animation.vex.idle",
+                "ctrl_look": "controller.animation.humanoid.look_at_target",
+                "ctrl_charge": "controller.animation.vex.charge",
+                "ctrl_idle": "controller.animation.vex.idle"
+            },
+            "scripts": {
+                "animate": ["ctrl_idle", "ctrl_charge", "ctrl_look"]
+            },
+            "spawn_egg": {
+                "base_color": "#7a6f9c",
+                "overlay_color": "#d9d2ff"
+            },
+            "render_controllers": ["controller.render.vex"]
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ws:lightning_wraith",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ws:expire": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:type_family": { "family": [ "mob", "ws_minion" ] },
+			"minecraft:is_tamed": {},
+			"minecraft:health": { "value": 16, "max": 16 },
+			"minecraft:attack": { "damage": 5 },
+			"minecraft:can_fly": {},
+			"minecraft:movement": { "value": 0.24 },
+			"minecraft:flying_speed": { "value": 0.24 },
+			"minecraft:movement.hover": {},
+			"minecraft:navigation.hover": {
+				"avoid_damage_blocks": true,
+				"can_pass_doors": false,
+				"can_path_from_air": true,
+				"avoid_sun": false,
+				"avoid_water": true,
+				"can_path_over_water": true,
+				"can_sink": false
+			},
+			"minecraft:jump.static": {},
+			"minecraft:physics": { "has_gravity": false },
+			"minecraft:collision_box": { "width": 0.6, "height": 1.4 },
+			"minecraft:knockback_resistance": { "value": 0.8 },
+			"minecraft:fire_immune": true,
+			"minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+			"minecraft:nameable": {},
+			"minecraft:behavior.float": { "priority": 0 },
+			"minecraft:behavior.melee_attack": { "priority": 2, "track_target": true, "speed_multiplier": 1.3 },
+			"minecraft:behavior.hurt_by_target": { "priority": 1 },
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 3,
+				"must_see": true,
+				"must_see_forget_duration": 10,
+				"reselect_targets": true,
+				"within_radius": 24,
+				"entity_types": [
+					{
+						"filters": { "test": "is_family", "subject": "other", "value": "monster" },
+						"max_dist": 24
+					}
+				]
+			},
+			"minecraft:behavior.random_hover": {
+				"priority": 9,
+				"hover_height": [1, 3],
+				"y_dist": 6,
+				"y_offset": -1,
+				"interval": 1,
+				"xz_dist": 8
+			},
+			"minecraft:behavior.random_look_around": { "priority": 8 },
+			"minecraft:timer": {
+				"time": 40,
+				"looping": false,
+				"time_down_event": { "event": "ws:expire" }
+			}
+		},
+		"events": {
+			"ws:expire": { "add": { "component_groups": [ "ws:expire" ] } }
+		}
+	}
+}

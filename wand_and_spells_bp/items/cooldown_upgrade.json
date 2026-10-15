@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ws:cooldown_upgrade",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.ws:cooldown_upgrade.name"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ws:upgrade_cooldown"
+                }
+            },
+            "minecraft:max_stack_size": 16
+        }
+    }
+}

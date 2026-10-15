@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wand": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"first_person": "c.is_first_person"
+						},
+						{
+							"third_person": "!c.is_first_person"
+						}
+					]
+				},
+				"third_person": {
+					"animations": [
+						"hold_third_person"
+					],
+					"transitions": [
+						{
+							"first_person": "c.is_first_person"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"first_person": {
+					"animations": [
+						"hold_first_person"
+					],
+					"transitions": [
+						{
+							"third_person": "!c.is_first_person"
+						},
+						{
+							"first_person_cast": "query.is_using_item && !query.is_sneaking"
+						}
+					],
+					"blend_transition": 0.15
+				},
+				"first_person_cast": {
+					"animations": [
+						"cast_first_person"
+					],
+					"transitions": [
+						{
+							"third_person": "!c.is_first_person"
+						},
+						{
+							"first_person": "!query.is_using_item || query.is_sneaking"
+						}
+					],
+					"blend_transition": 0.15
+				}
+			}
+		}
+	}
+}

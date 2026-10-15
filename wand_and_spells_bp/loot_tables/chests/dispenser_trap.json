@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "weight": 30
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.4
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/generated/scrolls_list_1r6930_cvb8jz.json",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:scroll_fireball",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:scroll_poison",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:scroll_ignite",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:scroll_lightning_pulse",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

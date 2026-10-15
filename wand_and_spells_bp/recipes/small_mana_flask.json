@@ -1,0 +1,31 @@
+{
+    "minecraft:recipe_shaped":  {
+                                    "description":  {
+                                                        "identifier":  "ws:small_mana_flask"
+                                                    },
+                                    "tags":  [
+                                                 "crafting_table"
+                                             ],
+                                    "unlock":  {
+                                                   "context":  "AlwaysUnlocked"
+                                               },
+                                    "pattern":  [
+                                                    "SSS",
+                                                    "SBS",
+                                                    "SSS"
+                                                ],
+                                    "key":  {
+                                                "S":  {
+                                                          "item":  "ws:crystal_shard"
+                                                      },
+                                                "B":  {
+                                                          "item":  "minecraft:glass_bottle"
+                                                      }
+                                            },
+                                    "result":  {
+                                                   "item":  "ws:small_mana_flask",
+                                                   "count":  1
+                                               }
+                                },
+    "format_version":  "1.21.0"
+}

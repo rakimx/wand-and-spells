@@ -1,0 +1,30 @@
+{
+    "minecraft:recipe_shaped":  {
+                                    "description":  {
+                                                        "identifier":  "ws:receptacle"
+                                                    },
+                                    "tags":  [
+                                                 "crafting_table"
+                                             ],
+                                    "unlock":  {
+                                                   "context":  "AlwaysUnlocked"
+                                               },
+                                    "pattern":  [
+                                                    "GPG",
+                                                    " G "
+                                                ],
+                                    "key":  {
+                                                "G":  {
+                                                          "item":  "minecraft:gold_ingot"
+                                                      },
+                                                "P":  {
+                                                          "item":  "minecraft:flower_pot"
+                                                      }
+                                            },
+                                    "result":  {
+                                                   "item":  "ws:receptacle",
+                                                   "count":  1
+                                               }
+                                },
+    "format_version":  "1.21.0"
+}

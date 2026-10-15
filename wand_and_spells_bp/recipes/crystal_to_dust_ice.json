@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ws:crystal_to_dust_ice"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "ingredients": [
+            {
+                "item": "ws:crystal_ice"
+            }
+        ],
+        "result": {
+            "item": "ws:spectral_dust_ice",
+            "count": 4
+        }
+    }
+}

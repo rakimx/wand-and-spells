@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ws.tornado.spin": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"scale": [
+						"query.property('ws:size')",
+						"query.property('ws:size')",
+						"query.property('ws:size')"
+					]
+				},
+				"ring0": {
+					"rotation": [0.0, "query.property('ws:spin') * query.life_time * 1.70", 0.0]
+				},
+				"ring1": {
+					"rotation": [0.0, "query.property('ws:spin') * query.life_time * 1.44", 0.0],
+					"position": ["math.sin(query.life_time * 150) * 0.4", 0.0, "math.cos(query.life_time * 130) * 0.4"]
+				},
+				"ring2": {
+					"rotation": [0.0, "query.property('ws:spin') * query.life_time * 1.22", 0.0],
+					"position": ["math.sin(query.life_time * 140) * 0.9", 0.0, "math.cos(query.life_time * 120) * 0.9"]
+				},
+				"ring3": {
+					"rotation": [0.0, "query.property('ws:spin') * query.life_time * 1.04", 0.0],
+					"position": ["math.sin(query.life_time * 130) * 1.5", 0.0, "math.cos(query.life_time * 110) * 1.5"]
+				},
+				"ring4": {
+					"rotation": [0.0, "query.property('ws:spin') * query.life_time * 0.88", 0.0],
+					"position": ["math.sin(query.life_time * 120) * 2.2", 0.0, "math.cos(query.life_time * 100) * 2.2"]
+				},
+				"ring5": {
+					"rotation": [0.0, "query.property('ws:spin') * query.life_time * 0.74", 0.0],
+					"position": ["math.sin(query.life_time * 110) * 3.0", 0.0, "math.cos(query.life_time * 90) * 3.0"]
+				}
+			}
+		}
+	}
+}

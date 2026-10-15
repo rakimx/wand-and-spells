@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ws:runestone",
+            "menu_category": {
+                "category": "items",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 5
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.ws.runestone"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ws:runestone_fire_0",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 0
+        }
+    }
+}

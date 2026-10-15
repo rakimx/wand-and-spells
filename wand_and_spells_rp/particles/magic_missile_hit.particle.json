@@ -1,0 +1,57 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+        "description": {
+            "identifier": "ws:magic_missile_hit",
+            "basic_render_parameters": {
+                "material": "particles_add",
+                "texture": "textures/particles/flare"
+            }
+        },
+        "components": {
+            "minecraft:emitter_local_space": {
+                "position": false,
+                "rotation": false,
+                "velocity": false
+            },
+            "minecraft:emitter_rate_instant": {
+                "num_particles": 3
+            },
+            "minecraft:emitter_lifetime_once": {
+                "active_time": 0.05
+            },
+            "minecraft:emitter_shape_point": {
+                "offset": [0, 0, 0]
+            },
+            "minecraft:particle_lifetime_expression": {
+                "max_lifetime": "0.3 + variable.particle_random_2 * 0.15"
+            },
+            "minecraft:particle_initial_speed": 0,
+            "minecraft:particle_appearance_billboard": {
+                "size": [
+                    "math.lerp(0.15, 0.9, v.particle_age / v.particle_lifetime) * (0.6 + variable.particle_random_1 * 0.55)",
+                    "math.lerp(0.15, 0.9, v.particle_age / v.particle_lifetime) * (0.6 + variable.particle_random_1 * 0.55)"
+                ],
+                "facing_camera_mode": "lookat_xyz",
+                "uv": {
+                    "texture_width": 32,
+                    "texture_height": 32,
+                    "uv": [0, 0],
+                    "uv_size": [32, 32]
+                }
+            },
+            "minecraft:particle_appearance_tinting": {
+                "color": {
+                    "interpolant": "v.particle_age / v.particle_lifetime",
+                    "gradient": {
+                        "0.0": "#FFFFFFFF",
+                        "0.12": "#FFF6ECFF",
+                        "0.45": "#B4D0B0FF",
+                        "0.75": "#50B490FF",
+                        "1.0": "#00A07CFF"
+                    }
+                }
+            }
+        }
+    }
+}

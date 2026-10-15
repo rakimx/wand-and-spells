@@ -1,0 +1,23 @@
+{
+    "minecraft:recipe_shapeless":  {
+                                       "description":  {
+                                                           "identifier":  "ws:crystal_shard"
+                                                       },
+                                       "tags":  [
+                                                    "crafting_table"
+                                                ],
+                                       "unlock":  {
+                                                      "context":  "AlwaysUnlocked"
+                                                  },
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "ws:crystal_magic"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "ws:crystal_shard",
+                                                      "count":  9
+                                                  }
+                                   },
+    "format_version":  "1.21.0"
+}

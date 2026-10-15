@@ -1,0 +1,59 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ws:magic_wand",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:apprentice_wand",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:advanced_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:fire_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:ice_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:lightning_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:earth_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:healing_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:necromancy_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:sorcery_wand",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

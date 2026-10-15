@@ -1,0 +1,22 @@
+{
+    "format_version":  "1.21.0",
+    "minecraft:item":  {
+                           "description":  {
+                                               "identifier":  "ws:resplendent_thread",
+                                               "menu_category":  {
+                                                                     "category":  "items"
+                                                                 }
+                                           },
+                           "components":  {
+                                              "minecraft:display_name":  {
+                                                                             "value":  "item.ws:resplendent_thread.name"
+                                                                         },
+                                              "minecraft:icon":  {
+                                                                     "textures":  {
+                                                                                      "default":  "ws:resplendent_thread"
+                                                                                  }
+                                                                 },
+                                              "minecraft:max_stack_size":  64
+                                          }
+                       }
+}

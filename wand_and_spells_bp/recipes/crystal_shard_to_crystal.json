@@ -1,0 +1,28 @@
+{
+    "minecraft:recipe_shaped":  {
+                                    "description":  {
+                                                        "identifier":  "ws:crystal_shard_to_crystal"
+                                                    },
+                                    "tags":  [
+                                                 "crafting_table"
+                                             ],
+                                    "unlock":  {
+                                                   "context":  "AlwaysUnlocked"
+                                               },
+                                    "pattern":  [
+                                                    "SSS",
+                                                    "SSS",
+                                                    "SSS"
+                                                ],
+                                    "key":  {
+                                                "S":  {
+                                                          "item":  "ws:crystal_shard"
+                                                      }
+                                            },
+                                    "result":  {
+                                                   "item":  "ws:crystal_magic",
+                                                   "count":  1
+                                               }
+                                },
+    "format_version":  "1.21.0"
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ws:lectern",
+            "menu_category": {
+                "category": "items",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 5
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.ws.lectern"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ws:oak_lectern_side",
+                    "render_method": "alpha_test"
+                },
+                "top": {
+                    "texture": "ws:oak_lectern_top",
+                    "render_method": "alpha_test"
+                },
+                "base": {
+                    "texture": "ws:oak_lectern_base",
+                    "render_method": "alpha_test"
+                },
+                "underside": {
+                    "texture": "ws:oak_lectern_underside",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 0
+        }
+    }
+}

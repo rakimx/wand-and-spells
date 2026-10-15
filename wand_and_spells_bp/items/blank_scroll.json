@@ -1,0 +1,22 @@
+{
+    "format_version":  "1.21.0",
+    "minecraft:item":  {
+                           "description":  {
+                                               "identifier":  "ws:blank_scroll",
+                                               "menu_category":  {
+                                                                     "category":  "items"
+                                                                 }
+                                           },
+                           "components":  {
+                                              "minecraft:display_name":  {
+                                                                             "value":  "item.ws:blank_scroll.name"
+                                                                         },
+                                              "minecraft:icon":  {
+                                                                     "textures":  {
+                                                                                      "default":  "ws:scroll"
+                                                                                  }
+                                                                 },
+                                              "minecraft:max_stack_size":  16
+                                          }
+                       }
+}

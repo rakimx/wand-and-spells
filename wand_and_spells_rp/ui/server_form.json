@@ -1,0 +1,1178 @@
+{
+	"namespace": "server_form",
+
+	/*
+		Three rules hold this file together. Each one came from a crash:
+
+		1. Every control name and every own variable starts with ws_. Plain names
+		   like "icon", "content", "border" or "close" also exist inside the
+		   vanilla templates instantiated here, and a source_control_name lookup
+		   that finds the wrong one takes the game down. Vanilla variables such
+		   as $button_image_visible keep their names - those are the template API.
+		2. No instance is named after the definition it extends. X@namespace.X
+		   lets the resolver bind a definition to itself.
+		3. collection_name only ever sits on a stack_panel.
+
+		The chrome is one drawn image, ws_hud, stretched over the whole screen.
+		Every interactive control is placed on top of it at a percentage measured
+		off that image, so they line up with the boxes that are painted on it.
+		The numbers in the comments are pixel coordinates in the 1672x941 source.
+	*/
+
+	"third_party_server_screen@common.base_screen": {
+		"$screen_animations": [
+			"@server_form.ws_anim_exit_push",
+			"@server_form.ws_anim_exit_pop",
+			"@server_form.ws_anim_entrance_push",
+			"@server_form.ws_anim_entrance_pop"
+		],
+		"modifications": [
+			{
+				"array_name": "button_mappings",
+				"operation": "insert_back",
+				"value": [
+					{ "from_button_id": "button.up", "to_button_id": "button.menu_up", "mapping_type": "global" },
+					{ "from_button_id": "button.down", "to_button_id": "button.menu_down", "mapping_type": "global" },
+					{ "from_button_id": "button.left", "to_button_id": "button.menu_left", "mapping_type": "global" },
+					{ "from_button_id": "button.right", "to_button_id": "button.menu_right", "mapping_type": "global" },
+					{ "from_button_id": "button.jump", "to_button_id": "button.menu_cancel", "mapping_type": "global" },
+					{ "from_button_id": "button.sneak", "to_button_id": "button.menu_exit", "mapping_type": "global" },
+					{ "from_button_id": "button.use", "to_button_id": "button.menu_ok", "mapping_type": "global" }
+				]
+			}
+		]
+	},
+
+	"ws_anim_hold": {
+		"anim_type": "offset",
+		"easing": "linear",
+		"duration": 0.1,
+		"from": [ 0, 0 ],
+		"to": [ 0, 0 ],
+		"resettable": false
+	},
+
+	"ws_anim_exit_push@server_form.ws_anim_hold": {
+		"play_event": "screen.exit_push",
+		"end_event": "screen.exit_end",
+		"resettable": true
+	},
+
+	"ws_anim_exit_pop@server_form.ws_anim_hold": {
+		"play_event": "screen.exit_pop",
+		"end_event": "screen.exit_end",
+		"resettable": true
+	},
+
+	"ws_anim_entrance_push@server_form.ws_anim_hold": {
+		"play_event": "screen.entrance_push",
+		"end_event": "screen.entrance_end",
+		"resettable": true
+	},
+
+	"ws_anim_entrance_pop@server_form.ws_anim_hold": {
+		"play_event": "screen.entrance_pop",
+		"end_event": "screen.entrance_end",
+		"resettable": true
+	},
+
+	"main_screen_content": {
+		"size": [ "100%", "100%" ],
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"ws_form_factory": {
+							"type": "panel",
+							"layer": 10,
+							"factory": {
+								"name": "server_form_factory",
+								"control_ids": {
+									"long_form": "@server_form.ws_long_form"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+
+	"long_form": {
+		"modifications": [
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": [
+					{
+						"binding_name": "#title_text"
+					},
+					{
+						"binding_type": "view",
+						"source_property_name": "((#title_text - '§r§r') = #title_text)",
+						"target_property_name": "#visible"
+					}
+				]
+			}
+		]
+	},
+
+	"ws_long_form": {
+		"type": "panel",
+		"size": [ "100%", "100%" ],
+		"controls": [
+			{ "ws_screen_root@server_form.ws_screen": {} }
+		]
+	},
+
+	/* ============================= ADJUST: PANEL SIZE ==========================
+		$ws_panel_max  the largest the panel may get, in ui units.
+
+		Why a cap at all: the art is an image and stretches with the window, but
+		text does not - it is drawn in ui units, which only change in steps when
+		the gui scale changes. Uncapped, a windowed game got a big frame with
+		tiny text while fullscreen looked right.
+
+		Why 418. The game does not smooth a texture it has to stretch - it
+		repeats whole pixels. At any other size some of the art's pixels get
+		drawn twice and the rest once, which thickens roughly one line in ten
+		and is what made the chrome look soft. 418 is the size at which that
+		stops: a ui unit measured 4 screen pixels here, and 418 x 4 is 1672,
+		the exact width of ws_hud.png. One art pixel, one screen pixel, no
+		resampling at all.
+
+		It also lands well at half that scale - 418 x 2 is 836, exactly half
+		the art, which repeats nothing either. A gui scale of 3 is the odd one
+		out and will stretch again.
+
+		What it costs. Fullscreen the panel goes from 96% of the width to about
+		87%, and a window, which used to reach 600 ui, now stops at 418 as
+		well. That is the trade: both modes now draw the art pixel for pixel
+		and look identical to each other, and the panel is smaller for it.
+		Raising this number back towards 600 gives the size back and brings the
+		doubled pixels with it.
+
+		The other way to make the panel bigger is to raise the gui scale in
+		video settings - the panel is measured in ui units, so it follows that,
+		and a larger scale keeps whole-number pixels.
+	   =========================================================================== */
+	"ws_screen": {
+		"$ws_panel_max|default": [ 418, 236 ],
+
+		/*
+			Height is 56.28% of the panel's OWN width, which is 941/1672 - the
+			art's proportions. "%x" means a share of the element's own width;
+			vanilla squares its checkboxes with the same trick, as
+			common.squaring_panel does with max_size [ "100%y", "100%" ].
+
+			Width alone decides the size, so the panel can never take on a shape
+			the art does not have. It used to be [ "96%", "94%" ], and since a
+			window is rarely 16:9 after the cap only bit on one axis, the panel
+			came out at ratios like 1.99 or 1.60 against the art's 1.777.
+		*/
+		"type": "panel",
+		"size": [ "96%", "56.28%x" ],
+		"max_size": "$ws_panel_max",
+		"anchor_from": "center",
+		"anchor_to": "center",
+		"layer": 2,
+		"bindings": [
+			{
+				"binding_name": "#title_text"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#title_text - '§r§r') = #title_text))",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{
+				"ws_hud_img": {
+					/*
+						keep_ratio defaults to TRUE, so this was quietly
+						letterboxing itself inside the panel whenever the two
+						shapes disagreed - the art shrank to one side while the
+						buttons, which are percentages of the panel, stayed put.
+						That is what threw everything out of line on a resize.
+
+						With the panel now locked to the art's proportions this
+						should never have to stretch. It is off anyway as a
+						safety net: if the shapes ever disagree again, the art
+						distorts a little instead of the whole screen coming
+						apart.
+					*/
+					"type": "image",
+					"texture": "textures/ui/ws_hud",
+					"size": [ "100%", "100%" ],
+					"keep_ratio": false,
+					"fill": true,
+					"layer": 1
+				}
+			},
+			{ "ws_tabs_root@server_form.ws_tab_bar": {} },
+			{ "ws_side_root@server_form.ws_side_slot": {} },
+			{ "ws_head_root@server_form.ws_heading": {} },
+			{ "ws_page_root@server_form.ws_page": {} },
+			{ "ws_legend_root@server_form.ws_legend": {} }
+		]
+	},
+
+	/* tab boxes: x 281..1380, y 99..157 of the art */
+	/* ================================ ADJUST: TABS ==============================
+		$ws_tabs_pos   [ left, top ] of the tab strip. Raise the first number
+		               to move all five tabs right.
+		$ws_tabs_size  [ width, height ] of the five together.
+
+		Percentages of the screen. In the 1672x941 art the painted boxes start
+		at x 281 and step 221.25 pixels apart, so 1% of width is 16.7 pixels.
+	   =========================================================================== */
+	/* ========================= ADJUST: EACH TAB'S BOX ==========================
+		One [ right, down ] per tab, in ui units, so the gold outline can be
+		trimmed onto its own painted box.
+
+		They are separate because the painted boxes are not evenly spaced. Their
+		left edges in the art are 281, 503, 725, 946 and 1166, which is steps of
+		222, 222, 221 and 220 - the spacing shrinks as it goes. A stack panel
+		splits the strip into five identical cells, so the difference piles up
+		one tab at a time and only the first one lands dead on.
+	   =========================================================================== */
+	"ws_tab_bar": {
+		"$ws_tab0_at|default": [ -4, 0 ],
+		"$ws_tab1_at|default": [ -3.5, 0 ],
+		"$ws_tab2_at|default": [ -3, 0 ],
+		"$ws_tab3_at|default": [ -4, 0 ],
+		"$ws_tab4_at|default": [ -4, 0 ],
+
+		"$ws_tab0_text|default": [ 3, 0 ],
+		"$ws_tab1_text|default": [ 1, 0 ],
+		"$ws_tab2_text|default": [ 0.5, 0 ],
+		"$ws_tab3_text|default": [ 1, 0 ],
+		"$ws_tab4_text|default": [ 1, 0 ],
+
+		"$ws_tabs_pos|default": [ "16.81%", "10.52%" ],
+		"$ws_tabs_size|default": [ "66.16%", "6.16%" ],
+
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"size": "$ws_tabs_size",
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"offset": "$ws_tabs_pos",
+		"layer": 4,
+		"collection_name": "form_buttons",
+		"controls": [
+			{ "ws_t0@server_form.ws_tab": { "collection_index": 0, "$ws_tab_box_at": "$ws_tab0_at", "$ws_tab_text_at": "$ws_tab0_text", "$ws_tab_focus": "ws_tab_0", "$ws_tab_focus_left": "ws_tab_4", "$ws_tab_focus_right": "ws_tab_1" } },
+			{ "ws_t1@server_form.ws_tab": { "collection_index": 1, "$ws_tab_box_at": "$ws_tab1_at", "$ws_tab_text_at": "$ws_tab1_text", "$ws_tab_focus": "ws_tab_1", "$ws_tab_focus_left": "ws_tab_0", "$ws_tab_focus_right": "ws_tab_2" } },
+			{ "ws_t2@server_form.ws_tab": { "collection_index": 2, "$ws_tab_box_at": "$ws_tab2_at", "$ws_tab_text_at": "$ws_tab2_text", "$ws_tab_focus": "ws_tab_2", "$ws_tab_focus_left": "ws_tab_1", "$ws_tab_focus_right": "ws_tab_3" } },
+			{ "ws_t3@server_form.ws_tab": { "collection_index": 3, "$ws_tab_box_at": "$ws_tab3_at", "$ws_tab_text_at": "$ws_tab3_text", "$ws_tab_focus": "ws_tab_3", "$ws_tab_focus_left": "ws_tab_2", "$ws_tab_focus_right": "ws_tab_4" } },
+			{ "ws_t4@server_form.ws_tab": { "collection_index": 4, "$ws_tab_box_at": "$ws_tab4_at", "$ws_tab_text_at": "$ws_tab4_text", "$ws_tab_focus": "ws_tab_4", "$ws_tab_focus_left": "ws_tab_3", "$ws_tab_focus_right": "ws_tab_0" } }
+		]
+	},
+
+	/*
+		The gold box is the button's own hover state, which is also what keyboard
+		and gamepad focus lights up - so moving with the keys boxes the tab you
+		are on. It is the very box cut out of the art, so it matches exactly.
+	*/
+	"ws_button@common_buttons.light_text_button": {
+		"$pressed_button_name": "button.form_button_click",
+		"size": [ "100%", "100%" ],
+		"$border_visible": false,
+		"$default_button_texture": "textures/ui/ws_none",
+		"$locked_button_texture": "textures/ui/ws_none",
+		"$button_text": "#form_button_text",
+		"$button_text_binding_type": "collection",
+		"$button_text_grid_collection_name": "form_buttons",
+		"$default_text_color": [ 0.85, 0.88, 0.95 ],
+		"$hover_text_color": [ 0.99, 0.86, 0.35 ],
+		"$pressed_text_color": [ 0.99, 0.86, 0.35 ],
+		"bindings": [
+			{
+				"binding_type": "collection_details",
+				"binding_collection_name": "form_buttons"
+			}
+		]
+	},
+
+	/*
+		The label is drawn here rather than by the button, because the button
+		can only offset its text in pixels - and pixels are ui units, roughly
+		2.4x larger than a pixel of the art. Mixing the two is what threw the
+		text out of the painted boxes. Everything positional below is a
+		percentage, so it scales with the art at any gui scale.
+
+		The label sits above the button. That is safe now only because the
+		button's resting texture is fully transparent; with an opaque one it
+		would cover the label, which is what happened before.
+	*/
+	/* ============================ ADJUST: SELECTION BOX =========================
+		$ws_tab_box   size of the gold outline on a tab, as a share of that
+		              tab's slot. 97.18% x 100% is the box exactly as it is
+		              painted in the art. Above 100% it grows past the painted
+		              one and starts to overlap its neighbours.
+		$ws_tab_box_at  where that box sits in the slot. Raising the first
+		              number slides it right, the second slides it down.
+
+		This is also the click and focus target, so a bigger box is a bigger
+		place to click. The label is positioned separately and does not follow.
+
+		Overlapping neighbours no longer disturbs the arrow keys. Moving left
+		and right along the strip used to be worked out from the geometry, and
+		a box that reached into the next slot made that search step over a tab -
+		main jumped straight to magic. Each tab now names the tab on either side
+		of it outright, in $ws_tab_focus_left and _right below, so the order is
+		fixed no matter how large the boxes are drawn.
+	   =========================================================================== */
+	"ws_tab": {
+		"$ws_tab_box|default": [ "110%", "115%" ],
+		"$ws_tab_box_at|default": [ -4, 0 ],
+		"$ws_tab_text_at|default": [ 0, 0 ],
+
+		/*
+			Set per tab in ws_tab_bar. $ws_tab_focus is this tab's own name for
+			the purpose of the arrow keys, the other two are the tabs the left
+			and right keys hand focus to. The ends wrap around, so right on
+			recipes comes back to main.
+		*/
+		"$ws_tab_focus|default": "",
+		"$ws_tab_focus_left|default": "",
+		"$ws_tab_focus_right|default": "",
+
+		"type": "panel",
+		"size": [ "20%", "100%" ],
+		"controls": [
+			{
+				"ws_tab_hit@server_form.ws_button": {
+					"size": "$ws_tab_box",
+					"offset": "$ws_tab_box_at",
+					"anchor_from": "left_middle",
+					"anchor_to": "left_middle",
+					"layer": 1,
+					"$button_text": "#null",
+					"$hover_button_texture": "textures/ui/ws_hud_tab",
+					"$pressed_button_texture": "textures/ui/ws_hud_tab",
+					"$focus_id": "$ws_tab_focus",
+					"$focus_override_left": "$ws_tab_focus_left",
+					"$focus_override_right": "$ws_tab_focus_right"
+				}
+			},
+			{
+				"ws_tab_label": {
+					"type": "label",
+					"size": [ "97.18%", "default" ],
+					"anchor_from": "left_middle",
+					"anchor_to": "left_middle",
+					"offset": "$ws_tab_text_at",
+					"layer": 10,
+					"text_alignment": "center",
+
+					/*
+						No colour property on purpose. The script puts a colour
+						code in front of every tab name - gold for the one that
+						is open, plain for the rest - and a colour set here wins
+						over it, which left every tab looking identical.
+					*/
+					"text": "#form_button_text",
+					"bindings": [
+						{
+							"binding_name": "#form_button_text",
+							"binding_type": "collection",
+							"binding_collection_name": "form_buttons",
+							"binding_condition": "always"
+						}
+					]
+				}
+			}
+		]
+	},
+
+	/* ============================ ADJUST: ENTRY LIST ============================
+		$ws_side_edge  [ right edge, bottom edge ] of the box the column is
+		               pinned into, as a share of the screen.
+		$ws_side_size  how much of that box the column fills.
+
+		Positioned by anchor, not by offset. A percentage in "offset" was
+		measured putting this column at art x 80 when it asked for 99 - it does
+		not resolve against the parent the way the tab strip's does. An anchor
+		has no such ambiguity: the outer box runs from 0 to 23.09% of the screen
+		and the column hangs off its bottom right corner, so the column's left
+		edge is 23.09% minus its own width, which is art x 99 exactly - the
+		pixel the row box is painted at.
+
+		The art is 1672x941, so 1% of width is 16.7 art pixels. The painted row
+		box sits at x 100..385, y 213..277.
+	   =========================================================================== */
+	"ws_side_slot": {
+		"$ws_side_edge|default": [ "23.09%", "83.84%" ],
+
+		"type": "panel",
+		"size": "$ws_side_edge",
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"layer": 4,
+		"controls": [
+			{ "ws_side_list@server_form.ws_side": {} }
+		]
+	},
+
+	"ws_side": {
+		"$ws_side_size|default": [ "74.36%", "72.99%" ],
+
+		"type": "stack_panel",
+		"orientation": "vertical",
+		"size": "$ws_side_size",
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"collection_name": "form_buttons",
+		"controls": [
+			{ "ws_e00@server_form.ws_entry": { "collection_index": 6 } },
+			{ "ws_e01@server_form.ws_entry": { "collection_index": 7 } },
+			{ "ws_e02@server_form.ws_entry": { "collection_index": 8 } },
+			{ "ws_e03@server_form.ws_entry": { "collection_index": 9 } },
+			{ "ws_e04@server_form.ws_entry": { "collection_index": 10 } },
+			{ "ws_e05@server_form.ws_entry": { "collection_index": 11 } },
+			{ "ws_e06@server_form.ws_entry": { "collection_index": 12 } },
+			{ "ws_e07@server_form.ws_entry": { "collection_index": 13 } },
+			{ "ws_e08@server_form.ws_entry": { "collection_index": 14 } }
+		]
+	},
+
+	/* =========================== ADJUST: INSIDE A ROW ===========================
+		Left to right, a row is: padding, icon slot, padding, name. A stack
+		panel places them in that order, so moving one shifts everything after
+		it. Change only the FIRST number of each pair - the second is the
+		height and should stay at "100%".
+
+		  $ws_row_pad_left    gap before the icon. Raise it to move the icon
+		                      AND the name right together.
+		  $ws_row_pad_mid     gap between icon and name. Raise it to move only
+		                      the name right.
+
+		  $ws_row_icon_size   [ width, height ] of the icon, in ui units. Keep
+		                      the two equal: the icon art is square, and an image
+		                      keeps its ratio, so an uneven pair leaves it slack
+		                      to drift inside. Its slot follows this size on its
+		                      own, so raising it also pushes the name along.
+		                      8 is about 22 art pixels; 12 is about 33.
+		  $ws_row_text_font   which of the four built in sizes the entry name is
+		                      drawn at: "small", "normal", "large" or
+		                      "extra_large". Left at "normal" so the knob below
+		                      is the only thing deciding the size.
+		  $ws_row_text_scale  a plain multiplier on top of that, so the name can
+		                      land between the four sizes. This is the one to
+		                      reach for.
+		  $ws_row_height      how tall a row is, as a share of the column, so it
+		                      is one over however many rows there are. Taller
+		                      rows fit fewer entries.
+
+		There are nine rows, so a ninth each. To fit more, add ws_e09 and up in
+		ws_side above, with collection_index carrying straight on from 14, and
+		set this to one over the new count. Twelve was tried and works - a row
+		is then about 12 units tall, which still clears the 9 unit icon.
+
+		The ceiling is sixteen, because that is how many entry slots the script
+		sends: a row whose slot was never sent would show whatever the previous
+		form left in it. To go past sixteen, raise ENTRY_SLOTS in
+		handbook_handler.js as well.
+
+		Why the name is drawn as small as it is. The column is as wide as the
+		art's inner panel, which leaves about 49 ui for the name once the padding
+		and the icon have taken their share. The longest entry, "Feitiços &
+		Pergaminhos", measures 119 ui at "normal", so anything above about 0.41
+		loses its tail to an ellipsis. 0.40 keeps every name in both languages
+		whole with a little room to spare.
+
+		A label does not shrink itself to fit - it cuts the text off and puts
+		three dots there instead. So this number has to be set for the longest
+		name there is, not the one on screen.
+
+		It is tied to $ws_panel_max. The panel is capped at 418 ui to keep the
+		art at one screen pixel per art pixel, and every box here is a
+		percentage of that, so the name's 49 ui comes straight from it. Raise
+		that cap and there is room to raise this too; lower it and the long
+		names start being cut again.
+
+		If you would rather have larger text than the icons sitting where they
+		do, drop $ws_row_pad_left from 15% to about 5%. That hands the name
+		another 10 ui and lets this go up to roughly 0.55.
+
+		  $ws_row_icon_nudge  [ right, down ] fine adjustment for the icon, in ui
+		                      units, on top of being centred. Negative moves it
+		                      left and up.
+		  $ws_row_text_nudge  the same for the entry name. Both start centred in
+		                      the row, so this is the one that moves the name up
+		                      and down.
+
+		Percentages are shares of the ROW, which is as wide as the column: 287
+		art pixels, so 1% is about 2.9 of them. A ui unit is about 3 art pixels.
+
+		These are a stack panel rather than offsets because an offset percentage
+		resolves against the control being moved, not its parent - 3% of a 21
+		pixel icon moved it nowhere. In a stack the sums are exact:
+
+		    row starts at art x 100
+		    + 3%  padding  ->  icon at 108
+		    + 7.5% slot    ->  slot ends at 130
+		    + 4%  padding  ->  name at 142
+	   =========================================================================== */
+	"ws_entry": {
+		"$ws_row_pad_left|default": [ "15%", "100%" ],
+		"$ws_row_pad_mid|default": [ "4%", "100%" ],
+		"$ws_row_icon_size|default": [ 9, 9 ],
+		"$ws_row_text_font|default": "normal",
+		"$ws_row_text_scale|default": 0.40,
+		"$ws_row_height|default": [ "100%", "11.111%" ],
+		"$ws_row_box|default": [ "100%", "100%" ],
+		"$ws_row_icon_nudge|default": [ 0, 0 ],
+		"$ws_row_text_nudge|default": [ 0, -0.2 ],
+
+		"type": "panel",
+		"size": "$ws_row_height",
+		/*
+			The row hides itself when its slot has no icon, which is how the
+			unused rows disappear.
+
+			It pulls the icon name onto ITSELF and tests that, rather than
+			reading it off a child control. Empty rows were showing an outline
+			with no picture and no name inside it, which says the icon's own
+			guard fired while the row's did not - and the only difference
+			between them was that the row's went looking at another control.
+
+			Not proof: ws_recipe_block reads a child the same way and hides
+			correctly. Whatever the real cause, a control testing a value it
+			fetched itself has one less thing to go wrong.
+
+			#enabled goes with #visible so an empty row cannot take keyboard
+			focus either. A row that is hidden but still focusable draws its
+			gold outline when the keys land on it, which looks like the same bug.
+		*/
+		"bindings": [
+			{
+				"binding_name": "#form_button_texture",
+				"binding_name_override": "#texture",
+				"binding_type": "collection",
+				"binding_collection_name": "form_buttons",
+				"binding_condition": "always"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+				"target_property_name": "#visible"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+				"target_property_name": "#enabled"
+			}
+		],
+		"controls": [
+			{
+				"ws_row_hit@server_form.ws_button": {
+					"size": "$ws_row_box",
+					"anchor_from": "center",
+					"anchor_to": "center",
+					"layer": 1,
+					"$button_text": "#null",
+					"$hover_button_texture": "textures/ui/ws_hud_row",
+					"$pressed_button_texture": "textures/ui/ws_hud_row"
+				}
+			},
+			{
+				"ws_row_line": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [ "100%", "100%" ],
+					"layer": 10,
+					"controls": [
+						{
+							"ws_row_pad_a": {
+								"type": "panel",
+								"size": "$ws_row_pad_left"
+							}
+						},
+						{
+							"ws_row_icon_box": {
+								/*
+									Width "100%c" means as wide as what is inside
+									it, so the slot follows the icon instead of
+									being set separately. That is what makes
+									$ws_row_icon_size a single knob: grow the icon
+									and the slot grows with it, pushing the name
+									along, with nothing left to recentre by hand.
+
+									It only works because the icon below is sized
+									in ui units. A percentage there would ask the
+									icon how wide its parent is while the parent
+									is asking the icon - a loop the layout engine
+									cannot close.
+								*/
+								"type": "panel",
+								"size": [ "100%c", "100%" ],
+								"controls": [
+									{
+										"ws_row_icon": {
+											"type": "image",
+											/*
+												Square and centred inside the box.
+												Given the full row height it sank to
+												the bottom of it: an image keeps its
+												ratio, so a 21 wide by 64 tall slot
+												leaves it 43 pixels of slack to fall
+												through.
+											*/
+											"size": "$ws_row_icon_size",
+											"anchor_from": "center",
+											"anchor_to": "center",
+											"offset": "$ws_row_icon_nudge",
+											"bindings": [
+									{
+										"binding_name": "#form_button_texture",
+										"binding_name_override": "#texture",
+										"binding_type": "collection",
+										"binding_collection_name": "form_buttons",
+										"binding_condition": "always"
+									},
+												{
+													"binding_name": "#form_button_texture_file_system",
+													"binding_name_override": "#texture_file_system",
+													"binding_type": "collection",
+													"binding_collection_name": "form_buttons",
+													"binding_condition": "always"
+												},
+												{
+													"binding_type": "view",
+													"source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+													"target_property_name": "#visible"
+												}
+											]
+										}
+									}
+								]
+							}
+						},
+						{
+							"ws_row_pad_b": {
+								"type": "panel",
+								"size": "$ws_row_pad_mid"
+							}
+						},
+						{
+							"ws_row_text_box": {
+								/*
+									The name lives in its own box, like the icon
+									does. Its offset was ignored while it sat
+									straight in the stack panel: a stack places
+									its children itself and an offset on one of
+									them competes with that. Inside a plain panel
+									nothing else is positioning it, so the offset
+									is free to work.
+								*/
+								"type": "panel",
+								"size": [ "fill", "100%" ],
+								"controls": [
+									{
+										"ws_row_label": {
+											"type": "label",
+											"size": [ "100%", "default" ],
+											"anchor_from": "left_middle",
+											"anchor_to": "left_middle",
+											"offset": "$ws_row_text_nudge",
+											"text_alignment": "left",
+
+											/*
+												One size for every row in every
+												tab, so the column reads the same
+												whichever one is open.
+
+												Small enough that the longest
+												name fits on one line. A row is a
+												fixed ninth of the column and
+												does not grow, so a name that
+												wrapped would run over the entry
+												below it.
+
+												No colour property: the script
+												marks the open entry with a colour
+												code, and one set here would win
+												over it.
+											*/
+											"font_size": "$ws_row_text_font",
+											"font_scale_factor": "$ws_row_text_scale",
+											"text": "#form_button_text",
+											"bindings": [
+												{
+													"binding_name": "#form_button_text",
+													"binding_type": "collection",
+													"binding_collection_name": "form_buttons",
+													"binding_condition": "always"
+												}
+											]
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+
+	/* =============================== ADJUST: TITLE ==============================
+		$ws_title_pos    [ left, top ] of the title, just right of the star
+		                 painted at x 430..473, y 224..268 of the art.
+		$ws_title_size   [ width, height ] of its box; the text is centred
+		                 vertically inside it. A name wider than this box loses
+		                 its tail to an ellipsis, so the width is what decides
+		                 whether a long name survives.
+		$ws_title_scale  multiplier on top of $ws_title_font below.
+
+		These were measured off a screenshot rather than guessed. In it a title
+		glyph 6 units wide drew 48 pixels and a sidebar glyph the same width
+		drew 11 at a known scale, which puts a ui unit at 4 screen pixels and
+		makes "large" exactly twice "normal".
+
+		The box was 40% of the panel and the longest title there is, "Feitiços
+		& Pergaminhos", wanted 238 ui at "large". Hence both numbers: 45% is as
+		wide as the box can be before the text overruns the painted rule
+		beneath it, and 0.76 brings that longest name to 181 ui inside the 188
+		the box now holds.
+
+		Both follow $ws_panel_max, which is capped at 418 ui so the art draws
+		one screen pixel per art pixel. Change that cap and these want
+		revisiting - the box is a percentage of it.
+	   =========================================================================== */
+	"ws_heading": {
+		"$ws_title_pos|default": [ "29.01%", "22.62%" ],
+		"$ws_title_size|default": [ "45%", "7%" ],
+		"$ws_title_scale|default": 0.76,
+
+		"type": "panel",
+		"size": "$ws_title_size",
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"offset": "$ws_title_pos",
+		"layer": 4,
+		"controls": [
+			{
+				"ws_head_label": {
+					"type": "label",
+					"size": [ "100%", 16 ],
+					"anchor_from": "left_middle",
+					"anchor_to": "left_middle",
+					"text_alignment": "left",
+					"color": [ 0.99, 0.84, 0.30 ],
+					"shadow": true,
+
+					/*
+						Bedrock's font sizes are not one face scaled: "small"
+						draws condensed and "large" draws heavy, so the title,
+						the body and the entry list do read as slightly
+						different typefaces. Kept anyway - a title at body size
+						stops looking like a title.
+
+						"large" stays, rather than dropping to "normal" and
+						scaling up, so the title keeps the heavy face. The
+						multiplier only trims it: 0.84 of "large" is still
+						two thirds larger than the body.
+					*/
+					"font_size": "large",
+					"font_scale_factor": "$ws_title_scale",
+
+					/*
+						A label needs a text property of its own to draw at all.
+						Without one this stayed blank, while the footer label,
+						which has one, rendered fine.
+
+						Nothing strips the prefix here any more. A view binding
+						onto #text loses to the label's own text property, so the
+						prefix simply showed up on screen. The script sends two
+						reset codes instead, which the gates above can still
+						subtract but which draw nothing.
+					*/
+					"text": "#title_text",
+					"bindings": [
+						{
+							"binding_name": "#title_text"
+						}
+					]
+				}
+			}
+		]
+	},
+
+	/*
+		Body: between the two painted rules, y 288..720. It stops at x 1290
+		because the control legend is painted into the art at the top right and
+		text must not run under it.
+	*/
+	/* =============================== ADJUST: BODY ===============================
+		$ws_body_pos   [ left, top ] of the body text.
+		$ws_body_size  [ width, height ]. Keep the width under about 52% or
+		               long lines run beneath the control legend, which is
+		               painted into the art and cannot move.
+	   =========================================================================== */
+	"ws_page": {
+		"$ws_body_pos|default": [ "25.72%", "31.6%" ],
+		"$ws_body_size|default": [ "52%", "43.8%" ],
+
+		"type": "panel",
+		"size": "$ws_body_size",
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"offset": "$ws_body_pos",
+		"layer": 4,
+		"controls": [
+			{
+				"ws_text_scroll@common.scrolling_panel": {
+					"size": [ "100%", "100%" ],
+					"$scrolling_content": "server_form.ws_text",
+					"$show_background": false
+				}
+			}
+		]
+	},
+
+	/*
+		The strip under the lower painted rule, y 724..835 of the art, is left
+		empty on purpose. It used to carry a line of flavour text.
+	*/
+
+	/* ============================== ADJUST: LEGEND ==============================
+		The four control hints in the framed box at the top right.
+
+		These used to be painted into ws_hud itself, which meant they were in
+		English whatever language the game was in, and that the one against Use
+		read "Align Menu" - which is not what Use does, it confirms. The painted
+		text has been erased from the art and is drawn here instead, off the
+		ws.hb.hint.* keys that were already written in both languages. The frame
+		around them is still part of the art; only the words moved.
+
+		$ws_legend_pos    [ left, top ] of the block of four lines. The painted
+		                  text sat at art x 1356, y 218, inside a frame whose
+		                  inner edges are x 1337..1555.
+		$ws_legend_size   [ width, height ] of all four together, out to art
+		                  x 1546, y 332.
+		$ws_legend_split  how much of each line the key takes before the value
+		                  starts. The value column began at art x 1445.
+		$ws_legend_scale  size of the words.
+
+		Why 0.45 and not the size it was painted at. The painted English needed
+		about 84 art pixels for "Navigate"; Portuguese needs "Selecionar", which
+		is a quarter longer, and "Agachar:" is longer than "Sneak:" by as much
+		again. At 0.45 the longest key fits its column and the longest value
+		still clears the frame. Raising it will cut the Portuguese off first,
+		and nothing will look wrong in English.
+	   =========================================================================== */
+	"ws_legend": {
+		"$ws_legend_pos|default": [ "81.10%", "23.17%" ],
+		"$ws_legend_size|default": [ "11.36%", "12.12%" ],
+		"$ws_legend_split|default": [ "47%", "100%" ],
+		"$ws_legend_scale|default": 0.45,
+
+		"type": "stack_panel",
+		"orientation": "vertical",
+		"size": "$ws_legend_size",
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"offset": "$ws_legend_pos",
+		"layer": 4,
+		"controls": [
+			{ "ws_legend_move@server_form.ws_legend_line": { "$ws_legend_key": "ws.hb.hint.move", "$ws_legend_val": "ws.hb.hint.move_v" } },
+			{ "ws_legend_jump@server_form.ws_legend_line": { "$ws_legend_key": "ws.hb.hint.jump", "$ws_legend_val": "ws.hb.hint.jump_v" } },
+			{ "ws_legend_sneak@server_form.ws_legend_line": { "$ws_legend_key": "ws.hb.hint.sneak", "$ws_legend_val": "ws.hb.hint.sneak_v" } },
+			{ "ws_legend_use@server_form.ws_legend_line": { "$ws_legend_key": "ws.hb.hint.use", "$ws_legend_val": "ws.hb.hint.use_v" } }
+		]
+	},
+
+	/*
+		One line of the legend: the button on the left, what it does on the
+		right. Two boxes in a stack rather than one label offset from the other,
+		because an offset given as a percentage resolves against the control
+		being moved, not its parent - the same trap the entry rows hit.
+
+		The colours are the ones sampled out of the painted art before it was
+		erased: plain white for the button, and the same yellow for the action.
+	*/
+	"ws_legend_line": {
+		"$ws_legend_key|default": "",
+		"$ws_legend_val|default": "",
+
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"size": [ "100%", "25%" ],
+		"controls": [
+			{
+				"ws_legend_key_box": {
+					"type": "panel",
+					"size": "$ws_legend_split",
+					"controls": [
+						{
+							"ws_legend_key_label": {
+								"type": "label",
+								"size": [ "100%", "default" ],
+								"anchor_from": "left_middle",
+								"anchor_to": "left_middle",
+								"text_alignment": "left",
+								"color": [ 1.0, 1.0, 1.0 ],
+								"shadow": true,
+								"font_scale_factor": "$ws_legend_scale",
+								"text": "$ws_legend_key"
+							}
+						}
+					]
+				}
+			},
+			{
+				"ws_legend_val_box": {
+					"type": "panel",
+					"size": [ "fill", "100%" ],
+					"controls": [
+						{
+							"ws_legend_val_label": {
+								"type": "label",
+								"size": [ "100%", "default" ],
+								"anchor_from": "left_middle",
+								"anchor_to": "left_middle",
+								"text_alignment": "left",
+								"color": [ 1.0, 1.0, 0.275 ],
+								"shadow": true,
+								"font_scale_factor": "$ws_legend_scale",
+								"text": "$ws_legend_val"
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+
+	"ws_text": {
+		"type": "stack_panel",
+		"orientation": "vertical",
+		"size": [ "100% - 8px", "100%c" ],
+		"controls": [
+			{
+				"ws_body_text": {
+					"type": "label",
+					"size": [ "100%", "default" ],
+					"color": [ 0.86, 0.89, 0.96 ],
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"text": "#form_text"
+				}
+			},
+			{ "ws_recipe_root@server_form.ws_recipe_block": {} }
+		]
+	},
+
+	/*
+		Crafting art. The form has no way to send an arbitrary image, but every
+		button carries a texture - so the script sends ten extra buttons whose
+		only job is to hold the icons: 22..30 are the 3x3 grid read row by row,
+		and 31 is the result. They are drawn as plain images, never as buttons,
+		so nothing here is clickable.
+
+		Three rules this whole block obeys, each learned from a crash:
+
+		- Every control name starts with ws_. A plain name like "icon" or
+		  "content" also exists inside the vanilla templates instantiated here,
+		  and a source_control_name lookup that finds the wrong one takes the
+		  game down. Own variables are prefixed too, for the same reason.
+		- No instance is named after the definition it extends. X@namespace.X
+		  lets the resolver bind a definition to itself.
+		- Sizes are absolute pixels. Sizing a parent from its children while a
+		  child takes its position from that parent is a circle the layout
+		  solver cannot close.
+
+		An entry with no recipe still sends those ten buttons, with no texture at
+		all, and the whole block hides itself off the empty result slot.
+	*/
+	"ws_recipe_block": {
+		"type": "stack_panel",
+		"orientation": "vertical",
+		"size": [ "100%", 60 ],
+		"collection_name": "form_buttons",
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "ws_probe",
+				"resolve_sibling_scope": true,
+				"source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{ "ws_probe@server_form.ws_recipe_icon": { "collection_index": 31, "$ws_icon_size": [ 1, 1 ], "$ws_icon_alpha": 0 } },
+			{
+				"ws_gap_bench": {
+					"type": "panel",
+					"size": [ "100%", 8 ]
+				}
+			},
+			{ "ws_bench_row@server_form.ws_bench": {} }
+		]
+	},
+
+	"ws_bench": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"size": [ 92, 51 ],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"offset": [ 6, 0 ],
+		"collection_name": "form_buttons",
+		"controls": [
+			{ "ws_grid_col@server_form.ws_grid": {} },
+			{
+				"ws_arrow_col": {
+					"type": "panel",
+					"size": [ 19, 51 ],
+					"controls": [
+						{
+							"ws_arrow": {
+								"type": "image",
+								"texture": "textures/ui/ws_arrow",
+								"size": [ 16, 10 ],
+								"anchor_from": "top_left",
+								"anchor_to": "top_left",
+								"offset": [ 2, 21 ],
+								"layer": 2
+							}
+						}
+					]
+				}
+			},
+			{
+				"ws_result_col": {
+					"type": "stack_panel",
+					"orientation": "vertical",
+					"size": [ 22, 51 ],
+					"collection_name": "form_buttons",
+					"controls": [
+						{
+							"ws_result_pad": {
+								"type": "panel",
+								"size": [ 22, 15 ]
+							}
+						},
+						{ "ws_result_cell@server_form.ws_cell": { "collection_index": 31, "$ws_cell_size": [ 22, 22 ] } }
+					]
+				}
+			}
+		]
+	},
+
+	"ws_grid": {
+		"type": "stack_panel",
+		"orientation": "vertical",
+		"size": [ 51, 51 ],
+		"collection_name": "form_buttons",
+		"controls": [
+			{
+				"ws_row0": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [ 51, 17 ],
+					"collection_name": "form_buttons",
+					"controls": [
+						{ "ws_c0@server_form.ws_cell": { "collection_index": 22 } },
+						{ "ws_c1@server_form.ws_cell": { "collection_index": 23 } },
+						{ "ws_c2@server_form.ws_cell": { "collection_index": 24 } }
+					]
+				}
+			},
+			{
+				"ws_row1": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [ 51, 17 ],
+					"collection_name": "form_buttons",
+					"controls": [
+						{ "ws_c3@server_form.ws_cell": { "collection_index": 25 } },
+						{ "ws_c4@server_form.ws_cell": { "collection_index": 26 } },
+						{ "ws_c5@server_form.ws_cell": { "collection_index": 27 } }
+					]
+				}
+			},
+			{
+				"ws_row2": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [ 51, 17 ],
+					"collection_name": "form_buttons",
+					"controls": [
+						{ "ws_c6@server_form.ws_cell": { "collection_index": 28 } },
+						{ "ws_c7@server_form.ws_cell": { "collection_index": 29 } },
+						{ "ws_c8@server_form.ws_cell": { "collection_index": 30 } }
+					]
+				}
+			}
+		]
+	},
+
+	/*
+		The size comes in as a whole array, never as two loose numbers: a
+		variable substitutes as a string, and a bare "20" with no % or px is
+		rejected with "Dangling number (no % or px in Size)".
+	*/
+	"ws_cell": {
+		"$ws_cell_size|default": [ 17, 17 ],
+		"type": "panel",
+		"size": "$ws_cell_size",
+		"controls": [
+			{
+				"ws_slot_bg": {
+					"type": "image",
+					"texture": "textures/ui/ws_slot",
+					"nineslice_size": [ 2, 2, 2, 2 ],
+					"size": [ "100% - 2px", "100% - 2px" ],
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"offset": [ 1, 1 ],
+					"layer": 1
+				}
+			},
+			{
+				"ws_cell_icon@server_form.ws_recipe_icon": {
+					"$ws_icon_size": [ "100% - 8px", "100% - 8px" ]
+				}
+			}
+		]
+	},
+
+	"ws_recipe_icon": {
+		"$ws_icon_size|default": [ 12, 12 ],
+		"$ws_icon_alpha|default": 1,
+		"type": "image",
+		"size": "$ws_icon_size",
+		"alpha": "$ws_icon_alpha",
+		"anchor_from": "center",
+		"anchor_to": "center",
+		"layer": 3,
+		"bindings": [
+			{
+				"binding_name": "#form_button_texture",
+				"binding_name_override": "#texture",
+				"binding_type": "collection",
+				"binding_collection_name": "form_buttons",
+				"binding_condition": "always"
+			},
+			{
+				"binding_name": "#form_button_texture_file_system",
+				"binding_name_override": "#texture_file_system",
+				"binding_type": "collection",
+				"binding_collection_name": "form_buttons",
+				"binding_condition": "always"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+				"target_property_name": "#visible"
+			}
+		]
+	}
+}

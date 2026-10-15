@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ws:crystal_sorcery"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "ingredients": [
+            {
+                "item": "ws:crystal_magic"
+            },
+            {
+                "item": "ws:spectral_dust_sorcery"
+            }
+        ],
+        "result": {
+            "item": "ws:crystal_sorcery",
+            "count": 1
+        }
+    }
+}

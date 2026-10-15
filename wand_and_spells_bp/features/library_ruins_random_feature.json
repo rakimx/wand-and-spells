@@ -1,0 +1,26 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "ws:library_ruins_random_feature"
+        },
+        "features": [
+            [
+                "ws:library_ruins_0_feature",
+                1000
+            ],
+            [
+                "ws:library_ruins_1_feature",
+                1000
+            ],
+            [
+                "ws:library_ruins_2_feature",
+                1000
+            ],
+            [
+                "ws:library_ruins_3_feature",
+                1000
+            ]
+        ]
+    }
+}

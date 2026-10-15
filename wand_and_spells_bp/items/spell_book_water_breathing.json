@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ws:spell_book_water_breathing",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.ws:spell_book_water_breathing.name"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ws:spell_book_earth"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:use_modifiers": {
+                "use_duration": 32,
+                "movement_modifier": 1
+            }
+        }
+    }
+}

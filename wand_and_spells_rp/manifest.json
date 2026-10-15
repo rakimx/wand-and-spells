@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Wand and Spells RP",
+    "description": "Recursos e texturas para o addon Wand and Spells",
+    "uuid": "c826aebd-66ab-4bb8-bb90-5fa0d2388652",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "94a4ac08-7241-4d66-babd-7ee6a8deaa13",
+      "version": [1, 0, 0]
+    }
+  ]
+}

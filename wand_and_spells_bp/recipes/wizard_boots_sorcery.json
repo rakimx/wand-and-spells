@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ws:wizard_boots_sorcery"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "ingredients": [
+            {
+                "item": "ws:wizard_boots"
+            },
+            {
+                "item": "ws:crystal_sorcery"
+            }
+        ],
+        "result": {
+            "item": "ws:wizard_boots_sorcery",
+            "count": 1
+        }
+    }
+}

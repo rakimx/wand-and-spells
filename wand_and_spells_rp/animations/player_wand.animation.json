@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wand_cast.use": {
+			"loop": true,
+			"animation_length": 1.0,
+			"bones": {
+				"rightArm": {
+					"rotation": [
+						"variable.is_first_person ? 0.0 : (query.target_x_rotation - 90.0 - this)",
+						"variable.is_first_person ? 0.0 : query.target_y_rotation",
+						0.0
+					]
+				},
+				"rightItem": {
+					"rotation": [
+						"variable.is_first_person ? 0.0 : 82.5",
+						0.0,
+						0.0
+					],
+					"position": [
+						0,
+						0,
+						-1
+					]
+				}
+			}
+		}
+	}
+}

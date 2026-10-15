@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:lightning_hammer",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/lightning_hammer"
+			},
+			"geometry": {
+				"default": "geometry.ws.lightning_hammer"
+			},
+			"particle_effects": {
+				"spark": "ws:lightning_spark"
+			},
+			"render_controllers": [
+				"controller.render.lightning_hammer"
+			]
+		}
+	}
+}

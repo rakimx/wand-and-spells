@@ -1,0 +1,40 @@
+{
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ws:arcane_workbench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "pattern": [
+            "GWG",
+            "CLC",
+            "SSS"
+        ],
+        "key": {
+            "G": {
+                "item": "minecraft:gold_nugget"
+            },
+            "W": {
+                "item": "minecraft:purple_carpet"
+            },
+            "C": {
+                "item": "ws:crystal_magic"
+            },
+            "L": {
+                "item": "minecraft:lapis_block"
+            },
+            "S": {
+                "item": "minecraft:stone"
+            }
+        },
+        "result": {
+            "item": "ws:arcane_workbench",
+            "count": 1
+        }
+    },
+    "format_version": "1.21.0"
+}

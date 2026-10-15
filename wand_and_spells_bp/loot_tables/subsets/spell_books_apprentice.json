@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_agility",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_blink",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_charge",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_conjure_sword",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_cure_effects",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_darkvision",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_fireball",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_firebolt",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_fire_sigil",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_flame_ray",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_frost_ray",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_frost_sigil",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_grapple",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_heal_ally",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_ice_shard",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_life_drain",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_lightning_ray",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_lightning_sigil",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_poison",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_replenish_hunger",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_summon_skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_wither",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ws:wizard_leggings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "pattern": [
+            "SSS",
+            "S S",
+            "S S"
+        ],
+        "key": {
+            "S": {
+                "item": "ws:magic_silk"
+            }
+        },
+        "result": {
+            "item": "ws:wizard_leggings",
+            "count": 1
+        }
+    }
+}

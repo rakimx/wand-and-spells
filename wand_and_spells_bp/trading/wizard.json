@@ -1,0 +1,107 @@
+{
+    "tiers": [
+        {
+            "trades": [
+                {
+                    "wants": [{ "item": "ws:crystal_shard", "quantity": { "min": 6, "max": 10 } }],
+                    "gives": [{ "item": "minecraft:emerald" }],
+                    "max_uses": 12,
+                    "reward_exp": true,
+                    "trader_exp": 2
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 3, "max": 5 } }],
+                    "gives": [{ "item": "ws:crystal_magic", "quantity": { "min": 2, "max": 4 } }],
+                    "max_uses": 12,
+                    "reward_exp": true,
+                    "trader_exp": 2
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 4, "max": 7 } }],
+                    "gives": [{ "item": "ws:small_mana_flask" }],
+                    "max_uses": 8,
+                    "reward_exp": true,
+                    "trader_exp": 2
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "trades": [
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 8, "max": 12 } }],
+                    "gives": [{ "item": "ws:blank_scroll", "quantity": { "min": 2, "max": 4 } }],
+                    "max_uses": 10,
+                    "reward_exp": true,
+                    "trader_exp": 5
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 10, "max": 16 } }],
+                    "gives": [{ "item": "ws:magic_silk", "quantity": { "min": 1, "max": 2 } }],
+                    "max_uses": 8,
+                    "reward_exp": true,
+                    "trader_exp": 5
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 12, "max": 18 } }],
+                    "gives": [{ "item": "ws:medium_mana_flask" }],
+                    "max_uses": 6,
+                    "reward_exp": true,
+                    "trader_exp": 5
+                }
+            ]
+        },
+        {
+            "total_exp_required": 30,
+            "trades": [
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 18, "max": 26 } }],
+                    "gives": [{ "item": "ws:magic_wand" }],
+                    "max_uses": 3,
+                    "reward_exp": true,
+                    "trader_exp": 10
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 16, "max": 22 } }],
+                    "gives": [{ "item": "ws:wizard_hat" }],
+                    "max_uses": 4,
+                    "reward_exp": true,
+                    "trader_exp": 10
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 20, "max": 28 } }],
+                    "gives": [{ "item": "ws:wizard_robe" }],
+                    "max_uses": 4,
+                    "reward_exp": true,
+                    "trader_exp": 10
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "trades": [
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 24, "max": 34 } }],
+                    "gives": [{ "item": "ws:arcane_tome" }],
+                    "max_uses": 2,
+                    "reward_exp": true,
+                    "trader_exp": 15
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 28, "max": 40 } }],
+                    "gives": [{ "item": "ws:large_mana_flask" }],
+                    "max_uses": 3,
+                    "reward_exp": true,
+                    "trader_exp": 15
+                },
+                {
+                    "wants": [{ "item": "minecraft:emerald", "quantity": { "min": 30, "max": 44 } }],
+                    "gives": [{ "item": "ws:grand_crystal" }],
+                    "max_uses": 2,
+                    "reward_exp": true,
+                    "trader_exp": 15
+                }
+            ]
+        }
+    ]
+}

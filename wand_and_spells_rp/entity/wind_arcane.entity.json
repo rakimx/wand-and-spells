@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "ws:wind_arcane",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/wind_arcane"
+            },
+            "geometry": {
+                "default": "geometry.ws_arcano_vento_boss_v5_uvfixed_256"
+            },
+            "animations": {
+                "walk": "animation.ws.wind_arcane.walk",
+                "idle": "animation.ws.wind_arcane.idle",
+                "cast_use": "animation.ws_wind_arcane.cast_use",
+                "pose": "controller.animation.ws_wind_arcane.pose"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.ws_swing = math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed * 57.3;"
+                ],
+                "animate": [
+                    "pose"
+                ]
+            },
+            "spawn_egg": {
+                "base_color": "#101820",
+                "overlay_color": "#5fdfe0"
+            },
+            "render_controllers": [
+                "controller.render.ws_wind_arcane"
+            ]
+        }
+    }
+}

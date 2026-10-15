@@ -1,0 +1,15 @@
+import "./wands/wand_handler.js";
+import "./wands/wand_upgrades.js";
+import "./spells/spell_learning.js";
+import "./spells/scroll_handler.js";
+import "./blocks/arcane_loom.js";
+import "./blocks/imbuement_altar.js";
+import "./blocks/runestone_pedestal.js";
+import "./blocks/transportation_stone.js";
+import "./blocks/wizard_marker.js";
+import "./armor/armor_handler.js";
+import "./items/handbook_handler.js";
+import "./items/misc_items.js";
+import "./entities/wizard_ai.js";
+import "./entities/wind_arcane_ai.js";
+import "./debug/inspect_block.js";

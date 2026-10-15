@@ -1,0 +1,42 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "ws:wizard_tower_random_feature"
+        },
+        "features": [
+            [
+                "ws:wizard_tower_0_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_1_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_2_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_3_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_chest_0_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_chest_1_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_chest_2_feature",
+                1000
+            ],
+            [
+                "ws:wizard_tower_chest_3_feature",
+                1000
+            ]
+        ]
+    }
+}

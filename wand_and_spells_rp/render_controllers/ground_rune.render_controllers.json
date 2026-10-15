@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.ground_rune": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.runas[query.property('ws:variant')]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.runas": [
+						"Texture.fire_sigil",
+						"Texture.frost_sigil",
+						"Texture.lightning_sigil",
+						"Texture.ring_of_fire",
+						"Texture.healing_aura",
+						"Texture.necromancy_sigil"
+					]
+				}
+			}
+		}
+	}
+}

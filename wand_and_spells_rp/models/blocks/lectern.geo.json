@@ -1,0 +1,721 @@
+{
+    "format_version":  "1.21.110",
+    "minecraft:geometry":  [
+                               {
+                                   "description":  {
+                                                       "identifier":  "geometry.ws.lectern",
+                                                       "texture_width":  16,
+                                                       "texture_height":  16,
+                                                       "visible_bounds_width":  2,
+                                                       "visible_bounds_height":  2.5,
+                                                       "visible_bounds_offset":  [
+                                                                                     0,
+                                                                                     0.75,
+                                                                                     0
+                                                                                 ]
+                                                   },
+                                   "bones":  [
+                                                 {
+                                                     "name":  "bone",
+                                                     "pivot":  [
+                                                                   8,
+                                                                   0,
+                                                                   -8
+                                                               ],
+                                                     "cubes":  [
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -6,
+                                                                                      0,
+                                                                                      -6
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    12,
+                                                                                    1,
+                                                                                    12
+                                                                                ],
+                                                                       "uv":  {
+                                                                                  "north":  {
+                                                                                                "uv":  [
+                                                                                                           2,
+                                                                                                           15
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                12,
+                                                                                                                1
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          2,
+                                                                                                          15
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               12,
+                                                                                                               1
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           2,
+                                                                                                           15
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                12,
+                                                                                                                1
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          2,
+                                                                                                          15
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               12,
+                                                                                                               1
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "up":  {
+                                                                                             "uv":  [
+                                                                                                        14,
+                                                                                                        14
+                                                                                                    ],
+                                                                                             "uv_size":  [
+                                                                                                             -12,
+                                                                                                             -12
+                                                                                                         ],
+                                                                                             "material_instance":  "base"
+                                                                                         },
+                                                                                  "down":  {
+                                                                                               "uv":  [
+                                                                                                          14,
+                                                                                                          13
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               -12,
+                                                                                                               -12
+                                                                                                           ],
+                                                                                               "material_instance":  "underside"
+                                                                                           }
+                                                                              }
+                                                                   },
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -5,
+                                                                                      1,
+                                                                                      -5
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    10,
+                                                                                    1,
+                                                                                    10
+                                                                                ],
+                                                                       "uv":  {
+                                                                                  "north":  {
+                                                                                                "uv":  [
+                                                                                                           3,
+                                                                                                           14
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                10,
+                                                                                                                1
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          3,
+                                                                                                          14
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               10,
+                                                                                                               1
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           3,
+                                                                                                           14
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                10,
+                                                                                                                1
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          3,
+                                                                                                          14
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               10,
+                                                                                                               1
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "up":  {
+                                                                                             "uv":  [
+                                                                                                        13,
+                                                                                                        13
+                                                                                                    ],
+                                                                                             "uv_size":  [
+                                                                                                             -10,
+                                                                                                             -10
+                                                                                                         ],
+                                                                                             "material_instance":  "base"
+                                                                                         }
+                                                                              }
+                                                                   },
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -4,
+                                                                                      13,
+                                                                                      -4
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    8,
+                                                                                    2,
+                                                                                    8
+                                                                                ],
+                                                                       "uv":  {
+                                                                                  "north":  {
+                                                                                                "uv":  [
+                                                                                                           4,
+                                                                                                           1
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                8,
+                                                                                                                2
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          4,
+                                                                                                          1
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               8,
+                                                                                                               2
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           4,
+                                                                                                           1
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                8,
+                                                                                                                2
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          4,
+                                                                                                          1
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               8,
+                                                                                                               2
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "down":  {
+                                                                                               "uv":  [
+                                                                                                          12,
+                                                                                                          11
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               -8,
+                                                                                                               -8
+                                                                                                           ],
+                                                                                               "material_instance":  "underside"
+                                                                                           }
+                                                                              }
+                                                                   },
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -3,
+                                                                                      2,
+                                                                                      -3
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    6,
+                                                                                    11,
+                                                                                    6
+                                                                                ],
+                                                                       "uv":  {
+                                                                                  "north":  {
+                                                                                                "uv":  [
+                                                                                                           5,
+                                                                                                           3
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                6,
+                                                                                                                11
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          5,
+                                                                                                          3
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               6,
+                                                                                                               11
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           5,
+                                                                                                           3
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                6,
+                                                                                                                11
+                                                                                                            ],
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          5,
+                                                                                                          3
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               6,
+                                                                                                               11
+                                                                                                           ],
+                                                                                               "material_instance":  "side"
+                                                                                           }
+                                                                              }
+                                                                   },
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -8,
+                                                                                      14.07612,
+                                                                                      -4.38268
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    16,
+                                                                                    2,
+                                                                                    14
+                                                                                ],
+                                                                       "pivot":  [
+                                                                                     0,
+                                                                                     8,
+                                                                                     0
+                                                                                 ],
+                                                                       "rotation":  [
+                                                                                        22.5,
+                                                                                        0,
+                                                                                        0
+                                                                                    ],
+                                                                       "uv":  {
+                                                                                  "north":  {
+                                                                                                "uv":  [
+                                                                                                           0,
+                                                                                                           14
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                16,
+                                                                                                                2
+                                                                                                            ],
+                                                                                                "material_instance":  "top"
+                                                                                            },
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          1,
+                                                                                                          14
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               14,
+                                                                                                               2
+                                                                                                           ],
+                                                                                               "material_instance":  "underside"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           0,
+                                                                                                           14
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                16,
+                                                                                                                2
+                                                                                                            ],
+                                                                                                "material_instance":  "top"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          1,
+                                                                                                          14
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               14,
+                                                                                                               2
+                                                                                                           ],
+                                                                                               "material_instance":  "underside"
+                                                                                           },
+                                                                                  "up":  {
+                                                                                             "uv":  [
+                                                                                                        16,
+                                                                                                        14
+                                                                                                    ],
+                                                                                             "uv_size":  [
+                                                                                                             -16,
+                                                                                                             -14
+                                                                                                         ],
+                                                                                             "uv_rotation":  180,
+                                                                                             "material_instance":  "top"
+                                                                                         },
+                                                                                  "down":  {
+                                                                                               "uv":  [
+                                                                                                          16,
+                                                                                                          14
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               -16,
+                                                                                                               -14
+                                                                                                           ],
+                                                                                               "material_instance":  "underside"
+                                                                                           }
+                                                                              }
+                                                                   },
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -7,
+                                                                                      16.07612,
+                                                                                      -4.38268
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    14,
+                                                                                    1,
+                                                                                    1
+                                                                                ],
+                                                                       "pivot":  [
+                                                                                     0,
+                                                                                     8,
+                                                                                     0
+                                                                                 ],
+                                                                       "rotation":  [
+                                                                                        22.5,
+                                                                                        0,
+                                                                                        0
+                                                                                    ],
+                                                                       "uv":  {
+                                                                                  "north":  {
+                                                                                                "uv":  [
+                                                                                                           1,
+                                                                                                           13
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                14,
+                                                                                                                1
+                                                                                                            ],
+                                                                                                "material_instance":  "top"
+                                                                                            },
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          1,
+                                                                                                          13
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               1,
+                                                                                                               1
+                                                                                                           ],
+                                                                                               "material_instance":  "top"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           1,
+                                                                                                           13
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                14,
+                                                                                                                1
+                                                                                                            ],
+                                                                                                "uv_rotation":  180,
+                                                                                                "material_instance":  "top"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          14,
+                                                                                                          13
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               1,
+                                                                                                               1
+                                                                                                           ],
+                                                                                               "material_instance":  "top"
+                                                                                           },
+                                                                                  "up":  {
+                                                                                             "uv":  [
+                                                                                                        15,
+                                                                                                        14
+                                                                                                    ],
+                                                                                             "uv_size":  [
+                                                                                                             -14,
+                                                                                                             -1
+                                                                                                         ],
+                                                                                             "uv_rotation":  180,
+                                                                                             "material_instance":  "top"
+                                                                                         }
+                                                                              }
+                                                                   },
+                                                                   {
+                                                                       "origin":  [
+                                                                                      -4,
+                                                                                      15,
+                                                                                      1
+                                                                                  ],
+                                                                       "size":  [
+                                                                                    8,
+                                                                                    2,
+                                                                                    3
+                                                                                ],
+                                                                       "uv":  {
+                                                                                  "east":  {
+                                                                                               "uv":  [
+                                                                                                          9,
+                                                                                                          0
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               3,
+                                                                                                               2
+                                                                                                           ],
+                                                                                               "uv_rotation":  180,
+                                                                                               "material_instance":  "side"
+                                                                                           },
+                                                                                  "south":  {
+                                                                                                "uv":  [
+                                                                                                           4,
+                                                                                                           0
+                                                                                                       ],
+                                                                                                "uv_size":  [
+                                                                                                                8,
+                                                                                                                2
+                                                                                                            ],
+                                                                                                "uv_rotation":  180,
+                                                                                                "material_instance":  "side"
+                                                                                            },
+                                                                                  "west":  {
+                                                                                               "uv":  [
+                                                                                                          4,
+                                                                                                          0
+                                                                                                      ],
+                                                                                               "uv_size":  [
+                                                                                                               3,
+                                                                                                               2
+                                                                                                           ],
+                                                                                               "uv_rotation":  180,
+                                                                                               "material_instance":  "side"
+                                                                                           }
+                                                                              }
+                                                                   }
+                                                               ]
+                                                 }
+                                             ],
+                                   "item_display_transforms":  {
+                                                                   "thirdperson_righthand":  {
+                                                                                                 "rotation":  [
+                                                                                                                  75,
+                                                                                                                  45,
+                                                                                                                  0
+                                                                                                              ],
+                                                                                                 "translation":  [
+                                                                                                                     0,
+                                                                                                                     2.5,
+                                                                                                                     0
+                                                                                                                 ],
+                                                                                                 "scale":  [
+                                                                                                               0.375,
+                                                                                                               0.375,
+                                                                                                               0.375
+                                                                                                           ],
+                                                                                                 "rotation_pivot":  [
+                                                                                                                        0,
+                                                                                                                        0,
+                                                                                                                        0
+                                                                                                                    ],
+                                                                                                 "scale_pivot":  [
+                                                                                                                     0,
+                                                                                                                     0,
+                                                                                                                     0
+                                                                                                                 ]
+                                                                                             },
+                                                                   "thirdperson_lefthand":  {
+                                                                                                "rotation":  [
+                                                                                                                 75,
+                                                                                                                 45,
+                                                                                                                 0
+                                                                                                             ],
+                                                                                                "translation":  [
+                                                                                                                    0,
+                                                                                                                    2.5,
+                                                                                                                    0
+                                                                                                                ],
+                                                                                                "scale":  [
+                                                                                                              0.375,
+                                                                                                              0.375,
+                                                                                                              0.375
+                                                                                                          ],
+                                                                                                "rotation_pivot":  [
+                                                                                                                       0,
+                                                                                                                       0,
+                                                                                                                       0
+                                                                                                                   ],
+                                                                                                "scale_pivot":  [
+                                                                                                                    0,
+                                                                                                                    0,
+                                                                                                                    0
+                                                                                                                ]
+                                                                                            },
+                                                                   "firstperson_righthand":  {
+                                                                                                 "rotation":  [
+                                                                                                                  0,
+                                                                                                                  135,
+                                                                                                                  0
+                                                                                                              ],
+                                                                                                 "translation":  [
+                                                                                                                     0,
+                                                                                                                     0,
+                                                                                                                     0
+                                                                                                                 ],
+                                                                                                 "scale":  [
+                                                                                                               0.4,
+                                                                                                               0.4,
+                                                                                                               0.4
+                                                                                                           ],
+                                                                                                 "rotation_pivot":  [
+                                                                                                                        0,
+                                                                                                                        0,
+                                                                                                                        0
+                                                                                                                    ],
+                                                                                                 "scale_pivot":  [
+                                                                                                                     0,
+                                                                                                                     0,
+                                                                                                                     0
+                                                                                                                 ]
+                                                                                             },
+                                                                   "firstperson_lefthand":  {
+                                                                                                "rotation":  [
+                                                                                                                 0,
+                                                                                                                 135,
+                                                                                                                 0
+                                                                                                             ],
+                                                                                                "translation":  [
+                                                                                                                    0,
+                                                                                                                    0,
+                                                                                                                    0
+                                                                                                                ],
+                                                                                                "scale":  [
+                                                                                                              0.4,
+                                                                                                              0.4,
+                                                                                                              0.4
+                                                                                                          ],
+                                                                                                "rotation_pivot":  [
+                                                                                                                       0,
+                                                                                                                       0,
+                                                                                                                       0
+                                                                                                                   ],
+                                                                                                "scale_pivot":  [
+                                                                                                                    0,
+                                                                                                                    0,
+                                                                                                                    0
+                                                                                                                ]
+                                                                                            },
+                                                                   "ground":  {
+                                                                                  "rotation":  [
+                                                                                                   0,
+                                                                                                   0,
+                                                                                                   0
+                                                                                               ],
+                                                                                  "translation":  [
+                                                                                                      0,
+                                                                                                      3,
+                                                                                                      0
+                                                                                                  ],
+                                                                                  "scale":  [
+                                                                                                0.25,
+                                                                                                0.25,
+                                                                                                0.25
+                                                                                            ],
+                                                                                  "rotation_pivot":  [
+                                                                                                         0,
+                                                                                                         0,
+                                                                                                         0
+                                                                                                     ],
+                                                                                  "scale_pivot":  [
+                                                                                                      0,
+                                                                                                      0,
+                                                                                                      0
+                                                                                                  ]
+                                                                              },
+                                                                   "gui":  {
+                                                                               "rotation":  [
+                                                                                                30,
+                                                                                                -135,
+                                                                                                0
+                                                                                            ],
+                                                                               "translation":  [
+                                                                                                   0,
+                                                                                                   -1,
+                                                                                                   0
+                                                                                               ],
+                                                                               "scale":  [
+                                                                                             0.625,
+                                                                                             0.625,
+                                                                                             0.625
+                                                                                         ],
+                                                                               "rotation_pivot":  [
+                                                                                                      0,
+                                                                                                      0,
+                                                                                                      0
+                                                                                                  ],
+                                                                               "scale_pivot":  [
+                                                                                                   0,
+                                                                                                   0,
+                                                                                                   0
+                                                                                               ],
+                                                                               "fit_to_frame":  false
+                                                                           },
+                                                                   "fixed":  {
+                                                                                 "rotation":  [
+                                                                                                  0,
+                                                                                                  0,
+                                                                                                  0
+                                                                                              ],
+                                                                                 "translation":  [
+                                                                                                     0,
+                                                                                                     0,
+                                                                                                     0
+                                                                                                 ],
+                                                                                 "scale":  [
+                                                                                               0.5,
+                                                                                               0.5,
+                                                                                               0.5
+                                                                                           ],
+                                                                                 "rotation_pivot":  [
+                                                                                                        0,
+                                                                                                        0,
+                                                                                                        0
+                                                                                                    ],
+                                                                                 "scale_pivot":  [
+                                                                                                     0,
+                                                                                                     0,
+                                                                                                     0
+                                                                                                 ]
+                                                                             }
+                                                               }
+                               }
+                           ]
+}

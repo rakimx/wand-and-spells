@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:meteor",
+			"materials": { "default": "entity_alphatest" },
+			"textures": { "default": "textures/entity/meteor" },
+			"geometry": { "default": "geometry.ws.meteor" },
+			"animations": { "tumble": "animation.ws.meteor.tumble" },
+			"scripts": { "animate": [ "tumble" ] },
+			"render_controllers": [ "controller.render.meteor" ]
+		}
+	}
+}

@@ -1,0 +1,119 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_chain_lightning",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_decay",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fangs",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fireskin",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_fire_resistance",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_forcefield",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_frost_step",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_greater_heal",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_healing_aura",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_shroud",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ice_spikes",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_invisibility",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_bolt",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_lightning_pulse",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_phase_step",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_ring_of_fire",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_satiety",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_summon_lightning_wraith",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_transportation",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_water_breathing",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_wither_skull",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "item",
+                                          "name":  "ws:spell_book_wind_step",
+                                          "weight":  1
+                                      }
+                                  ]
+                  }
+              ]
+}

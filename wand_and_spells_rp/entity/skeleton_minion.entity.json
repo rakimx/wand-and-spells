@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:skeleton_minion",
+			"materials": { "default": "entity_alphatest" },
+			"textures": { "default": "textures/entity/skeleton/skeleton" },
+			"geometry": { "default": "geometry.skeleton" },
+			"animations": {
+				"humanoid_base_pose": "animation.humanoid.base_pose",
+				"look_at_target": "animation.humanoid.look_at_target.default",
+				"move": "animation.humanoid.move",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"attack": "animation.zombie.attack_bare_hand"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed) * 57.3;"
+				],
+				"animate": [
+					"humanoid_base_pose",
+					{ "look_at_target": "query.life_time > 0.0" },
+					"move",
+					{ "riding.arms": "query.is_riding" },
+					{ "riding.legs": "query.is_riding" },
+					{ "attack": "query.life_time > 0.0" }
+				]
+			},
+			"render_controllers": [ "controller.render.skeleton" ]
+		}
+	}
+}

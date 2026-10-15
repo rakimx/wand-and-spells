@@ -1,0 +1,91 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ws:fireball",
+            "runtime_identifier": "minecraft:arrow",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "ws:despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "inanimate",
+                    "ws_projectile"
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": "no"
+                    }
+                ]
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:knockback_resistance": {
+                "value": 1.0
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:collision_box": {
+                "width": 0.3,
+                "height": 0.3
+            },
+            "minecraft:projectile": {
+                "power": 1.5,
+                "gravity": 0,
+                "inertia": 1,
+                "liquid_inertia": 1,
+                "uncertainty_base": 0,
+                "uncertainty_multiplier": 0,
+                "anchor": 1,
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "should_bounce": false,
+                "hit_sound": "entity.firebolt.hit",
+                "on_hit": {
+                    "impact_damage": {
+                        "damage": 0,
+                        "knockback": false,
+                        "destroy_on_hit": true
+                    },
+                    "remove_on_hit": {},
+                    "definition_event": {
+                        "affect_projectile": true,
+                        "event_trigger": {
+                            "event": "ws:explode"
+                        }
+                    }
+                }
+            },
+            "minecraft:timer": {
+                "time": 1.5,
+                "looping": false,
+                "time_down_event": {
+                    "event": "ws:explode"
+                }
+            }
+        },
+        "events": {
+            "ws:explode": {
+                "add": {
+                    "component_groups": [
+                        "ws:despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

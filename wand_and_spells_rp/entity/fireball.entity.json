@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:fireball",
+			"materials": {
+				"default": "fireball"
+			},
+			"textures": {
+				"default": "textures/entity/fireball"
+			},
+			"geometry": {
+				"default": "geometry.ws.fireball"
+			},
+			"particle_effects": {
+				"trail": "ws:fireball_trail"
+			},
+			"animations": {
+				"move": "animation.ws.fireball.move"
+			},
+			"scripts": {
+				"animate": [
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fireball"
+			]
+		}
+	}
+}

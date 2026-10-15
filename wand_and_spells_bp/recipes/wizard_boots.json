@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ws:wizard_boots"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "pattern": [
+            "S S",
+            "S S"
+        ],
+        "key": {
+            "S": {
+                "item": "ws:magic_silk"
+            }
+        },
+        "result": {
+            "item": "ws:wizard_boots",
+            "count": 1
+        }
+    }
+}

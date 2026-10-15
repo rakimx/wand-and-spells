@@ -1,0 +1,330 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:lead",
+                    "weight": 100
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 75
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 75
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 75
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 75
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 25
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 60,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 25,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "weight": 100
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wheat",
+                    "weight": 100,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bucket",
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 75,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    "weight": 75,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:melon_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:resin_clump",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:string",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:vex_armor_trim_smithing_template",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/spell_books_advanced.json",
+                    "weight": 35
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/spell_books_master.json",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/scrolls_advanced.json",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/scrolls_master.json",
+                    "weight": 15
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/wizard_armour.json",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "ws:master_wand",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:grand_crystal",
+                    "weight": 8
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/mana_flasks.json",
+                    "weight": 15
+                }
+            ]
+        }
+    ]
+}

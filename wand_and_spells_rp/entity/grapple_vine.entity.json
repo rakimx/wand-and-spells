@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ws:grapple_vine",
+			"materials": { "default": "entity_alphatest" },
+			"textures": { "default": "textures/entity/grapple_vine" },
+			"geometry": { "default": "geometry.ws.grapple_vine" },
+			"animations": { "setup": "animation.ws.grapple_vine.setup" },
+			"scripts": { "animate": [ "setup" ] },
+			"render_controllers": [ "controller.render.grapple_vine" ]
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_freeze",
+                    "weight": 12
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_frost_ray",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_frost_sigil",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_frost_step",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_ice_age",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_ice_shard",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_ice_shroud",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_ice_spikes",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ws:spell_book_snowball",
+                    "weight": 12
+                }]
+        }
+    ]
+}

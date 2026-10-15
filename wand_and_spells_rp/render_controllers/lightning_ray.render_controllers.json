@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.lightning_ray": {
+			"geometry": "Array.lightning_variants[query.property('ws:variant')]",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			],
+			"arrays": {
+				"geometries": {
+					"Array.lightning_variants": [
+						"Geometry.ray_0",
+						"Geometry.ray_1",
+						"Geometry.ray_2",
+						"Geometry.ray_3"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,708 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ws:receptacle",
+      "states": {
+        "ws:element": ["none", "fire", "ice", "lightning", "earth", "healing", "necromancy", "sorcery"]
+      },
+      "traits": {
+        "minecraft:placement_position": { "enabled_states": ["minecraft:block_face"] }
+      },
+      "menu_category": { "category": "items", "is_hidden_in_commands": false }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": { "seconds_to_destroy": 2 },
+      "minecraft:destructible_by_explosion": { "explosion_resistance": 5 },
+      "minecraft:placement_filter": {
+        "conditions": [ { "allowed_faces": ["up", "side"] } ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:geometry": {
+          "identifier": "geometry.ws.receptacle",
+          "bone_visibility": { "dust": false }
+      },
+      "minecraft:material_instances": {
+          "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+          "dust": { "texture": "ws:receptacle", "render_method": "alpha_test" }
+      },
+      "minecraft:light_emission": 0,
+      "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+      "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'none'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": false }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 0,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'fire'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_fire", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'ice'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_ice", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'lightning'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_lightning", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'earth'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_earth", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'healing'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_healing", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'necromancy'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_necromancy", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('ws:element') == 'sorcery'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_sorcery", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:collision_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] },
+          "minecraft:selection_box": { "origin": [-4.1, 0, -4.1], "size": [8.2, 8.1, 8.2] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'none'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": false }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 0,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'fire'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_fire", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'ice'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_ice", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'lightning'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_lightning", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'earth'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_earth", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'healing'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_healing", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'necromancy'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_necromancy", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('ws:element') == 'sorcery'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_sorcery", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 0, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'none'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": false }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 0,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'fire'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_fire", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'ice'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_ice", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'lightning'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_lightning", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'earth'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_earth", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'healing'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_healing", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'necromancy'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_necromancy", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('ws:element') == 'sorcery'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_sorcery", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 180, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'none'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": false }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 0,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'fire'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_fire", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'ice'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_ice", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'lightning'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_lightning", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'earth'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_earth", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'healing'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_healing", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'necromancy'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_necromancy", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('ws:element') == 'sorcery'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_sorcery", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 90, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'none'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": false }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 0,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'fire'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_fire", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'ice'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_ice", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'lightning'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_lightning", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'earth'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_earth", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'healing'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_healing", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'necromancy'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_necromancy", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('ws:element') == 'sorcery'",
+        "components": {
+          "minecraft:geometry": {
+              "identifier": "geometry.ws.wall_receptacle",
+              "bone_visibility": { "dust": true }
+          },
+          "minecraft:material_instances": {
+              "*": { "texture": "ws:wall_receptacle", "render_method": "alpha_test" },
+              "dust": { "texture": "ws:receptacle_dust_sorcery", "render_method": "alpha_test" }
+          },
+          "minecraft:light_emission": 14,
+          "minecraft:transformation": { "rotation": [0, 270, 0] },
+          "minecraft:collision_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] },
+          "minecraft:selection_box": { "origin": [-4.1, 2, -1.1], "size": [8.2, 8.1, 9] }
+        }
+      }
+    ]
+  }
+}

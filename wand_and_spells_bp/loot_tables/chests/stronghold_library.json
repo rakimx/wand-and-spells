@@ -1,0 +1,134 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 100
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "weight": 100
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:map",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:compass",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 60,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:eye_armor_trim_smithing_template",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/spell_books_apprentice.json",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/spell_books_advanced.json",
+                    "weight": 35
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/spell_books_master.json",
+                    "weight": 12
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/scrolls_advanced.json",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/scrolls_master.json",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "ws:advanced_wand",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "ws:grand_crystal",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/subsets/wizard_armour.json",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "ws:large_mana_flask",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
